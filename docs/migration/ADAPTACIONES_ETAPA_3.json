@@ -1,0 +1,118 @@
+[
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationDestination.kt",
+    "action": "Adaptar package/imports y salida del host; preservar navegación interna y los tres destinos inferiores. Inyectar repositorios independientes."
+  },
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationHomeScreen.kt",
+    "action": "Adaptar package/imports y salida del host; preservar navegación interna y los tres destinos inferiores. Inyectar repositorios independientes."
+  },
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationProfileEntryScreen.kt",
+    "action": "Adaptar package/imports y salida del host; preservar navegación interna y los tres destinos inferiores. Inyectar repositorios independientes."
+  },
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationSettingsScreen.kt",
+    "action": "Adaptar package/imports y salida del host; preservar navegación interna y los tres destinos inferiores. Inyectar repositorios independientes."
+  },
+  {
+    "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/PictogramWorkTest.kt",
+    "action": "Adaptar pruebas de cola/worker sin base Room de rutinas."
+  },
+  {
+    "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/ProfileScreensTest.kt",
+    "action": "Adaptar pruebas a perfiles independientes."
+  },
+  {
+    "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/UserPreferencesRepositoryTest.kt",
+    "action": "Separar pruebas del registro de perfiles y apariencia de AppMode/host."
+  },
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramDownloadWorker.kt",
+    "action": "Sustituir Room/PictogramReferenceRepository por la allowlist del catálogo curado; crear worker propio."
+  },
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramWorkScheduler.kt",
+    "action": "Extraer solo WorkManagerPictogramQueue; excluir scheduler de rutinas y sus snapshots."
+  },
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/data/institutional/InstitutionalLinks.kt",
+    "action": "Preparar enlaces de soporte y privacidad propios; no modificar sitios web."
+  },
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/data/preferences/UserPreferencesRepository.kt",
+    "action": "Separar registro de perfiles y apariencia de AppMode de RutinaGo; implementar los cinco contratos de comunicación con contexto propio."
+  },
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/components/RutinaGoComponents.kt",
+    "action": "Extraer ScreenColumn, SectionHeading, EmptyState y botón; excluir RoutineCard y su modelo Routine."
+  },
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/arasaac/ArasaacSearchDialog.kt",
+    "action": "Extraer únicamente ARASAAC_ATTRIBUTION; excluir buscador HTTP de rutinas."
+  },
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/profiles/ProfileScreens.kt",
+    "action": "Adaptar crear/renombrar/seleccionar perfiles para el repositorio independiente."
+  },
+  {
+    "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/settings/SettingsScreen.kt",
+    "action": "Extraer ajustes de apariencia/accesibilidad sin preferencias de rutinas."
+  },
+  {
+    "source": "app/src/test/java/com/neuronovaapps/rutinago/UserPreferencesTest.kt",
+    "action": "Separar contratos de apariencia/perfiles de las preferencias del host."
+  },
+  {
+    "source": "app/build.gradle.kts",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "app/src/main/AndroidManifest.xml",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "app/src/main/res/xml/backup_rules.xml",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "app/src/main/res/xml/data_extraction_rules.xml",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "build.gradle.kts",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "gradle.properties",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "gradle/gradle-daemon-jvm.properties",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "gradle/libs.versions.toml",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "gradle/wrapper/gradle-wrapper.jar",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "gradle/wrapper/gradle-wrapper.properties",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "gradlew",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "gradlew.bat",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  },
+  {
+    "source": "settings.gradle.kts",
+    "action": "Referencia comparativa: conservar plantilla y aplicar solo configuración necesaria de dependencias, TTS, INTERNET y exclusión de caché, sin Room/KSP."
+  }
+]

@@ -1,0 +1,4826 @@
+{
+  "schemaVersion": 1,
+  "kind": "COMUNICAGO_ARASAAC_COMPLEMENTARY_REVIEW_NOT_APPLIED",
+  "date": "2026-10-19",
+  "branch": "feature/comunicago-arasaac-visual-foundation",
+  "baseline": "0f46c84fbe944ab83cabb0363b8641210255df8b",
+  "sourceDecisionsFile": "comunicago-arasaac-decisiones-2026-10-19.json",
+  "sourceDecisionsSha256": "75c12123adbee08486b140a297bca466f8c71c4f46aa3655c92b270929db1512",
+  "matrixSha256Recomputed": "5c49bdc2614d6778ad1aae3f4f31044208a6bc8c252734f36c5a99d5bc1d8607",
+  "bankSha256Before": "bfad0db80ceffcdfa0354381f0a097dd27316b5dcf7a4c85663108d4445d5be0",
+  "bankSha256After": "bfad0db80ceffcdfa0354381f0a097dd27316b5dcf7a4c85663108d4445d5be0",
+  "provenance": "Explicit user message: FASE 3.6.1 — RESOLUCIÓN DE TRES AMBIGÜEDADES. Latest instructions supersede the earlier Estoy localization-only clarification.",
+  "applied": false,
+  "bankModified": false,
+  "sourceDecisionsModified": false,
+  "previousFilesModified": false,
+  "structureValid": true,
+  "evidenceValid": true,
+  "allSemanticsResolved": false,
+  "readyForWholeSetConfirmation": false,
+  "records": 132,
+  "categories": 18,
+  "originalSelectedAssociationsRechecked": 122,
+  "originalSelectedUniquePngs": 119,
+  "effectiveDecisionCounts": {
+    "PRINCIPAL": 111,
+    "ALTERNATIVO": 8,
+    "SOLO_TEXTO": 12,
+    "PENDIENTE": 1
+  },
+  "applicablePictogramAssociations": 119,
+  "uniqueApplicableIds": 116,
+  "soloTextoWords": 12,
+  "pendingVocabIds": [
+    "VOC_097"
+  ],
+  "remainingSelectionsUnchanged": 129,
+  "protectedExistingFilesChecked": 1884,
+  "newArasaacRequests": 0,
+  "resolutions": [
+    {
+      "meaning": "Verbo de uso general para expresar ubicación y estados personales: Estoy aquí; Estoy triste; Estoy cansado.",
+      "userDirective": "Mantener provisionalmente SOLO_TEXTO. No restringir el uso de la palabra. No asignar otro ID automáticamente.",
+      "supersedes": "La aclaración anterior «Estar en un lugar» queda sustituida por esta instrucción posterior del usuario; el JSON original y los informes anteriores se preservan.",
+      "review": "36392 representa localización. Es insuficiente para el significado general ahora indicado. Se retira solo de la propuesta aplicable, sin tocar el banco.",
+      "evidenceConditionSatisfied": false,
+      "result": "SOLO_TEXTO",
+      "newCandidateId": null,
+      "vocabId": "VOC_072",
+      "word": "Estoy",
+      "originalJsonDecision": {
+        "vocabId": "VOC_072",
+        "word": "Estoy",
+        "categoryId": "CAT_002",
+        "originalId": "16902",
+        "decision": "ALTERNATIVO",
+        "candidateId": 36392,
+        "note": "de estar, si estoy",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "evidence": {
+        "id": 36392,
+        "keywords": [
+          "estar"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/9c9428c6a0b64dae42bdd81d.json",
+        "imageResponse": "evidence/9b343aa711ec2a449a2217f9.json",
+        "png": "images/9b343aa711ec2a449a2217f9.png",
+        "pngSha256": "9bafc194539bc3a1faf77ae49848fed5f6cc3c998fe757fb716cd93814cf362e"
+      }
+    },
+    {
+      "meaning": "Petición de recibir algo de otra persona. Ejemplo: Dame agua.",
+      "userDirective": "Mantener provisionalmente SOLO_TEXTO, salvo que la evidencia ya guardada demuestre inequívocamente una petición de recibir. No seleccionar automáticamente otro candidato.",
+      "supersedes": null,
+      "review": "17038 señala al emisor que entrega un objeto. Las definiciones oficiales son ofrecer, presentar/dar voluntariamente y poner en manos de otro. No demuestra inequívocamente la petición del hablante para recibir. Se cumple la decisión por defecto autorizada: SOLO_TEXTO.",
+      "evidenceConditionSatisfied": false,
+      "result": "SOLO_TEXTO",
+      "newCandidateId": null,
+      "vocabId": "VOC_074",
+      "word": "Dame",
+      "originalJsonDecision": {
+        "vocabId": "VOC_074",
+        "word": "Dame",
+        "categoryId": "CAT_002",
+        "originalId": "21931",
+        "decision": "ALTERNATIVO",
+        "candidateId": 17038,
+        "note": "dar u ofrecer algo",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "evidence": {
+        "id": 17038,
+        "keywords": [
+          "dar",
+          "ofrecer",
+          "entregar"
+        ],
+        "officialMeanings": [
+          "Verb. Ofrecer.",
+          "Presentar y dar voluntariamente algo a alguien para que disponga de ello",
+          "tr. Poner en manos o en poder de otro a alguien o algo."
+        ],
+        "api": "evidence/26647a5542c016b373e869f9.json",
+        "imageResponse": "evidence/5b5adb1ed0a50bea003b93a0.json",
+        "png": "images/5b5adb1ed0a50bea003b93a0.png",
+        "pngSha256": "7242104434bb9fe7c3422f4ccbf6757d164c29e6dad763fd846360df07edae2b"
+      }
+    },
+    {
+      "meaning": "Ruido o sonido percibido, sin atribución automática de malestar, dolor o rechazo.",
+      "userDirective": "Conservar el ID 7157 si la evidencia existente confirma esa representación. No interpretar Ruido automáticamente como molestia, dolor o rechazo.",
+      "supersedes": null,
+      "review": "7157 muestra una persona tapándose los oídos con expresión de malestar. La respuesta oficial incluye «me molesta el ruido» y la definición «Expresión utilizada cuando se quiere advertir a alguien de que el sonido ambiental le perturba». No confirma una representación neutral sin malestar. La autorización condicional para conservarlo no queda satisfecha. No se elige otro ID ni se autoriza SOLO_TEXTO por cuenta del agente.",
+      "evidenceConditionSatisfied": false,
+      "result": "PENDIENTE",
+      "newCandidateId": null,
+      "vocabId": "VOC_097",
+      "word": "Ruido",
+      "originalJsonDecision": {
+        "vocabId": "VOC_097",
+        "word": "Ruido",
+        "categoryId": "CAT_017",
+        "originalId": "",
+        "decision": "ALTERNATIVO",
+        "candidateId": 7157,
+        "note": "escuchar ruido",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "evidence": {
+        "id": 7157,
+        "keywords": [
+          "ruidoso",
+          "me molesta el ruido",
+          "molestar",
+          "molesto",
+          "ruidosa",
+          "molesta"
+        ],
+        "officialMeanings": [
+          "adj. Que causa mucho ruido: es una lavadora muy ruidosa.",
+          "Expresión utilizada cuando se quiere advertir a alguien de que el sonido ambiental le perturba",
+          "tr. Causar molestia. U. t. c. prnl.",
+          "adj. Que causa molestia."
+        ],
+        "api": "evidence/22375cd29c622151aa647e0f.json",
+        "imageResponse": "evidence/1dffb2fb48936e7efa339548.json",
+        "png": "images/1dffb2fb48936e7efa339548.png",
+        "pngSha256": "80c2803070fbb29ffebf4c14e7360430056fe62ebf0635d78293abbac5a536bf"
+      }
+    }
+  ],
+  "revalidatedReviewPlan": [
+    {
+      "vocabId": "VOC_001",
+      "word": "Yo",
+      "categoryId": "CAT_001",
+      "category": "Personas y pronombres",
+      "originalDecision": {
+        "vocabId": "VOC_001",
+        "word": "Yo",
+        "categoryId": "CAT_001",
+        "originalId": "17985",
+        "decision": "PRINCIPAL",
+        "candidateId": 6632,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6632,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6632,
+        "keywords": [
+          "yo",
+          "me",
+          "mí",
+          "yo me"
+        ],
+        "officialMeanings": [
+          "pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto."
+        ],
+        "api": "evidence/2f8ab2aa9f597db723952202.json",
+        "imageResponse": "evidence/80bdf026554d749a554aff42.json",
+        "png": "images/80bdf026554d749a554aff42.png",
+        "pngSha256": "7448f1c21a0b3d896a7fd27b44c40b86226cffe50c64e859d09c8ee4dd017e5e"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_002",
+      "word": "Tú",
+      "categoryId": "CAT_001",
+      "category": "Personas y pronombres",
+      "originalDecision": {
+        "vocabId": "VOC_002",
+        "word": "Tú",
+        "categoryId": "CAT_001",
+        "originalId": "23539",
+        "decision": "PRINCIPAL",
+        "candidateId": 6625,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6625,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6625,
+        "keywords": [
+          "tú",
+          "te",
+          "ti",
+          "usted",
+          "tú te"
+        ],
+        "officialMeanings": [
+          "pron. pers. Designa a la persona a quien se habla cuando no se le da otro *tratamiento de más respeto.",
+          "pron. person. Forma de dativo o acusativo de 2.ª persona singular en masculino y femenino. No admite preposición y cuando se pospone al verbo es enclítico.",
+          "pron. person. Forma de 2.ª persona singular en masculino o femenino, común a los casos genitivo, dativo, acusativo y ablativo. U. siempre con preposición, y cuando esta es con, se dice contigo.",
+          "pron. person. Forma de 2.ª persona usada por tú como tratamiento de cortesía, respeto o distanciamiento."
+        ],
+        "api": "evidence/573829aa321008e9fe64f981.json",
+        "imageResponse": "evidence/7c78b0d551f2c854a945c8eb.json",
+        "png": "images/7c78b0d551f2c854a945c8eb.png",
+        "pngSha256": "9fda1179b74f24e95d555314cd0f58717d7dd4c6acd35c686586b4336ff0e358"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_003",
+      "word": "Mamá",
+      "categoryId": "CAT_001",
+      "category": "Personas y pronombres",
+      "originalDecision": {
+        "vocabId": "VOC_003",
+        "word": "Mamá",
+        "categoryId": "CAT_001",
+        "originalId": "23305",
+        "decision": "PRINCIPAL",
+        "candidateId": 2458,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2458,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2458,
+        "keywords": [
+          "mamá"
+        ],
+        "officialMeanings": [
+          "Madre, mama."
+        ],
+        "api": "evidence/eb630f12a6dc160a318e2697.json",
+        "imageResponse": "evidence/b87401883d7e0ee236449ed3.json",
+        "png": "images/b87401883d7e0ee236449ed3.png",
+        "pngSha256": "d3fe29783cb519d8d976ec5e08fdf8d546ea946011d15d9a1c108a0ed7221b23"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_004",
+      "word": "Papá",
+      "categoryId": "CAT_001",
+      "category": "Personas y pronombres",
+      "originalDecision": {
+        "vocabId": "VOC_004",
+        "word": "Papá",
+        "categoryId": "CAT_001",
+        "originalId": "23304",
+        "decision": "PRINCIPAL",
+        "candidateId": 31146,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 31146,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 31146,
+        "keywords": [
+          "papá"
+        ],
+        "officialMeanings": [
+          "m. Familiarmente, padre."
+        ],
+        "api": "evidence/1401ccf034b64cb1a5f86609.json",
+        "imageResponse": "evidence/6b3b0b2f68bf1a27b52f919d.json",
+        "png": "images/6b3b0b2f68bf1a27b52f919d.png",
+        "pngSha256": "9f3650b5b02b4704f6e2e90833eca73bfc61a9479139db349591e555c9512ddc"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_005",
+      "word": "Profesor",
+      "categoryId": "CAT_001",
+      "category": "Personas y pronombres",
+      "originalDecision": {
+        "vocabId": "VOC_005",
+        "word": "Profesor",
+        "categoryId": "CAT_001",
+        "originalId": "15524",
+        "decision": "PRINCIPAL",
+        "candidateId": 6556,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6556,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6556,
+        "keywords": [
+          "maestro",
+          "profesor",
+          "maestra",
+          "profesora"
+        ],
+        "officialMeanings": [
+          "m. y f. Persona que enseña un arte, una ciencia, o un oficio, especialmente la que imparte el primer ciclo de enseñanza, o tiene título para hacerlo.",
+          "m. y f. Persona que se dedica a la enseñanza"
+        ],
+        "api": "evidence/870a9e6bba6b024ea28072d4.json",
+        "imageResponse": "evidence/8318d35b84c7daf9164d9b74.json",
+        "png": "images/8318d35b84c7daf9164d9b74.png",
+        "pngSha256": "f96d26242c338004d40cf156fd8ff627a17962fe40fe06619b266beda387d42d"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_006",
+      "word": "Quiero",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_006",
+        "word": "Quiero",
+        "categoryId": "CAT_002",
+        "originalId": "46605",
+        "decision": "PRINCIPAL",
+        "candidateId": 5441,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 5441,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 5441,
+        "keywords": [
+          "querer",
+          "desear",
+          "pedir",
+          "yo quiero"
+        ],
+        "officialMeanings": [
+          "tr. Desear, apetecer.",
+          "tr. Querer o aspirar a algo con vehemencia y anhelo: deseaba un coche descapotable; siempre deseó comprar una casa a sus padres.",
+          "tr. Querer, desear o apetecer."
+        ],
+        "api": "evidence/1c8251ca8023b51d6c60c229.json",
+        "imageResponse": "evidence/2bb4dacd6caa75fb87e14dfe.json",
+        "png": "images/2bb4dacd6caa75fb87e14dfe.png",
+        "pngSha256": "8f2083fa7a4dd65aa8c4e12d56aa20b8966d62ba3ea3f293fee2b6745788714f"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_007",
+      "word": "Necesito",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_007",
+        "word": "Necesito",
+        "categoryId": "CAT_002",
+        "originalId": "47242",
+        "decision": "PRINCIPAL",
+        "candidateId": 37160,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 37160,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 37160,
+        "keywords": [
+          "necesitar"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/67810bd59fa3aa0afd674787.json",
+        "imageResponse": "evidence/028efe2f0f78eda49fb5b835.json",
+        "png": "images/028efe2f0f78eda49fb5b835.png",
+        "pngSha256": "799574d53e20cd182be396dd72644ed8de48f091a49858532a3fdecff9bab873"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_008",
+      "word": "Comer",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_008",
+        "word": "Comer",
+        "categoryId": "CAT_002",
+        "originalId": "17361",
+        "decision": "PRINCIPAL",
+        "candidateId": 6456,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6456,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6456,
+        "keywords": [
+          "comer"
+        ],
+        "officialMeanings": [
+          "intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago."
+        ],
+        "api": "evidence/a3009b227925394c113c0ecd.json",
+        "imageResponse": "evidence/dad5bb8e27b272add9abc60f.json",
+        "png": "images/dad5bb8e27b272add9abc60f.png",
+        "pngSha256": "2afb3eb5e39390b3e1de0624f6a6b126d084c722f5fbcdbde4f690bd2a0c274d"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_009",
+      "word": "Beber",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_009",
+        "word": "Beber",
+        "categoryId": "CAT_002",
+        "originalId": "22607",
+        "decision": "PRINCIPAL",
+        "candidateId": 6061,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6061,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6061,
+        "keywords": [
+          "beber",
+          "tomar"
+        ],
+        "officialMeanings": [
+          "intr. Ingerir un líquido.",
+          "tr. Comer o beber."
+        ],
+        "api": "evidence/76bdb251483158e8c8b3b1e1.json",
+        "imageResponse": "evidence/71ce2e2999a2a0f4bd3ce21f.json",
+        "png": "images/71ce2e2999a2a0f4bd3ce21f.png",
+        "pngSha256": "59b0ad53ec5b175f0ee8c47601cda95f375f715293adb91fbae3056fc727ebf1"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_010",
+      "word": "Ir",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_010",
+        "word": "Ir",
+        "categoryId": "CAT_002",
+        "originalId": "45800",
+        "decision": "PRINCIPAL",
+        "candidateId": 8142,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 8142,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 8142,
+        "keywords": [
+          "ir"
+        ],
+        "officialMeanings": [
+          "intr. Moverse de un lugar hacia otro."
+        ],
+        "api": "evidence/2274f90ddf9aa82d3141a079.json",
+        "imageResponse": "evidence/ac8458b476dca93901fba85c.json",
+        "png": "images/ac8458b476dca93901fba85c.png",
+        "pngSha256": "4111e7759b268ba81bca212404fe486fa54fa5492c6ef400f75f29efa7cd464c"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_011",
+      "word": "Jugar",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_011",
+        "word": "Jugar",
+        "categoryId": "CAT_002",
+        "originalId": "15508",
+        "decision": "PRINCIPAL",
+        "candidateId": 6537,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6537,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6537,
+        "keywords": [
+          "jugar"
+        ],
+        "officialMeanings": [
+          "intr. Entretenerse, divertirse tomando parte en uno de los juegos sometidos a reglas, medie o no en él interés."
+        ],
+        "api": "evidence/698caeaacf719020fddbe823.json",
+        "imageResponse": "evidence/c078d53fb50ee8fde0bfff9a.json",
+        "png": "images/c078d53fb50ee8fde0bfff9a.png",
+        "pngSha256": "244536d68359107a43156f8066621705291727873e04a1107ff7aec26b1abc72"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_012",
+      "word": "Dormir",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_012",
+        "word": "Dormir",
+        "categoryId": "CAT_002",
+        "originalId": "15440",
+        "decision": "PRINCIPAL",
+        "candidateId": 6479,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6479,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6479,
+        "keywords": [
+          "dormir"
+        ],
+        "officialMeanings": [
+          "intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario."
+        ],
+        "api": "evidence/0d3e6f0dca107df4b11a3558.json",
+        "imageResponse": "evidence/99eb1ff886ee98732fa02755.json",
+        "png": "images/99eb1ff886ee98732fa02755.png",
+        "pngSha256": "4c24906b51e3723e983ca1428a84338044e8a3723141a229c66ef1f05ebe759c"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_013",
+      "word": "Descansar",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_013",
+        "word": "Descansar",
+        "categoryId": "CAT_002",
+        "originalId": "23607",
+        "decision": "PRINCIPAL",
+        "candidateId": 16643,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 16643,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 16643,
+        "keywords": [
+          "descansar",
+          "reposar"
+        ],
+        "officialMeanings": [
+          "intr. Cesar en el trabajo para reparar fuerzas: al séptimo día descansó.",
+          "intr. Descansar, dar intermisión a la fatiga o al trabajo. U. t. c. tr. Reposar la comida."
+        ],
+        "api": "evidence/88aaecd98e53b531032d53cc.json",
+        "imageResponse": "evidence/34dda6b7f03f2bef052a5bde.json",
+        "png": "images/34dda6b7f03f2bef052a5bde.png",
+        "pngSha256": "0f219c6d7c1e454bd5740c9bea7042ab485d6e4059ca30dd7c844b188097c1eb"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_014",
+      "word": "Ayuda",
+      "categoryId": "CAT_004",
+      "category": "Necesidades",
+      "originalDecision": {
+        "vocabId": "VOC_014",
+        "word": "Ayuda",
+        "categoryId": "CAT_004",
+        "originalId": "23963",
+        "decision": "PRINCIPAL",
+        "candidateId": 12252,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 12252,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 12252,
+        "keywords": [
+          "apoyo",
+          "ayuda",
+          "colaboración",
+          "cooperación"
+        ],
+        "officialMeanings": [
+          "m. Protección, auxilio o favor.",
+          "f. Acción y efecto de ayudar.",
+          "f. Acción y efecto de colaborar.",
+          "f. Acción y efecto de cooperar."
+        ],
+        "api": "evidence/32e52e300c1f28064479716c.json",
+        "imageResponse": "evidence/8c844ee6f746c1054476cf3c.json",
+        "png": "images/8c844ee6f746c1054476cf3c.png",
+        "pngSha256": "b8dfc597be49bf0486e82209b2f2e564ac89afdf848aa8d68d435a65f71b3fa6"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_015",
+      "word": "Agua",
+      "categoryId": "CAT_003",
+      "category": "Comida y bebida",
+      "originalDecision": {
+        "vocabId": "VOC_015",
+        "word": "Agua",
+        "categoryId": "CAT_003",
+        "originalId": "15321",
+        "decision": "PRINCIPAL",
+        "candidateId": 2248,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2248,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2248,
+        "keywords": [
+          "agua"
+        ],
+        "officialMeanings": [
+          "f. Sustancia cuyas moléculas están formadas por la combinación de un átomo de oxígeno y dos de hidrógeno, líquida, inodora, insípida e incolora. Es el componente más abundante de la superficie terrestre."
+        ],
+        "api": "evidence/ac7a205d79c7d5a5651a5924.json",
+        "imageResponse": "evidence/4e625465fb4df517d0d18afd.json",
+        "png": "images/4e625465fb4df517d0d18afd.png",
+        "pngSha256": "88df8a0a982fe481b80fd97dd3ad2e1f6c70ce1df19bf401d0327daac9731d81"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_016",
+      "word": "Jugo",
+      "categoryId": "CAT_003",
+      "category": "Comida y bebida",
+      "originalDecision": {
+        "vocabId": "VOC_016",
+        "word": "Jugo",
+        "categoryId": "CAT_003",
+        "originalId": "14678",
+        "decision": "PRINCIPAL",
+        "candidateId": 11461,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 11461,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 11461,
+        "keywords": [
+          "zumo",
+          "jugo"
+        ],
+        "officialMeanings": [
+          "m. Líquido que se extrae de las frutas, vegetales, etc.",
+          "m. Zumo de las sustancias animales o vegetales sacado por presión, cocción o destilación."
+        ],
+        "api": "evidence/2b9b6e2473a6288dd804e5ab.json",
+        "imageResponse": "evidence/8dd656d390748cd9ac40adb9.json",
+        "png": "images/8dd656d390748cd9ac40adb9.png",
+        "pngSha256": "5a116cc851b9c43ea53c4959ce05a4b597430ff3319fe84af917dd238a18e2d3"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_017",
+      "word": "Leche",
+      "categoryId": "CAT_003",
+      "category": "Comida y bebida",
+      "originalDecision": {
+        "vocabId": "VOC_017",
+        "word": "Leche",
+        "categoryId": "CAT_003",
+        "originalId": "15514",
+        "decision": "PRINCIPAL",
+        "candidateId": 2445,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2445,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2445,
+        "keywords": [
+          "leche"
+        ],
+        "officialMeanings": [
+          "f. Líquido blanco que segregan las mamas de las hembras de los mamíferos y que sirve de alimento para sus crías."
+        ],
+        "api": "evidence/666e090ef491690997f0e3b4.json",
+        "imageResponse": "evidence/7bba2d38dfa8e210541c47e4.json",
+        "png": "images/7bba2d38dfa8e210541c47e4.png",
+        "pngSha256": "3e50234a9be4e348bbb1c606b8dd4e563eb42e488892d09cf2f9918c9eaeaa37"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_018",
+      "word": "Pan",
+      "categoryId": "CAT_003",
+      "category": "Comida y bebida",
+      "originalDecision": {
+        "vocabId": "VOC_018",
+        "word": "Pan",
+        "categoryId": "CAT_003",
+        "originalId": "14146",
+        "decision": "PRINCIPAL",
+        "candidateId": 2494,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2494,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2494,
+        "keywords": [
+          "pan",
+          "barra de pan"
+        ],
+        "officialMeanings": [
+          "m. Alimento hecho con harina, mezclada con agua y sal, que, después de amasada y fermentada por la acción de la levadura, se cuece al horno, con diversas formas y tamaños.",
+          "Pieza de pan de forma alargada."
+        ],
+        "api": "evidence/e03a07eea294cb03c99f69b6.json",
+        "imageResponse": "evidence/13ee41b153d1135d42c99803.json",
+        "png": "images/13ee41b153d1135d42c99803.png",
+        "pngSha256": "72a6d963a1645b18ecb7b5faf51034219bfbf801ab7391f64bad4a38e641a45d"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_019",
+      "word": "Arroz",
+      "categoryId": "CAT_003",
+      "category": "Comida y bebida",
+      "originalDecision": {
+        "vocabId": "VOC_019",
+        "word": "Arroz",
+        "categoryId": "CAT_003",
+        "originalId": "17594",
+        "decision": "PRINCIPAL",
+        "candidateId": 25556,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 25556,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 25556,
+        "keywords": [
+          "arroz"
+        ],
+        "officialMeanings": [
+          "BOT. Fruto de esta planta."
+        ],
+        "api": "evidence/1afb93f25c860d5a7b6eb4dc.json",
+        "imageResponse": "evidence/10346b2f6ddcb3a818fcb14b.json",
+        "png": "images/10346b2f6ddcb3a818fcb14b.png",
+        "pngSha256": "4e299f52d5985b0fafe8dacb0f43ec8b718b9972ef08869979149b5c9299ba25"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_020",
+      "word": "Fruta",
+      "categoryId": "CAT_003",
+      "category": "Comida y bebida",
+      "originalDecision": {
+        "vocabId": "VOC_020",
+        "word": "Fruta",
+        "categoryId": "CAT_003",
+        "originalId": "16537",
+        "decision": "PRINCIPAL",
+        "candidateId": 4653,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 4653,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 4653,
+        "keywords": [
+          "fruta",
+          "frutas"
+        ],
+        "officialMeanings": [
+          "f. Fruto comestible de ciertas plantas.",
+          "f. Frutos comestibles de ciertas plantas."
+        ],
+        "api": "evidence/e08ab44049f1ee98100748b7.json",
+        "imageResponse": "evidence/31bee76a9bbbdfea479f07ce.json",
+        "png": "images/31bee76a9bbbdfea479f07ce.png",
+        "pngSha256": "40e1ca709f40343b0588cd055fbd460d8a00a7ef1caebdabac09312e1143b5e9"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_021",
+      "word": "Baño",
+      "categoryId": "CAT_005",
+      "category": "Lugares",
+      "originalDecision": {
+        "vocabId": "VOC_021",
+        "word": "Baño",
+        "categoryId": "CAT_005",
+        "originalId": "90223",
+        "decision": "ALTERNATIVO",
+        "candidateId": 6929,
+        "note": "para la intension del uso del baño",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "ALTERNATIVO",
+      "effectiveCandidateId": 6929,
+      "heldOriginalCandidateId": null,
+      "reason": "La nota refiere al uso del baño. 6929 es una señal de baño masculino; su uso no se extiende a inferir identidad de perfil ni se considera señal neutra.",
+      "evidenceForOriginalSelection": {
+        "id": 6929,
+        "keywords": [
+          "cuarto de baño",
+          "baño"
+        ],
+        "officialMeanings": [
+          "m. Habitación destinada al aseo corporal.",
+          "m. Cuarto de baño."
+        ],
+        "api": "evidence/c5cecae700d599c4d326363e.json",
+        "imageResponse": "evidence/200c81894275e60d11fa1272.json",
+        "png": "images/200c81894275e60d11fa1272.png",
+        "pngSha256": "660ac2f6d1c1c3c30333f4df250fadb9ffdb7ead3559f600bf5e6c0488fd8e8d"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_022",
+      "word": "Casa",
+      "categoryId": "CAT_005",
+      "category": "Lugares",
+      "originalDecision": {
+        "vocabId": "VOC_022",
+        "word": "Casa",
+        "categoryId": "CAT_005",
+        "originalId": "15389",
+        "decision": "PRINCIPAL",
+        "candidateId": 6964,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6964,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6964,
+        "keywords": [
+          "casa"
+        ],
+        "officialMeanings": [
+          "f. Edificio o parte de él para vivir."
+        ],
+        "api": "evidence/3ebe1fad21508204c6378d10.json",
+        "imageResponse": "evidence/9df488ed9b02d0cdec518256.json",
+        "png": "images/9df488ed9b02d0cdec518256.png",
+        "pngSha256": "54d6de8a2fd57650bd0d95ebfdf7e2752dbc6ff334e829111c36e43ee744d7dd"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_023",
+      "word": "Colegio",
+      "categoryId": "CAT_005",
+      "category": "Lugares",
+      "originalDecision": {
+        "vocabId": "VOC_023",
+        "word": "Colegio",
+        "categoryId": "CAT_005",
+        "originalId": "17359",
+        "decision": "PRINCIPAL",
+        "candidateId": 3082,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 3082,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 3082,
+        "keywords": [
+          "colegio",
+          "escuela"
+        ],
+        "officialMeanings": [
+          "m. Establecimiento de enseñanza.",
+          "f. Establecimiento donde se imparte enseñanza, especialmente la obligatoria, colegio."
+        ],
+        "api": "evidence/b532bce540b6d349adcc1f31.json",
+        "imageResponse": "evidence/26bdbd8dbc301391c400b1a4.json",
+        "png": "images/26bdbd8dbc301391c400b1a4.png",
+        "pngSha256": "293cb2edf53b7269c5e7b40aa99af2486f00d2865d27117cc88912a6c7e9a088"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_024",
+      "word": "Aula",
+      "categoryId": "CAT_005",
+      "category": "Lugares",
+      "originalDecision": {
+        "vocabId": "VOC_024",
+        "word": "Aula",
+        "categoryId": "CAT_005",
+        "originalId": "17069",
+        "decision": "PRINCIPAL",
+        "candidateId": 9815,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 9815,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 9815,
+        "keywords": [
+          "aula",
+          "clase"
+        ],
+        "officialMeanings": [
+          "f. En un centro docente, sala destinada a la enseñanza.",
+          "Aula, local en que se enseña."
+        ],
+        "api": "evidence/316af8088ca55da95dc1ab40.json",
+        "imageResponse": "evidence/35acd59f0d9865d1afc97825.json",
+        "png": "images/35acd59f0d9865d1afc97825.png",
+        "pngSha256": "17d77bdcf1389b52a76fa9ceaddc4e1a57f89e17226a50f5a97d30a8dc9ce4a5"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_025",
+      "word": "Parque",
+      "categoryId": "CAT_005",
+      "category": "Lugares",
+      "originalDecision": {
+        "vocabId": "VOC_025",
+        "word": "Parque",
+        "categoryId": "CAT_005",
+        "originalId": "46328",
+        "decision": "PRINCIPAL",
+        "candidateId": 2859,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2859,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2859,
+        "keywords": [
+          "parque"
+        ],
+        "officialMeanings": [
+          "m. Terreno arbolado y ajardinado situado en el interior de una población como lugar de recreo."
+        ],
+        "api": "evidence/c27500e6071c22c5e5904b1b.json",
+        "imageResponse": "evidence/467ff60686bea098993cd35b.json",
+        "png": "images/467ff60686bea098993cd35b.png",
+        "pngSha256": "f8893d40271c0648d8a1470dff98e2778b8470e7f44174ec33e75ab7badd3c95"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_026",
+      "word": "Feliz",
+      "categoryId": "CAT_006",
+      "category": "Emociones y estados",
+      "originalDecision": {
+        "vocabId": "VOC_026",
+        "word": "Feliz",
+        "categoryId": "CAT_006",
+        "originalId": "14108",
+        "decision": "PRINCIPAL",
+        "candidateId": 32123,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 32123,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 32123,
+        "keywords": [
+          "contento",
+          "feliz"
+        ],
+        "officialMeanings": [
+          "adj. Alegre, satisfecho.",
+          "adj. Que disfruta de felicidad o la ocasiona."
+        ],
+        "api": "evidence/c713e95df92a2126339fb59f.json",
+        "imageResponse": "evidence/c157600095f265a64ea6962b.json",
+        "png": "images/c157600095f265a64ea6962b.png",
+        "pngSha256": "9ac5041e0e0d8c88ecbe34d3e8d20b06a0b21ed481380f2632d491a79340eb31"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_027",
+      "word": "Triste",
+      "categoryId": "CAT_006",
+      "category": "Emociones y estados",
+      "originalDecision": {
+        "vocabId": "VOC_027",
+        "word": "Triste",
+        "categoryId": "CAT_006",
+        "originalId": "23608",
+        "decision": "PRINCIPAL",
+        "candidateId": 35545,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 35545,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 35545,
+        "keywords": [
+          "triste"
+        ],
+        "officialMeanings": [
+          "adj. Afligido, apesadumbrado."
+        ],
+        "api": "evidence/21b9f9badfbb74be3c982962.json",
+        "imageResponse": "evidence/bc160d0babcc872123f32dae.json",
+        "png": "images/bc160d0babcc872123f32dae.png",
+        "pngSha256": "49ebf3fe0a22afa78d89fb6ac20a6ecd64e217ed5950252a71af37d5efae1677"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_028",
+      "word": "Enojado",
+      "categoryId": "CAT_006",
+      "category": "Emociones y estados",
+      "originalDecision": {
+        "vocabId": "VOC_028",
+        "word": "Enojado",
+        "categoryId": "CAT_006",
+        "originalId": "23581",
+        "decision": "PRINCIPAL",
+        "candidateId": 35539,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 35539,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 35539,
+        "keywords": [
+          "enfadado",
+          "enfadada"
+        ],
+        "officialMeanings": [
+          "adj. Estar disgustado, con ira.",
+          "adj. fem. Estar disgustada, con ira."
+        ],
+        "api": "evidence/2c43274fd078aa3bdbc737a4.json",
+        "imageResponse": "evidence/c269f8f49a8c1d6c34032883.json",
+        "png": "images/c269f8f49a8c1d6c34032883.png",
+        "pngSha256": "0eea9f14f955a3cccc7789dd02f1a2dca704f17bc9b3bc235304ce5904f7f55d"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_029",
+      "word": "Cansado",
+      "categoryId": "CAT_006",
+      "category": "Emociones y estados",
+      "originalDecision": {
+        "vocabId": "VOC_029",
+        "word": "Cansado",
+        "categoryId": "CAT_006",
+        "originalId": "23601",
+        "decision": "PRINCIPAL",
+        "candidateId": 35537,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 35537,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 35537,
+        "keywords": [
+          "cansado",
+          "cansada"
+        ],
+        "officialMeanings": [
+          "adj. Fatigado, falto de fuerzas",
+          "adj. Fatigada, falta de fuerzas"
+        ],
+        "api": "evidence/7b4666c222ca805bad1c22ed.json",
+        "imageResponse": "evidence/e044113c1d16490bb7fe37c1.json",
+        "png": "images/e044113c1d16490bb7fe37c1.png",
+        "pngSha256": "9456ef0118a340de3d5a39a8027e3300f635b8e56bcbde94e8bb06a316fdcc3e"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_030",
+      "word": "Asustado",
+      "categoryId": "CAT_006",
+      "category": "Emociones y estados",
+      "originalDecision": {
+        "vocabId": "VOC_030",
+        "word": "Asustado",
+        "categoryId": "CAT_006",
+        "originalId": "15334",
+        "decision": "PRINCIPAL",
+        "candidateId": 35535,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 35535,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 35535,
+        "keywords": [
+          "asustado",
+          "asustada"
+        ],
+        "officialMeanings": [
+          "adj. Sentir desasosiego o miedo."
+        ],
+        "api": "evidence/d106dc2de28630c442559abd.json",
+        "imageResponse": "evidence/ab3fd3bf9c89cceedc4b5d00.json",
+        "png": "images/ab3fd3bf9c89cceedc4b5d00.png",
+        "pngSha256": "d7913a30f39fe4d3779bd9cc895865ec66f4a61b5bfc999f1641bb0703c61fe6"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_031",
+      "word": "Hola",
+      "categoryId": "CAT_007",
+      "category": "Social",
+      "originalDecision": {
+        "vocabId": "VOC_031",
+        "word": "Hola",
+        "categoryId": "CAT_007",
+        "originalId": "17165",
+        "decision": "PRINCIPAL",
+        "candidateId": 6522,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6522,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6522,
+        "keywords": [
+          "hola"
+        ],
+        "officialMeanings": [
+          "interj. Se emplea como saludo familiar."
+        ],
+        "api": "evidence/8b5b77ed8a0a287e301b3fd8.json",
+        "imageResponse": "evidence/abfcb3ab863ee29cb2b7b567.json",
+        "png": "images/abfcb3ab863ee29cb2b7b567.png",
+        "pngSha256": "4167a6cb34826ac8ce952b704a34972e6c9ad787de95005aaacf58010502b102"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_032",
+      "word": "Gracias",
+      "categoryId": "CAT_007",
+      "category": "Social",
+      "originalDecision": {
+        "vocabId": "VOC_032",
+        "word": "Gracias",
+        "categoryId": "CAT_007",
+        "originalId": "18169",
+        "decision": "PRINCIPAL",
+        "candidateId": 8129,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 8129,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 8129,
+        "keywords": [
+          "gracias"
+        ],
+        "officialMeanings": [
+          "pl. Fórmula de agradecimiento"
+        ],
+        "api": "evidence/8cfb802d41ee3dd2789b059a.json",
+        "imageResponse": "evidence/31ddfd38b5289ead11556a9d.json",
+        "png": "images/31ddfd38b5289ead11556a9d.png",
+        "pngSha256": "ec5ae27afa7cac9a43a9939280ce195940351c496c4a52adadee50913bf55087"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_033",
+      "word": "Por favor",
+      "categoryId": "CAT_007",
+      "category": "Social",
+      "originalDecision": {
+        "vocabId": "VOC_033",
+        "word": "Por favor",
+        "categoryId": "CAT_007",
+        "originalId": "18234",
+        "decision": "PRINCIPAL",
+        "candidateId": 8195,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 8195,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 8195,
+        "keywords": [
+          "por favor",
+          "rogar"
+        ],
+        "officialMeanings": [
+          "Expresión de cortesía que se añade a una petición:acércame la sal, por favor.",
+          "tr. Instar con súplicas."
+        ],
+        "api": "evidence/cf545b87c7869f7e681fe2e8.json",
+        "imageResponse": "evidence/9372c5bed5cfa3a20da018f7.json",
+        "png": "images/9372c5bed5cfa3a20da018f7.png",
+        "pngSha256": "18f578be77d4865b819e306374bcc556e281d8b4d2c25ab05f45f7e48678c95f"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_034",
+      "word": "Adiós",
+      "categoryId": "CAT_007",
+      "category": "Social",
+      "originalDecision": {
+        "vocabId": "VOC_034",
+        "word": "Adiós",
+        "categoryId": "CAT_007",
+        "originalId": "17183",
+        "decision": "PRINCIPAL",
+        "candidateId": 6028,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6028,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6028,
+        "keywords": [
+          "adiós",
+          "hasta luego",
+          "hasta la vista"
+        ],
+        "officialMeanings": [
+          "interj. que se emplea para despedirse.",
+          "Fórmula de despedida."
+        ],
+        "api": "evidence/42456d6ddf803b74a7231970.json",
+        "imageResponse": "evidence/6e0f3a86dd22c7a7577eacc2.json",
+        "png": "images/6e0f3a86dd22c7a7577eacc2.png",
+        "pngSha256": "5f8e3982203f8de98e75ae0838c9c1bf17c5727061804b84cbc19bfa76d38927"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_035",
+      "word": "Qué",
+      "categoryId": "CAT_008",
+      "category": "Preguntas",
+      "originalDecision": {
+        "vocabId": "VOC_035",
+        "word": "Qué",
+        "categoryId": "CAT_008",
+        "originalId": "20102",
+        "decision": "PRINCIPAL",
+        "candidateId": 22620,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 22620,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 22620,
+        "keywords": [
+          "qué",
+          "¿qué?",
+          "¿qué"
+        ],
+        "officialMeanings": [
+          "Pron., adj. y adv. interrog. y excl. Introduce oraciones interrogativas y exclamativas, preguntando o ponderando la naturaleza, la cantidad o la intensidad de alguna cosa; cuando funciona como pron., pregunta por cosas: ¿qué castillos son aquellos?; cuando funciona como adj., pregunta por personas o cosas: ¿qué amigos has invitado a la fiesta?; cuando funciona como adv. de cant., se usa como exclamativo: ¡qué lejos vivís!"
+        ],
+        "api": "evidence/00e35a3ef0d21ecfe52111e9.json",
+        "imageResponse": "evidence/c43e7e21299260cb3a6a6f5d.json",
+        "png": "images/c43e7e21299260cb3a6a6f5d.png",
+        "pngSha256": "9cd8598a5ea2053138839a5d887b8b20179c6a776181a27c57f3b607f0073d19"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_036",
+      "word": "Dónde",
+      "categoryId": "CAT_008",
+      "category": "Preguntas",
+      "originalDecision": {
+        "vocabId": "VOC_036",
+        "word": "Dónde",
+        "categoryId": "CAT_008",
+        "originalId": "17991",
+        "decision": "PRINCIPAL",
+        "candidateId": 7764,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 7764,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 7764,
+        "keywords": [
+          "dónde",
+          "¿dónde?",
+          "donde"
+        ],
+        "officialMeanings": [
+          "adv. interrog. Equivale a preguntar por el lugar en el que se lleva a cabo una acción, o en el que está algo o alguien: ¿dónde dejaste la chaqueta?"
+        ],
+        "api": "evidence/f1ca173c323d0ca9e939bce1.json",
+        "imageResponse": "evidence/6a4aa3bdbe42ef78ce796567.json",
+        "png": "images/6a4aa3bdbe42ef78ce796567.png",
+        "pngSha256": "147d01a804a42e907b6727092ed279be76104ee97ef6ce5892dd0ceef8172f23"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_037",
+      "word": "Quién",
+      "categoryId": "CAT_008",
+      "category": "Preguntas",
+      "originalDecision": {
+        "vocabId": "VOC_037",
+        "word": "Quién",
+        "categoryId": "CAT_008",
+        "originalId": "14192",
+        "decision": "PRINCIPAL",
+        "candidateId": 9853,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 9853,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 9853,
+        "keywords": [
+          "quién",
+          "desconocido",
+          "¿quién es?",
+          "¿quién es él?",
+          "¿quién?"
+        ],
+        "officialMeanings": [
+          "Pron. interrog. y excl. Introduce oraciones interrogativas y exclamativas, preguntando o ponderando la identidad de una persona: dime con quién andas y te diré quién eres; ¡quién fuera tú!",
+          "adj. y s. Se dice de las personas que no son conocidas: mi mamá me ha dicho que no hable con desconocidos.",
+          "Pregunta que realiza una persona para conocer la identidad de otra"
+        ],
+        "api": "evidence/8ddf8a2cb6a5131978f0b15f.json",
+        "imageResponse": "evidence/1b7158099c081eb1ab392ded.json",
+        "png": "images/1b7158099c081eb1ab392ded.png",
+        "pngSha256": "43651b49f392156bcaa748cafc18c328c16df4971aa26b4f0ad2955d0418b15d"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_038",
+      "word": "Cómo",
+      "categoryId": "CAT_008",
+      "category": "Preguntas",
+      "originalDecision": {
+        "vocabId": "VOC_038",
+        "word": "Cómo",
+        "categoryId": "CAT_008",
+        "originalId": "",
+        "decision": "PRINCIPAL",
+        "candidateId": 22619,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 22619,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 22619,
+        "keywords": [
+          "cómo",
+          "¿cómo?"
+        ],
+        "officialMeanings": [
+          "adv. m. interrog. De qué modo, de qué manera.",
+          "adv. m. interrog. Por qué motivo, causa o razón; en fuerza o en virtud de qué."
+        ],
+        "api": "evidence/c5b46b359f041a2c4fe865a7.json",
+        "imageResponse": "evidence/d7df40d4ee5807fd0cea918e.json",
+        "png": "images/d7df40d4ee5807fd0cea918e.png",
+        "pngSha256": "57bcf3943e5675c747c1579241eed90e3557659b78fc19731f823fef89ce56e5"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_039",
+      "word": "Grande",
+      "categoryId": "CAT_009",
+      "category": "Descriptores",
+      "originalDecision": {
+        "vocabId": "VOC_039",
+        "word": "Grande",
+        "categoryId": "CAT_009",
+        "originalId": "16542",
+        "decision": "PRINCIPAL",
+        "candidateId": 4658,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 4658,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 4658,
+        "keywords": [
+          "grande",
+          "mayor"
+        ],
+        "officialMeanings": [
+          "adj. Que supera en tamaño, importancia e intensidad a lo normal.",
+          "adj. comp. de grande. Que supera a una persona o cosa en cantidad, calidad, edad, intensidad, importancia."
+        ],
+        "api": "evidence/5593341dca15cb4ecb23ffda.json",
+        "imageResponse": "evidence/f3180e765d90c590ea92664d.json",
+        "png": "images/f3180e765d90c590ea92664d.png",
+        "pngSha256": "394a460707267c70a09bfb35df5acc3780ce4e47db41623d091e9d4f1bf35b9e"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_040",
+      "word": "Pequeño",
+      "categoryId": "CAT_009",
+      "category": "Descriptores",
+      "originalDecision": {
+        "vocabId": "VOC_040",
+        "word": "Pequeño",
+        "categoryId": "CAT_009",
+        "originalId": "16600",
+        "decision": "PRINCIPAL",
+        "candidateId": 4716,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 4716,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 4716,
+        "keywords": [
+          "pequeño",
+          "menor",
+          "pequeña"
+        ],
+        "officialMeanings": [
+          "adj. De poco tamaño o estatura con respecto a los de su clase o especie: coche pequeño; cabeza pequeña.",
+          "adj. comp. de pequeño. Que es inferior a otra cosa en cantidad, intensidad o calidad.",
+          "adj. De poco tamaño o estatura con respecto a los de su clase o especie: mano pequeña"
+        ],
+        "api": "evidence/68ea24db14f64b0a0e608bf7.json",
+        "imageResponse": "evidence/70a5a8eb093f5f5605b411f5.json",
+        "png": "images/70a5a8eb093f5f5605b411f5.png",
+        "pngSha256": "f8b3bc75c54b110b070f6aa36c6306c9204d89473d264695c760dfba1ed3737e"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_041",
+      "word": "Caliente",
+      "categoryId": "CAT_009",
+      "category": "Descriptores",
+      "originalDecision": {
+        "vocabId": "VOC_041",
+        "word": "Caliente",
+        "categoryId": "CAT_009",
+        "originalId": "21064",
+        "decision": "PRINCIPAL",
+        "candidateId": 26716,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 26716,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 26716,
+        "keywords": [
+          "caliente",
+          "ardiente"
+        ],
+        "officialMeanings": [
+          "adj. Que tiene o produce calor.",
+          "adj. Que desprende mucho calor o produce sensación de ardor: fiebre ardiente; sed ardiente."
+        ],
+        "api": "evidence/16d70add4f4fa19608e1bb38.json",
+        "imageResponse": "evidence/6efde3ad695b850aed406ce0.json",
+        "png": "images/6efde3ad695b850aed406ce0.png",
+        "pngSha256": "da539737ce06f499aa16b1706f3bc0c9a7dcf89db10d6ab15f4d7bf706f8736e"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_042",
+      "word": "Frío",
+      "categoryId": "CAT_009",
+      "category": "Descriptores",
+      "originalDecision": {
+        "vocabId": "VOC_042",
+        "word": "Frío",
+        "categoryId": "CAT_009",
+        "originalId": "21141",
+        "decision": "PRINCIPAL",
+        "candidateId": 26865,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 26865,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 26865,
+        "keywords": [
+          "frío",
+          "fría",
+          "fresco",
+          "fresca"
+        ],
+        "officialMeanings": [
+          "adj. Dicho de un cuerpo: Que tiene una temperatura muy inferior a la ordinaria del ambiente."
+        ],
+        "api": "evidence/9e6aae44e1db8ccda3bf97f0.json",
+        "imageResponse": "evidence/84efd09b2036add74ecea1ac.json",
+        "png": "images/84efd09b2036add74ecea1ac.png",
+        "pngSha256": "772882d2b73c19b93d278302833c9aaafdb71e913eff355831d9adb75105182e"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_043",
+      "word": "Pelota",
+      "categoryId": "CAT_010",
+      "category": "Objetos y juego",
+      "originalDecision": {
+        "vocabId": "VOC_043",
+        "word": "Pelota",
+        "categoryId": "CAT_010",
+        "originalId": "16256",
+        "decision": "PRINCIPAL",
+        "candidateId": 3241,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 3241,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 3241,
+        "keywords": [
+          "pelota",
+          "pelota de playa"
+        ],
+        "officialMeanings": [
+          "f. Bola, generalmente de material flexible, hueca o maciza, que se utiliza en distintos juegos.",
+          "f. Bola, de material flexible, hueca o maciza, que se utiliza en distintos juegos de playa."
+        ],
+        "api": "evidence/aba88a0136be71491b35a759.json",
+        "imageResponse": "evidence/0775f31f1c112ac5cdba7fe3.json",
+        "png": "images/0775f31f1c112ac5cdba7fe3.png",
+        "pngSha256": "c1c71140027cbcdc3d803ce4d8ee1b21a06319bc7bc5bb0c77c16f09611e4d3a"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_044",
+      "word": "Juguete",
+      "categoryId": "CAT_010",
+      "category": "Objetos y juego",
+      "originalDecision": {
+        "vocabId": "VOC_044",
+        "word": "Juguete",
+        "categoryId": "CAT_010",
+        "originalId": "23923",
+        "decision": "PRINCIPAL",
+        "candidateId": 32568,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 32568,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 32568,
+        "keywords": [
+          "juguetes",
+          "juguete"
+        ],
+        "officialMeanings": [
+          "m. Objetos con los que se entretienen y juegan los niños.",
+          "m. Objeto atractivo con que se entretienen los niños."
+        ],
+        "api": "evidence/2f8a58b4e8f89c1b2c336e01.json",
+        "imageResponse": "evidence/52d90ce9a3ab550059f58835.json",
+        "png": "images/52d90ce9a3ab550059f58835.png",
+        "pngSha256": "83d91bcbba7ead542c68574770660b3e6de9a0f8aa60ef21d5664fc8843e4ebc"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_045",
+      "word": "Libro",
+      "categoryId": "CAT_010",
+      "category": "Objetos y juego",
+      "originalDecision": {
+        "vocabId": "VOC_045",
+        "word": "Libro",
+        "categoryId": "CAT_010",
+        "originalId": "15519",
+        "decision": "PRINCIPAL",
+        "candidateId": 2450,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2450,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2450,
+        "keywords": [
+          "libro"
+        ],
+        "officialMeanings": [
+          "m. Conjunto de hojas de papel manuscritas o impresas que, cosidas o encuadernadas, forman un volumen."
+        ],
+        "api": "evidence/c0812c47ae2bfe458b9fe750.json",
+        "imageResponse": "evidence/9dc4529f7062ed553f568200.json",
+        "png": "images/9dc4529f7062ed553f568200.png",
+        "pngSha256": "b1246a7f32a22306e5a2418f2fdbfa9322fe3d20a31adcdf818c8dda6096c790"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_046",
+      "word": "Cabeza",
+      "categoryId": "CAT_011",
+      "category": "Cuerpo y salud",
+      "originalDecision": {
+        "vocabId": "VOC_046",
+        "word": "Cabeza",
+        "categoryId": "CAT_011",
+        "originalId": "15732",
+        "decision": "PRINCIPAL",
+        "candidateId": 2673,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2673,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2673,
+        "keywords": [
+          "cabeza"
+        ],
+        "officialMeanings": [
+          "f. Parte superior del cuerpo del hombre separada del tronco, y superior o anterior del de muchos animales."
+        ],
+        "api": "evidence/d8cd44ed3578647dd3ddc928.json",
+        "imageResponse": "evidence/bd78eae8c2a6d28e69743df5.json",
+        "png": "images/bd78eae8c2a6d28e69743df5.png",
+        "pngSha256": "24806146a694bfadc10df09fb371375f0785b18e194db18af9874a22f11ab957"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_047",
+      "word": "Barriga",
+      "categoryId": "CAT_011",
+      "category": "Cuerpo y salud",
+      "originalDecision": {
+        "vocabId": "VOC_047",
+        "word": "Barriga",
+        "categoryId": "CAT_011",
+        "originalId": "15823",
+        "decision": "PRINCIPAL",
+        "candidateId": 2786,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2786,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2786,
+        "keywords": [
+          "tripa",
+          "barriga",
+          "panza",
+          "vientre"
+        ],
+        "officialMeanings": [
+          "Vientre, especialmente el grueso o abultado.",
+          "f. col. Vientre, cavidad abdominal de los vertebrados que contiene diversos órganos: tienes muy morena la barriga."
+        ],
+        "api": "evidence/3e8ef9a6d37c1928b9dbbbc1.json",
+        "imageResponse": "evidence/1a16f48e62591f7c29ca7ac2.json",
+        "png": "images/1a16f48e62591f7c29ca7ac2.png",
+        "pngSha256": "385964064aa77a8518ad30880824d906591efd681d696260f3c74456c19a28ac"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_048",
+      "word": "Mano",
+      "categoryId": "CAT_011",
+      "category": "Cuerpo y salud",
+      "originalDecision": {
+        "vocabId": "VOC_048",
+        "word": "Mano",
+        "categoryId": "CAT_011",
+        "originalId": "15953",
+        "decision": "PRINCIPAL",
+        "candidateId": 2928,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2928,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2928,
+        "keywords": [
+          "mano",
+          "mano derecha"
+        ],
+        "officialMeanings": [
+          "f. Extremidad del cuerpo humano que va desde la muñeca hasta la punta de los dedos.",
+          "f. La que corresponde al lado del cuerpo opuesto a aquel en que el hombre siente latir el corazón."
+        ],
+        "api": "evidence/b959e6db09f221e06bda3ca8.json",
+        "imageResponse": "evidence/ab8c07d9967240a97908bccc.json",
+        "png": "images/ab8c07d9967240a97908bccc.png",
+        "pngSha256": "7ecee93ca6a4f1be40918fce7fcfb39e969a7d85800f150beb9eb68744d8314a"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_049",
+      "word": "Dolor",
+      "categoryId": "CAT_011",
+      "category": "Cuerpo y salud",
+      "originalDecision": {
+        "vocabId": "VOC_049",
+        "word": "Dolor",
+        "categoryId": "CAT_011",
+        "originalId": "15438",
+        "decision": "PRINCIPAL",
+        "candidateId": 30620,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 30620,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 30620,
+        "keywords": [
+          "doler",
+          "dolor"
+        ],
+        "officialMeanings": [
+          "intr. Dicho de una parte del cuerpo: Padecer dolor, mediante causa interior o exterior."
+        ],
+        "api": "evidence/310911086254b962811c6a61.json",
+        "imageResponse": "evidence/6c080372b9639f56260327e6.json",
+        "png": "images/6c080372b9639f56260327e6.png",
+        "pngSha256": "58a15172c1ac71f0a731b46e47fcf02a77ea1da2a5552fb94e794383e8b0b3d3"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_050",
+      "word": "Ahora",
+      "categoryId": "CAT_012",
+      "category": "Tiempo",
+      "originalDecision": {
+        "vocabId": "VOC_050",
+        "word": "Ahora",
+        "categoryId": "CAT_012",
+        "originalId": "15135",
+        "decision": "PRINCIPAL",
+        "candidateId": 32747,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 32747,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 32747,
+        "keywords": [
+          "ahora"
+        ],
+        "officialMeanings": [
+          "adv. t. A esta hora, en este momento, en el tiempo actual o presente."
+        ],
+        "api": "evidence/ff154dba826edb4f6c424e95.json",
+        "imageResponse": "evidence/82d4776f2fb29a4b836713b3.json",
+        "png": "images/82d4776f2fb29a4b836713b3.png",
+        "pngSha256": "18ef174b4877bea8ea45200211785c10c7ce21bfc5362c0deb2a881b56f09e6a"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_051",
+      "word": "Después",
+      "categoryId": "CAT_012",
+      "category": "Tiempo",
+      "originalDecision": {
+        "vocabId": "VOC_051",
+        "word": "Después",
+        "categoryId": "CAT_012",
+        "originalId": "15162",
+        "decision": "PRINCIPAL",
+        "candidateId": 32749,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 32749,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 32749,
+        "keywords": [
+          "después",
+          "luego",
+          "después de",
+          "después del"
+        ],
+        "officialMeanings": [
+          "adv. t. Denota posterioridad de tiempo: saldré después de comer; la mañana después.",
+          "adv. t. Después, más tarde. Anoche fuimos al teatro, y luego a una sala de fiestas. Estudió derecho, y luego medicina."
+        ],
+        "api": "evidence/f0f5ef802a5c5d3cf4cf80e6.json",
+        "imageResponse": "evidence/60165c44f17347c7541272ee.json",
+        "png": "images/60165c44f17347c7541272ee.png",
+        "pngSha256": "c62ad3968325e57bf8829c1ff4f358ff51677f543e903ae2e1827679d363b5a4"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_052",
+      "word": "Primero",
+      "categoryId": "CAT_012",
+      "category": "Tiempo",
+      "originalDecision": {
+        "vocabId": "VOC_052",
+        "word": "Primero",
+        "categoryId": "CAT_012",
+        "originalId": "16610",
+        "decision": "PRINCIPAL",
+        "candidateId": 37753,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 37753,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 37753,
+        "keywords": [
+          "primero",
+          "primera",
+          "primer"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/595e3f2b2e86d6542c565c0e.json",
+        "imageResponse": "evidence/77c4a4338514ef0bebe921b2.json",
+        "png": "images/77c4a4338514ef0bebe921b2.png",
+        "pngSha256": "f634937abaae3dd8df5727da94961c367c514729cbbb3b922d0ebf1cac1ffbb8"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_053",
+      "word": "No",
+      "categoryId": "CAT_013",
+      "category": "Negación y regulación",
+      "originalDecision": {
+        "vocabId": "VOC_053",
+        "word": "No",
+        "categoryId": "CAT_013",
+        "originalId": "45427",
+        "decision": "PRINCIPAL",
+        "candidateId": 5526,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 5526,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 5526,
+        "keywords": [
+          "no"
+        ],
+        "officialMeanings": [
+          "adv. neg. Se utiliza como respuesta negativa a una pregunta, como expresión de rechazo o no conformidad, para indicar la no realización de una acción, etc."
+        ],
+        "api": "evidence/9f2d9ac8ddfdddecdb74e106.json",
+        "imageResponse": "evidence/7a06026604b0ce3e37afb96d.json",
+        "png": "images/7a06026604b0ce3e37afb96d.png",
+        "pngSha256": "a0fb73bbae892b0ee64710a19c21cbf13d163e2db9dd3fedc43702ffc28c0499"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_054",
+      "word": "Parar",
+      "categoryId": "CAT_013",
+      "category": "Negación y regulación",
+      "originalDecision": {
+        "vocabId": "VOC_054",
+        "word": "Parar",
+        "categoryId": "CAT_013",
+        "originalId": "17874",
+        "decision": "PRINCIPAL",
+        "candidateId": 7196,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 7196,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 7196,
+        "keywords": [
+          "parar",
+          "detener"
+        ],
+        "officialMeanings": [
+          "intr. Cesar o interrumpirse un movimiento o acción.",
+          "tr. Interrumpir algo, impedir que siga adelante."
+        ],
+        "api": "evidence/006f2b777173c5c63e50ef27.json",
+        "imageResponse": "evidence/0be56efda2880502c6f07240.json",
+        "png": "images/0be56efda2880502c6f07240.png",
+        "pngSha256": "50e52f6090975cd5679a11454380d34f4097b2df1d81cb99c763f4c99c955070"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_055",
+      "word": "Terminar",
+      "categoryId": "CAT_013",
+      "category": "Negación y regulación",
+      "originalDecision": {
+        "vocabId": "VOC_055",
+        "word": "Terminar",
+        "categoryId": "CAT_013",
+        "originalId": "21930",
+        "decision": "PRINCIPAL",
+        "candidateId": 28429,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 28429,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 28429,
+        "keywords": [
+          "terminar",
+          "acabar",
+          "finalizar",
+          "¡se acabó!",
+          "se acabó",
+          "¡basta ya!",
+          "basta ya",
+          "ya está"
+        ],
+        "officialMeanings": [
+          "tr. Poner término a una cosa, acabarla: por fin terminé el trabajo.",
+          "Poner o dar fin a algo, terminarlo, concluirlo.",
+          "tr. Concluir una obra, darle fin.",
+          "Expresión utilizada para indicar que se ha finalizado una tarea, evento o acción"
+        ],
+        "api": "evidence/e141889cbe9bbd9d2a958245.json",
+        "imageResponse": "evidence/1c219f1a611628954decd0e8.json",
+        "png": "images/1c219f1a611628954decd0e8.png",
+        "pngSha256": "c65ff26cf7844b99cd4b9965f26e930b87185fb31811dca20f7dd17c275903e5"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_056",
+      "word": "Esperar",
+      "categoryId": "CAT_013",
+      "category": "Negación y regulación",
+      "originalDecision": {
+        "vocabId": "VOC_056",
+        "word": "Esperar",
+        "categoryId": "CAT_013",
+        "originalId": "22054",
+        "decision": "PRINCIPAL",
+        "candidateId": 36914,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 36914,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 36914,
+        "keywords": [
+          "esperar"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/2d1204fde4cbd75b041c1087.json",
+        "imageResponse": "evidence/89b4ec8c9f3ab06c7898b908.json",
+        "png": "images/89b4ec8c9f3ab06c7898b908.png",
+        "pngSha256": "13b34be2d32bf2bfd3ecdb5397518adb752135c094e1eb435da8a262d41c70ca"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_057",
+      "word": "El",
+      "categoryId": "CAT_014",
+      "category": "Conectores y determinantes",
+      "originalDecision": {
+        "vocabId": "VOC_057",
+        "word": "El",
+        "categoryId": "CAT_014",
+        "originalId": "",
+        "decision": "SOLO_TEXTO",
+        "candidateId": null,
+        "note": "",
+        "reviewed": false,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "Se conserva el estado inicial SOLO_TEXTO y su ID nulo.",
+      "evidenceForOriginalSelection": null,
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_058",
+      "word": "La",
+      "categoryId": "CAT_014",
+      "category": "Conectores y determinantes",
+      "originalDecision": {
+        "vocabId": "VOC_058",
+        "word": "La",
+        "categoryId": "CAT_014",
+        "originalId": "",
+        "decision": "SOLO_TEXTO",
+        "candidateId": null,
+        "note": "",
+        "reviewed": false,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "Se conserva el estado inicial SOLO_TEXTO y su ID nulo.",
+      "evidenceForOriginalSelection": null,
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_059",
+      "word": "Mi",
+      "categoryId": "CAT_014",
+      "category": "Conectores y determinantes",
+      "originalDecision": {
+        "vocabId": "VOC_059",
+        "word": "Mi",
+        "categoryId": "CAT_014",
+        "originalId": "",
+        "decision": "SOLO_TEXTO",
+        "candidateId": null,
+        "note": "",
+        "reviewed": false,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "Se conserva el estado inicial SOLO_TEXTO y su ID nulo.",
+      "evidenceForOriginalSelection": null,
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_060",
+      "word": "Y",
+      "categoryId": "CAT_014",
+      "category": "Conectores y determinantes",
+      "originalDecision": {
+        "vocabId": "VOC_060",
+        "word": "Y",
+        "categoryId": "CAT_014",
+        "originalId": "",
+        "decision": "SOLO_TEXTO",
+        "candidateId": null,
+        "note": "",
+        "reviewed": false,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "Se conserva el estado inicial SOLO_TEXTO y su ID nulo.",
+      "evidenceForOriginalSelection": null,
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_061",
+      "word": "O",
+      "categoryId": "CAT_014",
+      "category": "Conectores y determinantes",
+      "originalDecision": {
+        "vocabId": "VOC_061",
+        "word": "O",
+        "categoryId": "CAT_014",
+        "originalId": "",
+        "decision": "SOLO_TEXTO",
+        "candidateId": null,
+        "note": "",
+        "reviewed": false,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "Se conserva el estado inicial SOLO_TEXTO y su ID nulo.",
+      "evidenceForOriginalSelection": null,
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_062",
+      "word": "Con",
+      "categoryId": "CAT_014",
+      "category": "Conectores y determinantes",
+      "originalDecision": {
+        "vocabId": "VOC_062",
+        "word": "Con",
+        "categoryId": "CAT_014",
+        "originalId": "",
+        "decision": "SOLO_TEXTO",
+        "candidateId": null,
+        "note": "",
+        "reviewed": false,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "Se conserva el estado inicial SOLO_TEXTO y su ID nulo.",
+      "evidenceForOriginalSelection": null,
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_063",
+      "word": "Sí",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_063",
+        "word": "Sí",
+        "categoryId": "CAT_018",
+        "originalId": "17010",
+        "decision": "PRINCIPAL",
+        "candidateId": 5584,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 5584,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 5584,
+        "keywords": [
+          "sí"
+        ],
+        "officialMeanings": [
+          "adv. afirm. Se emplea para responder a una pregunta afirmativamente: me contestó que sí."
+        ],
+        "api": "evidence/75370808d7aba595c1a84d29.json",
+        "imageResponse": "evidence/5a68fc9a98bb90f4e88a2dcf.json",
+        "png": "images/5a68fc9a98bb90f4e88a2dcf.png",
+        "pngSha256": "d4282268084c516cb0eb9932c0e0b9e1149f3d891f500ae4f898b2ed306bd65d"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_064",
+      "word": "Más",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_064",
+        "word": "Más",
+        "categoryId": "CAT_018",
+        "originalId": "21170",
+        "decision": "PRINCIPAL",
+        "candidateId": 5508,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 5508,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 5508,
+        "keywords": [
+          "más"
+        ],
+        "officialMeanings": [
+          "Denota exceso indeterminado con relación a una cantidad expresa. En esta batalla murieron más de dos mil hombres. Son más de las diez."
+        ],
+        "api": "evidence/663eeaa05df352a3305928d8.json",
+        "imageResponse": "evidence/a93d8dafc0fdcb966f4d315a.json",
+        "png": "images/a93d8dafc0fdcb966f4d315a.png",
+        "pngSha256": "3e93eae0d1828846b1781f74b0402b6bc4935bab54b2059651311345643f35f8"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_065",
+      "word": "Otra vez",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_065",
+        "word": "Otra vez",
+        "categoryId": "CAT_018",
+        "originalId": "47245",
+        "decision": "PRINCIPAL",
+        "candidateId": 37163,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 37163,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 37163,
+        "keywords": [
+          "de nuevo",
+          "otra vez"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/b62efdf85fcd166bbe23dfae.json",
+        "imageResponse": "evidence/62270f834121127548b60637.json",
+        "png": "images/62270f834121127548b60637.png",
+        "pngSha256": "1d505e4076e69ae0c99021e944e8b950ed0828a3de302022fcffd00e7e873d30"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_066",
+      "word": "Aquí",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_066",
+        "word": "Aquí",
+        "categoryId": "CAT_018",
+        "originalId": "16825",
+        "decision": "PRINCIPAL",
+        "candidateId": 5382,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 5382,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 5382,
+        "keywords": [
+          "aquí",
+          "acá"
+        ],
+        "officialMeanings": [
+          "Adv. l. Indica el lugar en que se encuentra el hablante o un lugar cercano a él. Con verbos de estado, significa en este lugar: aquí vivo. Con verbos de movimiento, significa a este lugar: ven aquí. Puede ir precedido de las preps. de, desde, hacia, hasta y por: desde aquí se ve toda la ciudad. Precede a otros adverbios: aquí arriba; aquí abajo.",
+          "adv. l. En este lugar o cerca de él, a este lugar o cerca de él. No es tan explícito como aquí, por eso admite ciertos grados de comparación."
+        ],
+        "api": "evidence/3275e87edf0f410f65aa1cd0.json",
+        "imageResponse": "evidence/bbe0a63b2220f0df2d27ad64.json",
+        "png": "images/bbe0a63b2220f0df2d27ad64.png",
+        "pngSha256": "1462f14e1b8366655f7ffb13244250635842abfc5e2dff5a9d65a8c6c8e06195"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_067",
+      "word": "Allí",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_067",
+        "word": "Allí",
+        "categoryId": "CAT_018",
+        "originalId": "",
+        "decision": "PRINCIPAL",
+        "candidateId": 5375,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 5375,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 5375,
+        "keywords": [
+          "ahí",
+          "allí",
+          "allá"
+        ],
+        "officialMeanings": [
+          "adv. l. En ese lugar, o a ese lugar.",
+          "En aquel lugar.",
+          "adv. l. allí. Indica lugar menos circunscrito o determinado que el que se denota con esta última voz. Por eso allá admite ciertos grados de comparación que rechaza allí."
+        ],
+        "api": "evidence/837a700091046e64519a0ce6.json",
+        "imageResponse": "evidence/96906b3ce4766275d6dbfaff.json",
+        "png": "images/96906b3ce4766275d6dbfaff.png",
+        "pngSha256": "a85a15846e1194206f6035c1095a35b318b6a4c177698572a5245f8e571acba4"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_068",
+      "word": "Esto",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_068",
+        "word": "Esto",
+        "categoryId": "CAT_018",
+        "originalId": "",
+        "decision": "PRINCIPAL",
+        "candidateId": 7095,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 7095,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 7095,
+        "keywords": [
+          "este",
+          "esta",
+          "esto"
+        ],
+        "officialMeanings": [
+          "pron. dem. Designa lo que está cerca de la persona que habla, o representa y señala lo que se acaba de mencionar.",
+          "pron. dem. Designa lo que está cerca de la persona que habla, o representa y señala lo que se acaba de mencionar. U. las formas m. y f. c. adj. y c. s."
+        ],
+        "api": "evidence/c195f0290d96e225432a3988.json",
+        "imageResponse": "evidence/3be44681ffe8e47468a98444.json",
+        "png": "images/3be44681ffe8e47468a98444.png",
+        "pngSha256": "936400937fb900ed550678f5d17b3df2226a154ced28fdabb49671974499d3fc"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_069",
+      "word": "Me gusta",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_069",
+        "word": "Me gusta",
+        "categoryId": "CAT_018",
+        "originalId": "89891",
+        "decision": "PRINCIPAL",
+        "candidateId": 37721,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 37721,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 37721,
+        "keywords": [
+          "gustar"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/5bd83ac94d6213c70e5ad642.json",
+        "imageResponse": "evidence/3f29b263c0aa19e6210b415d.json",
+        "png": "images/3f29b263c0aa19e6210b415d.png",
+        "pngSha256": "ae0208331b6dc503903a75d2f2614750646b85a8d05590197f1a99a8e06d1932"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_070",
+      "word": "No me gusta",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_070",
+        "word": "No me gusta",
+        "categoryId": "CAT_018",
+        "originalId": "19993",
+        "decision": "PRINCIPAL",
+        "candidateId": 37825,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 37825,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 37825,
+        "keywords": [
+          "no gustar",
+          "no me gusta eso"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/88ae19f74dde7bfd367d1f1a.json",
+        "imageResponse": "evidence/83179383c85a7b6ad9e1cfe3.json",
+        "png": "images/83179383c85a7b6ad9e1cfe3.png",
+        "pngSha256": "ce62b15c3a1f54b7492dad8d169752000099c7b5390a228ff01f322550f578a9"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_071",
+      "word": "Tengo",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_071",
+        "word": "Tengo",
+        "categoryId": "CAT_002",
+        "originalId": "24021",
+        "decision": "PRINCIPAL",
+        "candidateId": 32761,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 32761,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 32761,
+        "keywords": [
+          "tener",
+          "sostener",
+          "poseer",
+          "sujetar"
+        ],
+        "officialMeanings": [
+          "tr. Poseer una cosa o disfrutar de ella",
+          "tr. Mantener firme o sujeta una cosa",
+          "tr. Dicho de una persona: Tener en su poder algo.",
+          "tr. Afirmar o contener algo con la fuerza."
+        ],
+        "api": "evidence/f1ce41baa5ffeb7127a9a0f6.json",
+        "imageResponse": "evidence/6fab6d974d4bb73ff5332388.json",
+        "png": "images/6fab6d974d4bb73ff5332388.png",
+        "pngSha256": "7a203690e64b79bf6b18d2dcecf37a3424741f93879d558fa3651963d0ece90d"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_072",
+      "word": "Estoy",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_072",
+        "word": "Estoy",
+        "categoryId": "CAT_002",
+        "originalId": "16902",
+        "decision": "ALTERNATIVO",
+        "candidateId": 36392,
+        "note": "de estar, si estoy",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "36392 representa localización. Es insuficiente para el significado general ahora indicado. Se retira solo de la propuesta aplicable, sin tocar el banco.",
+      "evidenceForOriginalSelection": {
+        "id": 36392,
+        "keywords": [
+          "estar"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/9c9428c6a0b64dae42bdd81d.json",
+        "imageResponse": "evidence/9b343aa711ec2a449a2217f9.json",
+        "png": "images/9b343aa711ec2a449a2217f9.png",
+        "pngSha256": "9bafc194539bc3a1faf77ae49848fed5f6cc3c998fe757fb716cd93814cf362e"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_073",
+      "word": "Duele",
+      "categoryId": "CAT_011",
+      "category": "Cuerpo y salud",
+      "originalDecision": {
+        "vocabId": "VOC_073",
+        "word": "Duele",
+        "categoryId": "CAT_011",
+        "originalId": "23040",
+        "decision": "PRINCIPAL",
+        "candidateId": 30620,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 30620,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 30620,
+        "keywords": [
+          "doler",
+          "dolor"
+        ],
+        "officialMeanings": [
+          "intr. Dicho de una parte del cuerpo: Padecer dolor, mediante causa interior o exterior."
+        ],
+        "api": "evidence/310911086254b962811c6a61.json",
+        "imageResponse": "evidence/6c080372b9639f56260327e6.json",
+        "png": "images/6c080372b9639f56260327e6.png",
+        "pngSha256": "58a15172c1ac71f0a731b46e47fcf02a77ea1da2a5552fb94e794383e8b0b3d3"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_074",
+      "word": "Dame",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_074",
+        "word": "Dame",
+        "categoryId": "CAT_002",
+        "originalId": "21931",
+        "decision": "ALTERNATIVO",
+        "candidateId": 17038,
+        "note": "dar u ofrecer algo",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "17038 señala al emisor que entrega un objeto. Las definiciones oficiales son ofrecer, presentar/dar voluntariamente y poner en manos de otro. No demuestra inequívocamente la petición del hablante para recibir. Se cumple la decisión por defecto autorizada: SOLO_TEXTO.",
+      "evidenceForOriginalSelection": {
+        "id": 17038,
+        "keywords": [
+          "dar",
+          "ofrecer",
+          "entregar"
+        ],
+        "officialMeanings": [
+          "Verb. Ofrecer.",
+          "Presentar y dar voluntariamente algo a alguien para que disponga de ello",
+          "tr. Poner en manos o en poder de otro a alguien o algo."
+        ],
+        "api": "evidence/26647a5542c016b373e869f9.json",
+        "imageResponse": "evidence/5b5adb1ed0a50bea003b93a0.json",
+        "png": "images/5b5adb1ed0a50bea003b93a0.png",
+        "pngSha256": "7242104434bb9fe7c3422f4ccbf6757d164c29e6dad763fd846360df07edae2b"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_075",
+      "word": "Abrir",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_075",
+        "word": "Abrir",
+        "categoryId": "CAT_002",
+        "originalId": "20750",
+        "decision": "PRINCIPAL",
+        "candidateId": 24825,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 24825,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 24825,
+        "keywords": [
+          "abrir"
+        ],
+        "officialMeanings": [
+          "tr. Separar del marco la hoja o las hojas de una puerta o ventana, haciéndolas girar sobre sus goznes, o quitar o separar cualquier otra cosa con que esté cerrada una abertura, para que deje de estarlo."
+        ],
+        "api": "evidence/ed022805d1a432a4db8b7132.json",
+        "imageResponse": "evidence/f7b37bedd528fbdcd32656f8.json",
+        "png": "images/f7b37bedd528fbdcd32656f8.png",
+        "pngSha256": "1d798380c0a31257e94b5df2e46b11d4e24931d17755245b578ade2c7415dcfe"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_076",
+      "word": "Cerrar",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_076",
+        "word": "Cerrar",
+        "categoryId": "CAT_002",
+        "originalId": "20782",
+        "decision": "PRINCIPAL",
+        "candidateId": 24976,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 24976,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 24976,
+        "keywords": [
+          "cerrar"
+        ],
+        "officialMeanings": [
+          "tr. Mover o manejar la cosa que sirve para obstruir el paso de algo, de modo que quede en la posición en que lo hace: Cerrar la ventana"
+        ],
+        "api": "evidence/fc8e4354fa9f1a43dd130b29.json",
+        "imageResponse": "evidence/5181315663a1f7102c3752af.json",
+        "png": "images/5181315663a1f7102c3752af.png",
+        "pngSha256": "02389d96d41268228062a0a30358aedaedb69c649f2734d10314e3503947ffed"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_077",
+      "word": "Mirar",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_077",
+        "word": "Mirar",
+        "categoryId": "CAT_002",
+        "originalId": "22052",
+        "decision": "PRINCIPAL",
+        "candidateId": 6564,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6564,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6564,
+        "keywords": [
+          "ver",
+          "mirar",
+          "observar"
+        ],
+        "officialMeanings": [
+          "tr. Percibir por los ojos los objetos mediante la acción de la luz.",
+          "tr. Fijar la vista en un objeto.",
+          "tr. Examinar atentamente."
+        ],
+        "api": "evidence/738c117bbe62b0965860bfaa.json",
+        "imageResponse": "evidence/0f582fc8116e37eb00d46bc7.json",
+        "png": "images/0f582fc8116e37eb00d46bc7.png",
+        "pngSha256": "3aced032c5e456917dc67836dd63aa15af5b64a402695277247b8636672204e8"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_078",
+      "word": "Escuchar",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_078",
+        "word": "Escuchar",
+        "categoryId": "CAT_002",
+        "originalId": "",
+        "decision": "PRINCIPAL",
+        "candidateId": 6572,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6572,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6572,
+        "keywords": [
+          "oir",
+          "escuchar"
+        ],
+        "officialMeanings": [
+          "tr. Percibir los sonidos a través del oído; escuchar.",
+          "intr. Aplicar el oído para oír."
+        ],
+        "api": "evidence/1b0a6626832c05410ee2e045.json",
+        "imageResponse": "evidence/58aa37b2dfdefb67c07cd7bc.json",
+        "png": "images/58aa37b2dfdefb67c07cd7bc.png",
+        "pngSha256": "10424dccd6ef8d95a5d31f19b76a2fb679455077d3fbf6f54b7a7524f2bc6978"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_079",
+      "word": "Sentarse",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_079",
+        "word": "Sentarse",
+        "categoryId": "CAT_002",
+        "originalId": "46155",
+        "decision": "PRINCIPAL",
+        "candidateId": 6611,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6611,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6611,
+        "keywords": [
+          "sentar"
+        ],
+        "officialMeanings": [
+          "tr. Poner o colocar a uno de manera que quede apoyado y descansando sobre las nalgas."
+        ],
+        "api": "evidence/e17cfc78c5f4f25d845d3219.json",
+        "imageResponse": "evidence/7375a1348f801b035285c84c.json",
+        "png": "images/7375a1348f801b035285c84c.png",
+        "pngSha256": "a2286e311d2a794912aee38008f09164a79e0a12e99aae540d780bc7599cca15"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_080",
+      "word": "Levantarse",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_080",
+        "word": "Levantarse",
+        "categoryId": "CAT_002",
+        "originalId": "18192",
+        "decision": "ALTERNATIVO",
+        "candidateId": 5099,
+        "note": "levantarse de la cama",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "ALTERNATIVO",
+      "effectiveCandidateId": 5099,
+      "heldOriginalCandidateId": null,
+      "reason": "La nota limita levantarse a la cama, que es la acción representada por 5099. No se extiende a levantarse de una silla.",
+      "evidenceForOriginalSelection": {
+        "id": 5099,
+        "keywords": [
+          "levantar de la cama"
+        ],
+        "officialMeanings": [
+          "tr. Poner derecha o en posición vertical la persona o cosa que esté inclinada, tendida, etc. U. t. c. prnl."
+        ],
+        "api": "evidence/d91bb0f0ffa618b909887e82.json",
+        "imageResponse": "evidence/337d8d773059d35212eac9e3.json",
+        "png": "images/337d8d773059d35212eac9e3.png",
+        "pngSha256": "d44f55e0fff4619be30feabbb70faa36e13d4c59b6a604ec3564fb79f438fcb4"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_081",
+      "word": "Lavarse",
+      "categoryId": "CAT_015",
+      "category": "Higiene y autocuidado",
+      "originalDecision": {
+        "vocabId": "VOC_081",
+        "word": "Lavarse",
+        "categoryId": "CAT_015",
+        "originalId": "18657",
+        "decision": "ALTERNATIVO",
+        "candidateId": 8977,
+        "note": "lavarse las manos",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "ALTERNATIVO",
+      "effectiveCandidateId": 8977,
+      "heldOriginalCandidateId": null,
+      "reason": "La nota limita lavarse a las manos, como la imagen 8977. No se extiende a lavado corporal general.",
+      "evidenceForOriginalSelection": {
+        "id": 8977,
+        "keywords": [
+          "lavar",
+          "lavado de manos"
+        ],
+        "officialMeanings": [
+          "tr. Limpiar algo con agua u otro líquido"
+        ],
+        "api": "evidence/eef87c04b0f104cc3a4345b7.json",
+        "imageResponse": "evidence/a572421d98c63b3bc1d2817e.json",
+        "png": "images/a572421d98c63b3bc1d2817e.png",
+        "pngSha256": "8d5b80089673f1664cc584478595d417c6ae97e953f7b08a0767ebe4a557c290"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_082",
+      "word": "Bañarse",
+      "categoryId": "CAT_015",
+      "category": "Higiene y autocuidado",
+      "originalDecision": {
+        "vocabId": "VOC_082",
+        "word": "Bañarse",
+        "categoryId": "CAT_015",
+        "originalId": "21109",
+        "decision": "PRINCIPAL",
+        "candidateId": 6058,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6058,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6058,
+        "keywords": [
+          "bañar"
+        ],
+        "officialMeanings": [
+          "tr. Meter el cuerpo, o parte de él en el agua o en otro líquido, por limpieza, para refrescarse o con un fin medicinal. U. t. c. prnl."
+        ],
+        "api": "evidence/2b7be5c7b38d29066cd2eddd.json",
+        "imageResponse": "evidence/a8ea26ad96c4978c9cd02fa7.json",
+        "png": "images/a8ea26ad96c4978c9cd02fa7.png",
+        "pngSha256": "8922ea75d4779232ba76613390f0c07b44ee4c8b42f172df02afeb8f8012ae62"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_083",
+      "word": "Cepillarse los dientes",
+      "categoryId": "CAT_015",
+      "category": "Higiene y autocuidado",
+      "originalDecision": {
+        "vocabId": "VOC_083",
+        "word": "Cepillarse los dientes",
+        "categoryId": "CAT_015",
+        "originalId": "23579",
+        "decision": "PRINCIPAL",
+        "candidateId": 6971,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6971,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6971,
+        "keywords": [
+          "cepillar los dientes",
+          "lavar los dientes"
+        ],
+        "officialMeanings": [
+          "Limpiar los dientes con un cepillo."
+        ],
+        "api": "evidence/36c047af20e2f88d6e870772.json",
+        "imageResponse": "evidence/4c3b3cd9174e240d5f26dd3c.json",
+        "png": "images/4c3b3cd9174e240d5f26dd3c.png",
+        "pngSha256": "873f4af4401cf5a2c214c9eefd5b3eea9cf2fc78e5a7347c307b00ccee63decd"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_084",
+      "word": "Vestirse",
+      "categoryId": "CAT_015",
+      "category": "Higiene y autocuidado",
+      "originalDecision": {
+        "vocabId": "VOC_084",
+        "word": "Vestirse",
+        "categoryId": "CAT_015",
+        "originalId": "23707",
+        "decision": "PRINCIPAL",
+        "candidateId": 6627,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6627,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6627,
+        "keywords": [
+          "vestir",
+          "poner"
+        ],
+        "officialMeanings": [
+          "r. Cubrir o adornar el cuerpo con ropa. U. t. c. prnl."
+        ],
+        "api": "evidence/0e2f7d1b8b0426963feb75e9.json",
+        "imageResponse": "evidence/e20df2994f631ed1ef87a4a6.json",
+        "png": "images/e20df2994f631ed1ef87a4a6.png",
+        "pngSha256": "9c909e9b91aabc5127121b5eea27000e149eafda4c39fb2d029c6af31cef47d2"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_085",
+      "word": "Caminar",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_085",
+        "word": "Caminar",
+        "categoryId": "CAT_002",
+        "originalId": "45100",
+        "decision": "PRINCIPAL",
+        "candidateId": 6044,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6044,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6044,
+        "keywords": [
+          "caminar",
+          "andar"
+        ],
+        "officialMeanings": [
+          "intr. Ir andando de un lugar a otro.",
+          "ntr. Dicho de un ser animado: Ir de un lugar a otro dando pasos. U. t. c. prnl."
+        ],
+        "api": "evidence/12821472aebf9f2ea8bd8783.json",
+        "imageResponse": "evidence/4933fb66927019cbdfbfaea0.json",
+        "png": "images/4933fb66927019cbdfbfaea0.png",
+        "pngSha256": "c24285bd274bb3d8e8e8c8c42c15361cd49d9a8c9d4204fa96e695ab19c62c29"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_086",
+      "word": "Salir",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_086",
+        "word": "Salir",
+        "categoryId": "CAT_002",
+        "originalId": "15842",
+        "decision": "PRINCIPAL",
+        "candidateId": 6606,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6606,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6606,
+        "keywords": [
+          "salir"
+        ],
+        "officialMeanings": [
+          "tr. Pasar de dentro afuera."
+        ],
+        "api": "evidence/efea1ce9986e158b4407e630.json",
+        "imageResponse": "evidence/dad664278112f5eecc2a906b.json",
+        "png": "images/dad664278112f5eecc2a906b.png",
+        "pngSha256": "02622475d94acb273ed6fc19f49d25d2dc4de8a70203bbd9f2e59eb9a8e1e823"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_087",
+      "word": "Entrar",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_087",
+        "word": "Entrar",
+        "categoryId": "CAT_002",
+        "originalId": "21113",
+        "decision": "PRINCIPAL",
+        "candidateId": 6491,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6491,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6491,
+        "keywords": [
+          "entrar",
+          "acceder"
+        ],
+        "officialMeanings": [
+          "intr. Pasar de fuera adentro, o por una parte para introducirse en otra.",
+          "intr. Entrar en un lugar o pasar a él."
+        ],
+        "api": "evidence/37378fe58fd85de312a4a57b.json",
+        "imageResponse": "evidence/acf5ad379025349edb094195.json",
+        "png": "images/acf5ad379025349edb094195.png",
+        "pngSha256": "9d7452fc6fbd9f96721dbc555b7d3f2458108654706870b3e1d819779ad240bf"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_088",
+      "word": "Leer",
+      "categoryId": "CAT_016",
+      "category": "Escuela y aprendizaje",
+      "originalDecision": {
+        "vocabId": "VOC_088",
+        "word": "Leer",
+        "categoryId": "CAT_016",
+        "originalId": "23479",
+        "decision": "PRINCIPAL",
+        "candidateId": 7141,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 7141,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 7141,
+        "keywords": [
+          "leer"
+        ],
+        "officialMeanings": [
+          "tr. Pasar la vista por lo escrito o impreso comprendiendo la significación de los caracteres empleados."
+        ],
+        "api": "evidence/31e4fa6da42a602fe7d955ef.json",
+        "imageResponse": "evidence/8a85faa50b860aaa7fafd04d.json",
+        "png": "images/8a85faa50b860aaa7fafd04d.png",
+        "pngSha256": "4670f65ed8c0e560f60237578e2b35b6493916776baca65258ab9b6fe6595038"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_089",
+      "word": "Escribir",
+      "categoryId": "CAT_016",
+      "category": "Escuela y aprendizaje",
+      "originalDecision": {
+        "vocabId": "VOC_089",
+        "word": "Escribir",
+        "categoryId": "CAT_016",
+        "originalId": "18147",
+        "decision": "PRINCIPAL",
+        "candidateId": 2380,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2380,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2380,
+        "keywords": [
+          "escribir",
+          "escritura"
+        ],
+        "officialMeanings": [
+          "tr. e intr. Representar conceptos o ideas mediante letras o signos convencionales.",
+          "f. Acción y efecto de escribir."
+        ],
+        "api": "evidence/c69f1ae87b816f0bda8e945f.json",
+        "imageResponse": "evidence/eb9133aa61d2f8a547062d3a.json",
+        "png": "images/eb9133aa61d2f8a547062d3a.png",
+        "pngSha256": "6fbf61c35773a3e0c878a448e469fa417cf827fc0e977f974d6b2b474851a68b"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_090",
+      "word": "Pintar",
+      "categoryId": "CAT_016",
+      "category": "Escuela y aprendizaje",
+      "originalDecision": {
+        "vocabId": "VOC_090",
+        "word": "Pintar",
+        "categoryId": "CAT_016",
+        "originalId": "17002",
+        "decision": "PRINCIPAL",
+        "candidateId": 5574,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 5574,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 5574,
+        "keywords": [
+          "pintar"
+        ],
+        "officialMeanings": [
+          "tr. Representar o figurar un objeto en una superficie, con las líneas y los colores convenientes."
+        ],
+        "api": "evidence/70d7fb532bafb1fd958de43b.json",
+        "imageResponse": "evidence/a9e8751114a9001823140c03.json",
+        "png": "images/a9e8751114a9001823140c03.png",
+        "pngSha256": "2e178bc18501751d38f10e3a30caad89451118c13ecb11bf539b9bcd6058880c"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_091",
+      "word": "Hambre",
+      "categoryId": "CAT_004",
+      "category": "Necesidades",
+      "originalDecision": {
+        "vocabId": "VOC_091",
+        "word": "Hambre",
+        "categoryId": "CAT_004",
+        "originalId": "46036",
+        "decision": "PRINCIPAL",
+        "candidateId": 35559,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 35559,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 35559,
+        "keywords": [
+          "hambre"
+        ],
+        "officialMeanings": [
+          "f. Sensación que indica la necesidad de alimentos."
+        ],
+        "api": "evidence/46da355f38e3efddb671d1c2.json",
+        "imageResponse": "evidence/0ae67349e5e6a519e13c3273.json",
+        "png": "images/0ae67349e5e6a519e13c3273.png",
+        "pngSha256": "a95ca78dac42b4c536ff06025e572964f8551191da14fcc8b2ae77483f497a29"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_092",
+      "word": "Sed",
+      "categoryId": "CAT_004",
+      "category": "Necesidades",
+      "originalDecision": {
+        "vocabId": "VOC_092",
+        "word": "Sed",
+        "categoryId": "CAT_004",
+        "originalId": "46042",
+        "decision": "PRINCIPAL",
+        "candidateId": 7273,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 7273,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 7273,
+        "keywords": [
+          "sediento",
+          "tener sed",
+          "sed"
+        ],
+        "officialMeanings": [
+          "adj. Que tiene sed.",
+          "Gana y necesidad de beber.",
+          "f. Gana y necesidad de beber."
+        ],
+        "api": "evidence/8c46332bce6f309617e6fd41.json",
+        "imageResponse": "evidence/c534c662d4921b15b79c1846.json",
+        "png": "images/c534c662d4921b15b79c1846.png",
+        "pngSha256": "4d263021203d3df418816af3fd3abe7603f0b121913d50ffa4421040cdf04bc7"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_093",
+      "word": "Tranquilo",
+      "categoryId": "CAT_006",
+      "category": "Emociones y estados",
+      "originalDecision": {
+        "vocabId": "VOC_093",
+        "word": "Tranquilo",
+        "categoryId": "CAT_006",
+        "originalId": "23380",
+        "decision": "PRINCIPAL",
+        "candidateId": 31310,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 31310,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 31310,
+        "keywords": [
+          "tranquilo",
+          "tranquila"
+        ],
+        "officialMeanings": [
+          "adj. Quieto, sosegado, pacífico.",
+          "adj. Quieta, sosegada, pacífica."
+        ],
+        "api": "evidence/fe142e709802534c2fee35db.json",
+        "imageResponse": "evidence/781cee1767cd9f07f99bbd3c.json",
+        "png": "images/781cee1767cd9f07f99bbd3c.png",
+        "pngSha256": "67782c06a485d8bb4bbcc53e2abc326ecf9220b53bc8841e3d0f3ef17d30f641"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_094",
+      "word": "Nervioso",
+      "categoryId": "CAT_006",
+      "category": "Emociones y estados",
+      "originalDecision": {
+        "vocabId": "VOC_094",
+        "word": "Nervioso",
+        "categoryId": "CAT_006",
+        "originalId": "22945",
+        "decision": "PRINCIPAL",
+        "candidateId": 30391,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 30391,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 30391,
+        "keywords": [
+          "nervioso",
+          "nerviosa"
+        ],
+        "officialMeanings": [
+          "adj. Que tiene nervios."
+        ],
+        "api": "evidence/56884054d66d33f35613afd7.json",
+        "imageResponse": "evidence/2855673e3b06ebdd93e869f5.json",
+        "png": "images/2855673e3b06ebdd93e869f5.png",
+        "pngSha256": "fed434bef35fdeb0b32a99751080cd8d8f2491a5cc7e43309f63c04e72e60b0b"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_095",
+      "word": "Aburrido",
+      "categoryId": "CAT_006",
+      "category": "Emociones y estados",
+      "originalDecision": {
+        "vocabId": "VOC_095",
+        "word": "Aburrido",
+        "categoryId": "CAT_006",
+        "originalId": "23511",
+        "decision": "PRINCIPAL",
+        "candidateId": 35531,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 35531,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 35531,
+        "keywords": [
+          "aburrido",
+          "aburrida"
+        ],
+        "officialMeanings": [
+          "adj. Incapaz de divertir o divertirse. También s.: eres una aburrida."
+        ],
+        "api": "evidence/8fb19166bdca78356e9103e4.json",
+        "imageResponse": "evidence/8fc13df16b7e62fa4b9d38be.json",
+        "png": "images/8fc13df16b7e62fa4b9d38be.png",
+        "pngSha256": "7e74e5798b7d417c810cd934f3450e007884a1761a8560054149d57d2c45eabf"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_096",
+      "word": "Enfermo",
+      "categoryId": "CAT_011",
+      "category": "Cuerpo y salud",
+      "originalDecision": {
+        "vocabId": "VOC_096",
+        "word": "Enfermo",
+        "categoryId": "CAT_011",
+        "originalId": "23787",
+        "decision": "PRINCIPAL",
+        "candidateId": 7040,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 7040,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 7040,
+        "keywords": [
+          "enfermo",
+          "enferma",
+          "enfermar"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/00ed7d4b99649a579b3926ad.json",
+        "imageResponse": "evidence/894dcb388d3b2c5db0d34fdf.json",
+        "png": "images/894dcb388d3b2c5db0d34fdf.png",
+        "pngSha256": "44baad7d2a0a5eb994ec7c1bb80f2162b4cb66230eb27ef369939825296e3b8e"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_097",
+      "word": "Ruido",
+      "categoryId": "CAT_017",
+      "category": "Sensaciones y regulación sensorial",
+      "originalDecision": {
+        "vocabId": "VOC_097",
+        "word": "Ruido",
+        "categoryId": "CAT_017",
+        "originalId": "",
+        "decision": "ALTERNATIVO",
+        "candidateId": 7157,
+        "note": "escuchar ruido",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PENDIENTE",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": 7157,
+      "reason": "7157 muestra una persona tapándose los oídos con expresión de malestar. La respuesta oficial incluye «me molesta el ruido» y la definición «Expresión utilizada cuando se quiere advertir a alguien de que el sonido ambiental le perturba». No confirma una representación neutral sin malestar. La autorización condicional para conservarlo no queda satisfecha. No se elige otro ID ni se autoriza SOLO_TEXTO por cuenta del agente.",
+      "evidenceForOriginalSelection": {
+        "id": 7157,
+        "keywords": [
+          "ruidoso",
+          "me molesta el ruido",
+          "molestar",
+          "molesto",
+          "ruidosa",
+          "molesta"
+        ],
+        "officialMeanings": [
+          "adj. Que causa mucho ruido: es una lavadora muy ruidosa.",
+          "Expresión utilizada cuando se quiere advertir a alguien de que el sonido ambiental le perturba",
+          "tr. Causar molestia. U. t. c. prnl.",
+          "adj. Que causa molestia."
+        ],
+        "api": "evidence/22375cd29c622151aa647e0f.json",
+        "imageResponse": "evidence/1dffb2fb48936e7efa339548.json",
+        "png": "images/1dffb2fb48936e7efa339548.png",
+        "pngSha256": "80c2803070fbb29ffebf4c14e7360430056fe62ebf0635d78293abbac5a536bf"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_098",
+      "word": "Silencio",
+      "categoryId": "CAT_017",
+      "category": "Sensaciones y regulación sensorial",
+      "originalDecision": {
+        "vocabId": "VOC_098",
+        "word": "Silencio",
+        "categoryId": "CAT_017",
+        "originalId": "17092",
+        "decision": "PRINCIPAL",
+        "candidateId": 6071,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6071,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6071,
+        "keywords": [
+          "silencio",
+          "callar",
+          "silenciar",
+          "pedir silencio"
+        ],
+        "officialMeanings": [
+          "m. Abstención de hablar: guarda silencio.",
+          "Dicho de una persona: No hablar, guardar silencio.",
+          "tr. Hacer callar, reducir al silencio."
+        ],
+        "api": "evidence/39ab88f888457a20ee913f69.json",
+        "imageResponse": "evidence/37db64d85b24201d9acea1eb.json",
+        "png": "images/37db64d85b24201d9acea1eb.png",
+        "pngSha256": "a3dba17f717c2fa5b2cc056d988c65def87ba53a12a83a051eca30b42134d041"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_099",
+      "word": "Fuerte",
+      "categoryId": "CAT_017",
+      "category": "Sensaciones y regulación sensorial",
+      "originalDecision": {
+        "vocabId": "VOC_099",
+        "word": "Fuerte",
+        "categoryId": "CAT_017",
+        "originalId": "",
+        "decision": "ALTERNATIVO",
+        "candidateId": 38216,
+        "note": "De sonido fuerto",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "ALTERNATIVO",
+      "effectiveCandidateId": 38216,
+      "heldOriginalCandidateId": null,
+      "reason": "La nota «De sonido fuerto» y el encargo explicitan intensidad del sonido. El icono 38216 tiene varias ondas y metadato botón de subir volumen: se conserva la etiqueta Fuerte, sin convertirlo en control de volumen ni fuerza muscular.",
+      "evidenceForOriginalSelection": {
+        "id": 38216,
+        "keywords": [
+          "botón de subida de volumen",
+          "botón de subir volumen"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/2975039c623149b01437ba3f.json",
+        "imageResponse": "evidence/4b49e9d8c548e24725f7f44b.json",
+        "png": "images/4b49e9d8c548e24725f7f44b.png",
+        "pngSha256": "823e32a2c1ef5b3e8926b4b640ec914172bf885487c4aaba9080678b6c7092c5"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_100",
+      "word": "Suave",
+      "categoryId": "CAT_017",
+      "category": "Sensaciones y regulación sensorial",
+      "originalDecision": {
+        "vocabId": "VOC_100",
+        "word": "Suave",
+        "categoryId": "CAT_017",
+        "originalId": "",
+        "decision": "ALTERNATIVO",
+        "candidateId": 38215,
+        "note": "sonido suave",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "ALTERNATIVO",
+      "effectiveCandidateId": 38215,
+      "heldOriginalCandidateId": null,
+      "reason": "La nota «sonido suave» explicita intensidad baja. 38215 tiene una onda y metadato botón de bajar volumen: se conserva Suave, sin convertirlo en control de volumen, textura o silencio.",
+      "evidenceForOriginalSelection": {
+        "id": 38215,
+        "keywords": [
+          "botón de bajada de volumen",
+          "botón de bajar volumen"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/0e0a69d1dcd9f14db2ab5df3.json",
+        "imageResponse": "evidence/4935e703529c29ac3be08b0a.json",
+        "png": "images/4935e703529c29ac3be08b0a.png",
+        "pngSha256": "6db1010748568f94252a1ee45594255beb7ef91ebfd0a3ba673a830bcfa282a1"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_101",
+      "word": "Luz",
+      "categoryId": "CAT_017",
+      "category": "Sensaciones y regulación sensorial",
+      "originalDecision": {
+        "vocabId": "VOC_101",
+        "word": "Luz",
+        "categoryId": "CAT_017",
+        "originalId": "",
+        "decision": "PRINCIPAL",
+        "candidateId": 8619,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 8619,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 8619,
+        "keywords": [
+          "luz"
+        ],
+        "officialMeanings": [
+          "Corriente eléctrica: han cortado la luz."
+        ],
+        "api": "evidence/8ccbf96346df5d71eca57bc3.json",
+        "imageResponse": "evidence/3b9ba3d97e08b9110b8c1932.json",
+        "png": "images/3b9ba3d97e08b9110b8c1932.png",
+        "pngSha256": "9eb90f7a74f5390b8f30fa0fdd497b1612374a92cbeb28397d11e53f73859f1e"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_102",
+      "word": "Oscuro",
+      "categoryId": "CAT_017",
+      "category": "Sensaciones y regulación sensorial",
+      "originalDecision": {
+        "vocabId": "VOC_102",
+        "word": "Oscuro",
+        "categoryId": "CAT_017",
+        "originalId": "21210",
+        "decision": "PRINCIPAL",
+        "candidateId": 8643,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 8643,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 8643,
+        "keywords": [
+          "oscuridad"
+        ],
+        "officialMeanings": [
+          "f. Falta de luz para percibir las cosas."
+        ],
+        "api": "evidence/545d58510b8659abd233202a.json",
+        "imageResponse": "evidence/e8bda03f1bc7afd77fe7048c.json",
+        "png": "images/e8bda03f1bc7afd77fe7048c.png",
+        "pngSha256": "ea1ea80a0e292b4dfdc4511c3c4aed8804f757d062d4269347b9114e4c3531ab"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_103",
+      "word": "Patio",
+      "categoryId": "CAT_005",
+      "category": "Lugares",
+      "originalDecision": {
+        "vocabId": "VOC_103",
+        "word": "Patio",
+        "categoryId": "CAT_005",
+        "originalId": "",
+        "decision": "PRINCIPAL",
+        "candidateId": 33064,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 33064,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 33064,
+        "keywords": [
+          "recreo",
+          "patio"
+        ],
+        "officialMeanings": [
+          "Sitio o lugar apto para la diversión.",
+          "Sitio o lugar apto para la diversión en el momento de recreo en las escuelas."
+        ],
+        "api": "evidence/78e2987043044fd9f3b21ca8.json",
+        "imageResponse": "evidence/54beb66ab7362984dcc7db1b.json",
+        "png": "images/54beb66ab7362984dcc7db1b.png",
+        "pngSha256": "a4c9f83db02f02061fe1187e803b9407110c15ab78041c936eb4ed001498f40f"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_104",
+      "word": "Comedor",
+      "categoryId": "CAT_005",
+      "category": "Lugares",
+      "originalDecision": {
+        "vocabId": "VOC_104",
+        "word": "Comedor",
+        "categoryId": "CAT_005",
+        "originalId": "17126",
+        "decision": "PRINCIPAL",
+        "candidateId": 9824,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 9824,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 9824,
+        "keywords": [
+          "comedor"
+        ],
+        "officialMeanings": [
+          "Lugar donde se sirven comidas."
+        ],
+        "api": "evidence/0333447ffe7422819fc25789.json",
+        "imageResponse": "evidence/42123da185306e1a7169bd63.json",
+        "png": "images/42123da185306e1a7169bd63.png",
+        "pngSha256": "bdcbffdd462e274ed23beca17408ed676110d4ec7341f5e9955e1d9ff72c4857"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_105",
+      "word": "Dormitorio",
+      "categoryId": "CAT_005",
+      "category": "Lugares",
+      "originalDecision": {
+        "vocabId": "VOC_105",
+        "word": "Dormitorio",
+        "categoryId": "CAT_005",
+        "originalId": "17144",
+        "decision": "ALTERNATIVO",
+        "candidateId": 15732,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "ALTERNATIVO",
+      "effectiveCandidateId": 15732,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 15732,
+        "keywords": [
+          "dormitorio"
+        ],
+        "officialMeanings": [
+          "m. Habitación para dormir."
+        ],
+        "api": "evidence/86354248e1566527ceb9f2fd.json",
+        "imageResponse": "evidence/800f0c32db93f5bcbcee8343.json",
+        "png": "images/800f0c32db93f5bcbcee8343.png",
+        "pngSha256": "c84f41188e4b1637ca184f2e208c622e74a4b2597efbbcf0ba1d220f7df01d1b"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_106",
+      "word": "Lápiz",
+      "categoryId": "CAT_016",
+      "category": "Escuela y aprendizaje",
+      "originalDecision": {
+        "vocabId": "VOC_106",
+        "word": "Lápiz",
+        "categoryId": "CAT_016",
+        "originalId": "15509",
+        "decision": "PRINCIPAL",
+        "candidateId": 2440,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2440,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2440,
+        "keywords": [
+          "lápiz",
+          "lapicero"
+        ],
+        "officialMeanings": [
+          "Barra de grafito encerrada en un cilindro o prisma de madera o metal que sirve para escribir o dibujar.",
+          "m.  Barra de grafito encerrada en un cilindro o prisma de madera o metal que sirve para escribir o dibujar."
+        ],
+        "api": "evidence/f090b6825f361c59af6771a3.json",
+        "imageResponse": "evidence/3d2c26d199e9294c100f827d.json",
+        "png": "images/3d2c26d199e9294c100f827d.png",
+        "pngSha256": "25dbcffeadd2693b50a9fe469cf5dad1986f8954ee578ef3984cd39987c1dc02"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_107",
+      "word": "Cuaderno",
+      "categoryId": "CAT_016",
+      "category": "Escuela y aprendizaje",
+      "originalDecision": {
+        "vocabId": "VOC_107",
+        "word": "Cuaderno",
+        "categoryId": "CAT_016",
+        "originalId": "15430",
+        "decision": "PRINCIPAL",
+        "candidateId": 2359,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2359,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2359,
+        "keywords": [
+          "cuaderno"
+        ],
+        "officialMeanings": [
+          "Especie de libro formado por hojas de papel en el que se registra todo tipo de información relacionada con una determinada actividad."
+        ],
+        "api": "evidence/ec7a57d1976d77f7afa31824.json",
+        "imageResponse": "evidence/bc5ab095bf809c51388dcb4f.json",
+        "png": "images/bc5ab095bf809c51388dcb4f.png",
+        "pngSha256": "febaf06ef4d6bbba4b305bcebcb4f9cf3f6da35545a05c81abae95bf8e182693"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_108",
+      "word": "Mochila",
+      "categoryId": "CAT_016",
+      "category": "Escuela y aprendizaje",
+      "originalDecision": {
+        "vocabId": "VOC_108",
+        "word": "Mochila",
+        "categoryId": "CAT_016",
+        "originalId": "16580",
+        "decision": "PRINCIPAL",
+        "candidateId": 2475,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2475,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2475,
+        "keywords": [
+          "mochila"
+        ],
+        "officialMeanings": [
+          "f. Saco o bolsa que se sujeta a la espalda por medio de correas y sirve para transportar diversos artículos personales"
+        ],
+        "api": "evidence/14d672f80e2bae316f97a536.json",
+        "imageResponse": "evidence/14069eff2bdbce6f8e00add6.json",
+        "png": "images/14069eff2bdbce6f8e00add6.png",
+        "pngSha256": "cfeeadefb151923702833ae7c45e7a40f44b883ec21145ddfe2e05b9c2ddfd01"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_109",
+      "word": "Tarea",
+      "categoryId": "CAT_016",
+      "category": "Escuela y aprendizaje",
+      "originalDecision": {
+        "vocabId": "VOC_109",
+        "word": "Tarea",
+        "categoryId": "CAT_016",
+        "originalId": "",
+        "decision": "PRINCIPAL",
+        "candidateId": 11228,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 11228,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 11228,
+        "keywords": [
+          "deberes"
+        ],
+        "officialMeanings": [
+          "m. pl. Ejercicios que, como complemento de lo aprendido en clase, se encarga, para hacerlo fuera de ella, al alumno de los primeros grados de enseñanza."
+        ],
+        "api": "evidence/14c9065ddab61ee93bad637c.json",
+        "imageResponse": "evidence/b7085a01bf7abcb4a7335685.json",
+        "png": "images/b7085a01bf7abcb4a7335685.png",
+        "pngSha256": "aa5a3c025e0f881cf035e7b752e97e4b237c6ce640d368f654570b6ac162afb7"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_110",
+      "word": "Galleta",
+      "categoryId": "CAT_003",
+      "category": "Comida y bebida",
+      "originalDecision": {
+        "vocabId": "VOC_110",
+        "word": "Galleta",
+        "categoryId": "CAT_003",
+        "originalId": "18332",
+        "decision": "PRINCIPAL",
+        "candidateId": 8312,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 8312,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 8312,
+        "keywords": [
+          "galleta"
+        ],
+        "officialMeanings": [
+          "f. Pasta de harina, azúcar y huevo que se divide en trozos de diversas formas y se cuece al horno."
+        ],
+        "api": "evidence/532596f20ecf4f011478958f.json",
+        "imageResponse": "evidence/47e2ef663e012ef07e8ef2e3.json",
+        "png": "images/47e2ef663e012ef07e8ef2e3.png",
+        "pngSha256": "fb5b7ae53d9edd5115824fccdd574a2ccad913f8a9d9b1a51951901e781cc76c"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_111",
+      "word": "Manzana",
+      "categoryId": "CAT_003",
+      "category": "Comida y bebida",
+      "originalDecision": {
+        "vocabId": "VOC_111",
+        "word": "Manzana",
+        "categoryId": "CAT_003",
+        "originalId": "15194",
+        "decision": "PRINCIPAL",
+        "candidateId": 2462,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2462,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2462,
+        "keywords": [
+          "manzana"
+        ],
+        "officialMeanings": [
+          "f. Fruto redondo, de piel fina, de carne blanca y con unas semillas pequeñas en el centro, que produce el manzano."
+        ],
+        "api": "evidence/e6874a8f0a9fbd58a329058b.json",
+        "imageResponse": "evidence/7b47a62275378fcf787e00eb.json",
+        "png": "images/7b47a62275378fcf787e00eb.png",
+        "pngSha256": "508fea1ab93ce40a71d947c15df259233a2d8d62ea81492bb8ed013256239c4e"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_112",
+      "word": "Plátano",
+      "categoryId": "CAT_003",
+      "category": "Comida y bebida",
+      "originalDecision": {
+        "vocabId": "VOC_112",
+        "word": "Plátano",
+        "categoryId": "CAT_003",
+        "originalId": "15591",
+        "decision": "PRINCIPAL",
+        "candidateId": 2530,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2530,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2530,
+        "keywords": [
+          "plátano"
+        ],
+        "officialMeanings": [
+          "Fruto de esta planta, alargado y de color amarillo, que también se conoce con el nombre de banana."
+        ],
+        "api": "evidence/7cc32c0750d30867f7ebff46.json",
+        "imageResponse": "evidence/0eee6311e3b11b88896451c3.json",
+        "png": "images/0eee6311e3b11b88896451c3.png",
+        "pngSha256": "62020a6349b2fbd47a59927db90450bfe27d7d7844f161b92b905a647c55ad8c"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_113",
+      "word": "Sopa",
+      "categoryId": "CAT_003",
+      "category": "Comida y bebida",
+      "originalDecision": {
+        "vocabId": "VOC_113",
+        "word": "Sopa",
+        "categoryId": "CAT_003",
+        "originalId": "15633",
+        "decision": "PRINCIPAL",
+        "candidateId": 2573,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2573,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2573,
+        "keywords": [
+          "sopa"
+        ],
+        "officialMeanings": [
+          "f. Plato compuesto de caldo e ingredientes como verduras, pasta, arroz, etc., cocidos en este caldo."
+        ],
+        "api": "evidence/25adf9af4f798a8b195b1685.json",
+        "imageResponse": "evidence/95292258ed2bef3361a97429.json",
+        "png": "images/95292258ed2bef3361a97429.png",
+        "pngSha256": "d125e7cc95f6a23fc9f1f3e57bf2e3034081dfdc3141da254231fc01cb472f2a"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_114",
+      "word": "Ojos",
+      "categoryId": "CAT_011",
+      "category": "Cuerpo y salud",
+      "originalDecision": {
+        "vocabId": "VOC_114",
+        "word": "Ojos",
+        "categoryId": "CAT_011",
+        "originalId": "17473",
+        "decision": "PRINCIPAL",
+        "candidateId": 2876,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2876,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2876,
+        "keywords": [
+          "ojos"
+        ],
+        "officialMeanings": [
+          "m. Órganos de la vista"
+        ],
+        "api": "evidence/9a2400ad4b7dac22f68a5800.json",
+        "imageResponse": "evidence/3797d4a266da917a7ab4c3db.json",
+        "png": "images/3797d4a266da917a7ab4c3db.png",
+        "pngSha256": "54d929041fa3c1c22066ec5db309bb2ede243e57822cfb21a3e7347f34d9f432"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_115",
+      "word": "Boca",
+      "categoryId": "CAT_011",
+      "category": "Cuerpo y salud",
+      "originalDecision": {
+        "vocabId": "VOC_115",
+        "word": "Boca",
+        "categoryId": "CAT_011",
+        "originalId": "15722",
+        "decision": "PRINCIPAL",
+        "candidateId": 2663,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2663,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2663,
+        "keywords": [
+          "boca"
+        ],
+        "officialMeanings": [
+          "f. Orificio del aparato digestivo de los animales, destinado a la recepción del alimento."
+        ],
+        "api": "evidence/285e95cfa620d37ac2a9e217.json",
+        "imageResponse": "evidence/25ce9701aa813e675f01df51.json",
+        "png": "images/25ce9701aa813e675f01df51.png",
+        "pngSha256": "5322b91ada032d434a0aa90e6b22c70512cd8a500ce09c1fbb4fa31513e068fa"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_116",
+      "word": "Oídos",
+      "categoryId": "CAT_011",
+      "category": "Cuerpo y salud",
+      "originalDecision": {
+        "vocabId": "VOC_116",
+        "word": "Oídos",
+        "categoryId": "CAT_011",
+        "originalId": "15907",
+        "decision": "PRINCIPAL",
+        "candidateId": 39498,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 39498,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 39498,
+        "keywords": [
+          "oído"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/3cac20d1bda2c80cf9c09713.json",
+        "imageResponse": "evidence/9c81a6a7c2a3c2038c6a0875.json",
+        "png": "images/9c81a6a7c2a3c2038c6a0875.png",
+        "pngSha256": "637559ff2505ef6fe12e4029990a02f0e524a858507119eb7ed10f705508a70f"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_117",
+      "word": "Brazo",
+      "categoryId": "CAT_011",
+      "category": "Cuerpo y salud",
+      "originalDecision": {
+        "vocabId": "VOC_117",
+        "word": "Brazo",
+        "categoryId": "CAT_011",
+        "originalId": "15728",
+        "decision": "PRINCIPAL",
+        "candidateId": 2669,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2669,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2669,
+        "keywords": [
+          "brazo"
+        ],
+        "officialMeanings": [
+          "m. Miembro superior del cuerpo humano que va desde el hombro a la mano."
+        ],
+        "api": "evidence/394170aa3e514f7ce720b107.json",
+        "imageResponse": "evidence/f5843a03474b93b141068447.json",
+        "png": "images/f5843a03474b93b141068447.png",
+        "pngSha256": "695e3565ce7d5a6aca88ddb7d37ac46091750d07c040b6a1ef23ae2dfce8859b"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_118",
+      "word": "Pierna",
+      "categoryId": "CAT_011",
+      "category": "Cuerpo y salud",
+      "originalDecision": {
+        "vocabId": "VOC_118",
+        "word": "Pierna",
+        "categoryId": "CAT_011",
+        "originalId": "18585",
+        "decision": "PRINCIPAL",
+        "candidateId": 8666,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 8666,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 8666,
+        "keywords": [
+          "pierna"
+        ],
+        "officialMeanings": [
+          "f. En las personas, parte del miembro inferior comprendida entre la rodilla y el pie."
+        ],
+        "api": "evidence/32d430c1c38fb3ead85a1cbf.json",
+        "imageResponse": "evidence/2a4056f0c7324d1b71e373a7.json",
+        "png": "images/2a4056f0c7324d1b71e373a7.png",
+        "pngSha256": "a5033ddd33bd92fcd8ef39fb22aff915e84052222fbf7b3b20491649af868acf"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_119",
+      "word": "Hermano",
+      "categoryId": "CAT_001",
+      "category": "Personas y pronombres",
+      "originalDecision": {
+        "vocabId": "VOC_119",
+        "word": "Hermano",
+        "categoryId": "CAT_001",
+        "originalId": "15492",
+        "decision": "PRINCIPAL",
+        "candidateId": 2423,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2423,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2423,
+        "keywords": [
+          "hermano"
+        ],
+        "officialMeanings": [
+          "m. y f. Persona nacida de los mismos padres respecto a otra, o solamente el mismo padre o la misma madre."
+        ],
+        "api": "evidence/f863039ed4349941c4429706.json",
+        "imageResponse": "evidence/2786319e6fe0b16002d86197.json",
+        "png": "images/2786319e6fe0b16002d86197.png",
+        "pngSha256": "3668f61661f40ae6ffcd49748b419778a4e314ed41943d93e239b76a3290b207"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_120",
+      "word": "Hermana",
+      "categoryId": "CAT_001",
+      "category": "Personas y pronombres",
+      "originalDecision": {
+        "vocabId": "VOC_120",
+        "word": "Hermana",
+        "categoryId": "CAT_001",
+        "originalId": "15491",
+        "decision": "PRINCIPAL",
+        "candidateId": 2422,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 2422,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 2422,
+        "keywords": [
+          "hermana"
+        ],
+        "officialMeanings": [
+          "m. y f. Persona nacida de los mismos padres respecto a otra, o solamente el mismo padre o la misma madre."
+        ],
+        "api": "evidence/80dfab63386b76aef7deba73.json",
+        "imageResponse": "evidence/91411a4e6a5b8fd5e6620c6e.json",
+        "png": "images/91411a4e6a5b8fd5e6620c6e.png",
+        "pngSha256": "99b92f89a483fa3ea8b7a5bdd177e5c04d323f5f096a6b327ee380cab34dc03d"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_121",
+      "word": "Amigo",
+      "categoryId": "CAT_001",
+      "category": "Personas y pronombres",
+      "originalDecision": {
+        "vocabId": "VOC_121",
+        "word": "Amigo",
+        "categoryId": "CAT_001",
+        "originalId": "18412",
+        "decision": "PRINCIPAL",
+        "candidateId": 8487,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 8487,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 8487,
+        "keywords": [
+          "amigo"
+        ],
+        "officialMeanings": [
+          "adj. Que tiene amistad. U. t. c. s. U. como tratamiento afectuoso, aunque no haya verdadera amistad."
+        ],
+        "api": "evidence/237114f57fcb3faa45a54eba.json",
+        "imageResponse": "evidence/61d7ca15eb8fc7954bb1c76e.json",
+        "png": "images/61d7ca15eb8fc7954bb1c76e.png",
+        "pngSha256": "fc1146b0f3143c70745849911bda15491b87bb024f43c9667a15b23c373903b2"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_122",
+      "word": "Amiga",
+      "categoryId": "CAT_001",
+      "category": "Personas y pronombres",
+      "originalDecision": {
+        "vocabId": "VOC_122",
+        "word": "Amiga",
+        "categoryId": "CAT_001",
+        "originalId": "18411",
+        "decision": "PRINCIPAL",
+        "candidateId": 8486,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 8486,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 8486,
+        "keywords": [
+          "amiga"
+        ],
+        "officialMeanings": [
+          "U. t. c. s. U. Que tiene amistad. Como tratamiento afectuoso, aunque no haya verdadera amistad."
+        ],
+        "api": "evidence/56f08981c451c9f6d32c6883.json",
+        "imageResponse": "evidence/15e08938b3ceffdb489280fd.json",
+        "png": "images/15e08938b3ceffdb489280fd.png",
+        "pngSha256": "514c0d2a128fd55edd9daab1b241a45f7b5c43c710fcf56a312740e8bac396e6"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_123",
+      "word": "Perdón",
+      "categoryId": "CAT_007",
+      "category": "Social",
+      "originalDecision": {
+        "vocabId": "VOC_123",
+        "word": "Perdón",
+        "categoryId": "CAT_007",
+        "originalId": "",
+        "decision": "PRINCIPAL",
+        "candidateId": 11625,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 11625,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 11625,
+        "keywords": [
+          "lo siento",
+          "perdonar",
+          "¡lo siento!",
+          "¡perdón!",
+          "perdón",
+          "pedir perdón"
+        ],
+        "officialMeanings": [
+          "Se utiliza para admitir la culpa propia.",
+          "tr. Dicho de quien ha sido perjudicado por ello: Remitir la deuda, ofensa, falta, delito u otra cosa.",
+          "Expresión utilizada por una persona para pedir disculpas a su interlocutor por alguna acción que le ha perjudicado"
+        ],
+        "api": "evidence/7556629af1ea0c8bb2943908.json",
+        "imageResponse": "evidence/37aa36f547e212b6f0fff2f7.json",
+        "png": "images/37aa36f547e212b6f0fff2f7.png",
+        "pngSha256": "cad9ce2e918cabcefe3485f022ba0b97aafce6ca5a7a7bcc5e9f702a1a7dbd81"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_124",
+      "word": "Buenos días",
+      "categoryId": "CAT_007",
+      "category": "Social",
+      "originalDecision": {
+        "vocabId": "VOC_124",
+        "word": "Buenos días",
+        "categoryId": "CAT_007",
+        "originalId": "90235",
+        "decision": "PRINCIPAL",
+        "candidateId": 6944,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6944,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6944,
+        "keywords": [
+          "buenos días"
+        ],
+        "officialMeanings": [
+          "Saludo. Expresión de cortesía utilizada en el encuentro entre personas por la mañana."
+        ],
+        "api": "evidence/6d4c48996ff607d3413f5853.json",
+        "imageResponse": "evidence/d8cd710d06202357b6c360ec.json",
+        "png": "images/d8cd710d06202357b6c360ec.png",
+        "pngSha256": "42e806ba6937f9631372facf0c9860b6c2901cd6282b3efc8ab3502647ca92bd"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_125",
+      "word": "Buenas tardes",
+      "categoryId": "CAT_007",
+      "category": "Social",
+      "originalDecision": {
+        "vocabId": "VOC_125",
+        "word": "Buenas tardes",
+        "categoryId": "CAT_007",
+        "originalId": "17626",
+        "decision": "PRINCIPAL",
+        "candidateId": 6943,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 6943,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 6943,
+        "keywords": [
+          "buenas tardes"
+        ],
+        "officialMeanings": [
+          "Expresión de cortesía utilizada en la tarde."
+        ],
+        "api": "evidence/3152035e7254b2daf851b498.json",
+        "imageResponse": "evidence/d1490afffd45f64638ca097b.json",
+        "png": "images/d1490afffd45f64638ca097b.png",
+        "pngSha256": "bc1b70a1b6e47b33a9c2df75a7b1be96f064c5d7514f5b4d42b4a76d1cb56465"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_126",
+      "word": "Me",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_126",
+        "word": "Me",
+        "categoryId": "CAT_018",
+        "originalId": "",
+        "decision": "SOLO_TEXTO",
+        "candidateId": null,
+        "note": "",
+        "reviewed": false,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "Se conserva el estado inicial SOLO_TEXTO y su ID nulo.",
+      "evidenceForOriginalSelection": null,
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_127",
+      "word": "Te",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_127",
+        "word": "Te",
+        "categoryId": "CAT_018",
+        "originalId": "",
+        "decision": "SOLO_TEXTO",
+        "candidateId": null,
+        "note": "",
+        "reviewed": false,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "Se conserva el estado inicial SOLO_TEXTO y su ID nulo.",
+      "evidenceForOriginalSelection": null,
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_128",
+      "word": "Está",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_128",
+        "word": "Está",
+        "categoryId": "CAT_002",
+        "originalId": "",
+        "decision": "SOLO_TEXTO",
+        "candidateId": null,
+        "note": "",
+        "reviewed": false,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "Se conserva el estado inicial SOLO_TEXTO y su ID nulo.",
+      "evidenceForOriginalSelection": null,
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_129",
+      "word": "Es",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_129",
+        "word": "Es",
+        "categoryId": "CAT_002",
+        "originalId": "",
+        "decision": "SOLO_TEXTO",
+        "candidateId": null,
+        "note": "",
+        "reviewed": false,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "SOLO_TEXTO",
+      "effectiveCandidateId": null,
+      "heldOriginalCandidateId": null,
+      "reason": "Se conserva el estado inicial SOLO_TEXTO y su ID nulo.",
+      "evidenceForOriginalSelection": null,
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_130",
+      "word": "Quieres",
+      "categoryId": "CAT_002",
+      "category": "Acciones",
+      "originalDecision": {
+        "vocabId": "VOC_130",
+        "word": "Quieres",
+        "categoryId": "CAT_002",
+        "originalId": "46605",
+        "decision": "ALTERNATIVO",
+        "candidateId": 5441,
+        "note": "de querer algo, un objeto",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "ALTERNATIVO",
+      "effectiveCandidateId": 5441,
+      "heldOriginalCandidateId": null,
+      "reason": "La nota refiere al deseo de un objeto, no afecto. 5441 figura como querer/desear/pedir/yo quiero; para Quieres se conserva la etiqueta dirigida al interlocutor, sin atribuir al dibujo por sí solo persona gramatical o interrogación.",
+      "evidenceForOriginalSelection": {
+        "id": 5441,
+        "keywords": [
+          "querer",
+          "desear",
+          "pedir",
+          "yo quiero"
+        ],
+        "officialMeanings": [
+          "tr. Desear, apetecer.",
+          "tr. Querer o aspirar a algo con vehemencia y anhelo: deseaba un coche descapotable; siempre deseó comprar una casa a sus padres.",
+          "tr. Querer, desear o apetecer."
+        ],
+        "api": "evidence/1c8251ca8023b51d6c60c229.json",
+        "imageResponse": "evidence/2bb4dacd6caa75fb87e14dfe.json",
+        "png": "images/2bb4dacd6caa75fb87e14dfe.png",
+        "pngSha256": "8f2083fa7a4dd65aa8c4e12d56aa20b8966d62ba3ea3f293fee2b6745788714f"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_131",
+      "word": "Entiendo",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_131",
+        "word": "Entiendo",
+        "categoryId": "CAT_018",
+        "originalId": "14832",
+        "decision": "PRINCIPAL",
+        "candidateId": 16659,
+        "note": "",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "PRINCIPAL",
+      "effectiveCandidateId": 16659,
+      "heldOriginalCandidateId": null,
+      "reason": "API y PNG comprobados; imagen y concepto contrastados visualmente. Pendiente de aprobación editorial humana.",
+      "evidenceForOriginalSelection": {
+        "id": 16659,
+        "keywords": [
+          "entender",
+          "comprender",
+          "comprensible",
+          "entendible",
+          "inteligible"
+        ],
+        "officialMeanings": [
+          "tr. Tener idea clara de las cosas",
+          "tr. Entender, alcanzar, penetrar.",
+          "adj. Que se puede comprender.",
+          "adj. Que puede ser entendido."
+        ],
+        "api": "evidence/0c809ff583b28db7dfab84db.json",
+        "imageResponse": "evidence/8a70688d18535207d2de220c.json",
+        "png": "images/8a70688d18535207d2de220c.png",
+        "pngSha256": "46c39c720b99f4a322e5b72b73f94f02616ce55b7842bc0f76e4cd8fede1228e"
+      },
+      "applied": false
+    },
+    {
+      "vocabId": "VOC_132",
+      "word": "Repite",
+      "categoryId": "CAT_018",
+      "category": "Palabras núcleo",
+      "originalDecision": {
+        "vocabId": "VOC_132",
+        "word": "Repite",
+        "categoryId": "CAT_018",
+        "originalId": "14867",
+        "decision": "ALTERNATIVO",
+        "candidateId": 37163,
+        "note": "repetir algo",
+        "reviewed": true,
+        "reconsiderIds": []
+      },
+      "effectiveReviewDecision": "ALTERNATIVO",
+      "effectiveCandidateId": 37163,
+      "heldOriginalCandidateId": null,
+      "reason": "La nota «repetir algo» corresponde a las flechas de nuevo/otra vez de 37163. No se afirma que la imagen por sí sola especifique repetición verbal; se conserva Repite y su función comunicativa textual.",
+      "evidenceForOriginalSelection": {
+        "id": 37163,
+        "keywords": [
+          "de nuevo",
+          "otra vez"
+        ],
+        "officialMeanings": [],
+        "api": "evidence/b62efdf85fcd166bbe23dfae.json",
+        "imageResponse": "evidence/62270f834121127548b60637.json",
+        "png": "images/62270f834121127548b60637.png",
+        "pngSha256": "1d505e4076e69ae0c99021e944e8b950ed0828a3de302022fcffd00e7e873d30"
+      },
+      "applied": false
+    }
+  ]
+}

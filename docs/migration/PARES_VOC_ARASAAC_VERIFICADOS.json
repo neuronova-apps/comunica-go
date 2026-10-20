@@ -1,0 +1,1058 @@
+[
+  {
+    "voc": "VOC_001",
+    "word": "Yo",
+    "category": "CAT_001",
+    "arasaacId": "6632",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_002",
+    "word": "Tú",
+    "category": "CAT_001",
+    "arasaacId": "6625",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_003",
+    "word": "Mamá",
+    "category": "CAT_001",
+    "arasaacId": "2458",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_004",
+    "word": "Papá",
+    "category": "CAT_001",
+    "arasaacId": "31146",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_005",
+    "word": "Profesor",
+    "category": "CAT_001",
+    "arasaacId": "6556",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_006",
+    "word": "Quiero",
+    "category": "CAT_002",
+    "arasaacId": "5441",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_007",
+    "word": "Necesito",
+    "category": "CAT_002",
+    "arasaacId": "37160",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_008",
+    "word": "Comer",
+    "category": "CAT_002",
+    "arasaacId": "6456",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_009",
+    "word": "Beber",
+    "category": "CAT_002",
+    "arasaacId": "6061",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_010",
+    "word": "Ir",
+    "category": "CAT_002",
+    "arasaacId": "8142",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_011",
+    "word": "Jugar",
+    "category": "CAT_002",
+    "arasaacId": "6537",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_012",
+    "word": "Dormir",
+    "category": "CAT_002",
+    "arasaacId": "6479",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_013",
+    "word": "Descansar",
+    "category": "CAT_002",
+    "arasaacId": "16643",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_014",
+    "word": "Ayuda",
+    "category": "CAT_004",
+    "arasaacId": "12252",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_015",
+    "word": "Agua",
+    "category": "CAT_003",
+    "arasaacId": "2248",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_016",
+    "word": "Jugo",
+    "category": "CAT_003",
+    "arasaacId": "11461",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_017",
+    "word": "Leche",
+    "category": "CAT_003",
+    "arasaacId": "2445",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_018",
+    "word": "Pan",
+    "category": "CAT_003",
+    "arasaacId": "2494",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_019",
+    "word": "Arroz",
+    "category": "CAT_003",
+    "arasaacId": "25556",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_020",
+    "word": "Fruta",
+    "category": "CAT_003",
+    "arasaacId": "4653",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_021",
+    "word": "Baño",
+    "category": "CAT_005",
+    "arasaacId": "6929",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "ALTERNATIVO"
+  },
+  {
+    "voc": "VOC_022",
+    "word": "Casa",
+    "category": "CAT_005",
+    "arasaacId": "6964",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_023",
+    "word": "Colegio",
+    "category": "CAT_005",
+    "arasaacId": "3082",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_024",
+    "word": "Aula",
+    "category": "CAT_005",
+    "arasaacId": "9815",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_025",
+    "word": "Parque",
+    "category": "CAT_005",
+    "arasaacId": "2859",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_026",
+    "word": "Feliz",
+    "category": "CAT_006",
+    "arasaacId": "32123",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_027",
+    "word": "Triste",
+    "category": "CAT_006",
+    "arasaacId": "35545",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_028",
+    "word": "Enojado",
+    "category": "CAT_006",
+    "arasaacId": "35539",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_029",
+    "word": "Cansado",
+    "category": "CAT_006",
+    "arasaacId": "35537",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_030",
+    "word": "Asustado",
+    "category": "CAT_006",
+    "arasaacId": "35535",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_031",
+    "word": "Hola",
+    "category": "CAT_007",
+    "arasaacId": "6522",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_032",
+    "word": "Gracias",
+    "category": "CAT_007",
+    "arasaacId": "8129",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_033",
+    "word": "Por favor",
+    "category": "CAT_007",
+    "arasaacId": "8195",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_034",
+    "word": "Adiós",
+    "category": "CAT_007",
+    "arasaacId": "6028",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_035",
+    "word": "Qué",
+    "category": "CAT_008",
+    "arasaacId": "22620",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_036",
+    "word": "Dónde",
+    "category": "CAT_008",
+    "arasaacId": "7764",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_037",
+    "word": "Quién",
+    "category": "CAT_008",
+    "arasaacId": "9853",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_038",
+    "word": "Cómo",
+    "category": "CAT_008",
+    "arasaacId": "22619",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_039",
+    "word": "Grande",
+    "category": "CAT_009",
+    "arasaacId": "4658",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_040",
+    "word": "Pequeño",
+    "category": "CAT_009",
+    "arasaacId": "4716",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_041",
+    "word": "Caliente",
+    "category": "CAT_009",
+    "arasaacId": "26716",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_042",
+    "word": "Frío",
+    "category": "CAT_009",
+    "arasaacId": "26865",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_043",
+    "word": "Pelota",
+    "category": "CAT_010",
+    "arasaacId": "3241",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_044",
+    "word": "Juguete",
+    "category": "CAT_010",
+    "arasaacId": "32568",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_045",
+    "word": "Libro",
+    "category": "CAT_010",
+    "arasaacId": "2450",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_046",
+    "word": "Cabeza",
+    "category": "CAT_011",
+    "arasaacId": "2673",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_047",
+    "word": "Barriga",
+    "category": "CAT_011",
+    "arasaacId": "2786",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_048",
+    "word": "Mano",
+    "category": "CAT_011",
+    "arasaacId": "2928",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_049",
+    "word": "Dolor",
+    "category": "CAT_011",
+    "arasaacId": "30620",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_050",
+    "word": "Ahora",
+    "category": "CAT_012",
+    "arasaacId": "32747",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_051",
+    "word": "Después",
+    "category": "CAT_012",
+    "arasaacId": "32749",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_052",
+    "word": "Primero",
+    "category": "CAT_012",
+    "arasaacId": "37753",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_053",
+    "word": "No",
+    "category": "CAT_013",
+    "arasaacId": "5526",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_054",
+    "word": "Parar",
+    "category": "CAT_013",
+    "arasaacId": "7196",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_055",
+    "word": "Terminar",
+    "category": "CAT_013",
+    "arasaacId": "28429",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_056",
+    "word": "Esperar",
+    "category": "CAT_013",
+    "arasaacId": "36914",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_057",
+    "word": "El",
+    "category": "CAT_014",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_058",
+    "word": "La",
+    "category": "CAT_014",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_059",
+    "word": "Mi",
+    "category": "CAT_014",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_060",
+    "word": "Y",
+    "category": "CAT_014",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_061",
+    "word": "O",
+    "category": "CAT_014",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_062",
+    "word": "Con",
+    "category": "CAT_014",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_063",
+    "word": "Sí",
+    "category": "CAT_018",
+    "arasaacId": "5584",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_064",
+    "word": "Más",
+    "category": "CAT_018",
+    "arasaacId": "5508",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_065",
+    "word": "Otra vez",
+    "category": "CAT_018",
+    "arasaacId": "37163",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_066",
+    "word": "Aquí",
+    "category": "CAT_018",
+    "arasaacId": "5382",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_067",
+    "word": "Allí",
+    "category": "CAT_018",
+    "arasaacId": "5375",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_068",
+    "word": "Esto",
+    "category": "CAT_018",
+    "arasaacId": "7095",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_069",
+    "word": "Me gusta",
+    "category": "CAT_018",
+    "arasaacId": "37721",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_070",
+    "word": "No me gusta",
+    "category": "CAT_018",
+    "arasaacId": "37825",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_071",
+    "word": "Tengo",
+    "category": "CAT_002",
+    "arasaacId": "32761",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_072",
+    "word": "Estoy",
+    "category": "CAT_002",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_073",
+    "word": "Duele",
+    "category": "CAT_011",
+    "arasaacId": "30620",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_074",
+    "word": "Dame",
+    "category": "CAT_002",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_075",
+    "word": "Abrir",
+    "category": "CAT_002",
+    "arasaacId": "24825",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_076",
+    "word": "Cerrar",
+    "category": "CAT_002",
+    "arasaacId": "24976",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_077",
+    "word": "Mirar",
+    "category": "CAT_002",
+    "arasaacId": "6564",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_078",
+    "word": "Escuchar",
+    "category": "CAT_002",
+    "arasaacId": "6572",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_079",
+    "word": "Sentarse",
+    "category": "CAT_002",
+    "arasaacId": "6611",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_080",
+    "word": "Levantarse",
+    "category": "CAT_002",
+    "arasaacId": "5099",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "ALTERNATIVO"
+  },
+  {
+    "voc": "VOC_081",
+    "word": "Lavarse",
+    "category": "CAT_015",
+    "arasaacId": "8977",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "ALTERNATIVO"
+  },
+  {
+    "voc": "VOC_082",
+    "word": "Bañarse",
+    "category": "CAT_015",
+    "arasaacId": "6058",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_083",
+    "word": "Cepillarse los dientes",
+    "category": "CAT_015",
+    "arasaacId": "6971",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_084",
+    "word": "Vestirse",
+    "category": "CAT_015",
+    "arasaacId": "6627",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_085",
+    "word": "Caminar",
+    "category": "CAT_002",
+    "arasaacId": "6044",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_086",
+    "word": "Salir",
+    "category": "CAT_002",
+    "arasaacId": "6606",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_087",
+    "word": "Entrar",
+    "category": "CAT_002",
+    "arasaacId": "6491",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_088",
+    "word": "Leer",
+    "category": "CAT_016",
+    "arasaacId": "7141",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_089",
+    "word": "Escribir",
+    "category": "CAT_016",
+    "arasaacId": "2380",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_090",
+    "word": "Pintar",
+    "category": "CAT_016",
+    "arasaacId": "5574",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_091",
+    "word": "Hambre",
+    "category": "CAT_004",
+    "arasaacId": "35559",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_092",
+    "word": "Sed",
+    "category": "CAT_004",
+    "arasaacId": "7273",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_093",
+    "word": "Tranquilo",
+    "category": "CAT_006",
+    "arasaacId": "31310",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_094",
+    "word": "Nervioso",
+    "category": "CAT_006",
+    "arasaacId": "30391",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_095",
+    "word": "Aburrido",
+    "category": "CAT_006",
+    "arasaacId": "35531",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_096",
+    "word": "Enfermo",
+    "category": "CAT_011",
+    "arasaacId": "7040",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_097",
+    "word": "Ruido",
+    "category": "CAT_017",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_098",
+    "word": "Silencio",
+    "category": "CAT_017",
+    "arasaacId": "6071",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_099",
+    "word": "Fuerte",
+    "category": "CAT_017",
+    "arasaacId": "38216",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "ALTERNATIVO"
+  },
+  {
+    "voc": "VOC_100",
+    "word": "Suave",
+    "category": "CAT_017",
+    "arasaacId": "38215",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "ALTERNATIVO"
+  },
+  {
+    "voc": "VOC_101",
+    "word": "Luz",
+    "category": "CAT_017",
+    "arasaacId": "8619",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_102",
+    "word": "Oscuro",
+    "category": "CAT_017",
+    "arasaacId": "8643",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_103",
+    "word": "Patio",
+    "category": "CAT_005",
+    "arasaacId": "33064",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_104",
+    "word": "Comedor",
+    "category": "CAT_005",
+    "arasaacId": "9824",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_105",
+    "word": "Dormitorio",
+    "category": "CAT_005",
+    "arasaacId": "15732",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "ALTERNATIVO"
+  },
+  {
+    "voc": "VOC_106",
+    "word": "Lápiz",
+    "category": "CAT_016",
+    "arasaacId": "2440",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_107",
+    "word": "Cuaderno",
+    "category": "CAT_016",
+    "arasaacId": "2359",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_108",
+    "word": "Mochila",
+    "category": "CAT_016",
+    "arasaacId": "2475",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_109",
+    "word": "Tarea",
+    "category": "CAT_016",
+    "arasaacId": "11228",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_110",
+    "word": "Galleta",
+    "category": "CAT_003",
+    "arasaacId": "8312",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_111",
+    "word": "Manzana",
+    "category": "CAT_003",
+    "arasaacId": "2462",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_112",
+    "word": "Plátano",
+    "category": "CAT_003",
+    "arasaacId": "2530",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_113",
+    "word": "Sopa",
+    "category": "CAT_003",
+    "arasaacId": "2573",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_114",
+    "word": "Ojos",
+    "category": "CAT_011",
+    "arasaacId": "2876",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_115",
+    "word": "Boca",
+    "category": "CAT_011",
+    "arasaacId": "2663",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_116",
+    "word": "Oídos",
+    "category": "CAT_011",
+    "arasaacId": "39498",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_117",
+    "word": "Brazo",
+    "category": "CAT_011",
+    "arasaacId": "2669",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_118",
+    "word": "Pierna",
+    "category": "CAT_011",
+    "arasaacId": "8666",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_119",
+    "word": "Hermano",
+    "category": "CAT_001",
+    "arasaacId": "2423",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_120",
+    "word": "Hermana",
+    "category": "CAT_001",
+    "arasaacId": "2422",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_121",
+    "word": "Amigo",
+    "category": "CAT_001",
+    "arasaacId": "8487",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_122",
+    "word": "Amiga",
+    "category": "CAT_001",
+    "arasaacId": "8486",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_123",
+    "word": "Perdón",
+    "category": "CAT_007",
+    "arasaacId": "11625",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_124",
+    "word": "Buenos días",
+    "category": "CAT_007",
+    "arasaacId": "6944",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_125",
+    "word": "Buenas tardes",
+    "category": "CAT_007",
+    "arasaacId": "6943",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_126",
+    "word": "Me",
+    "category": "CAT_018",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_127",
+    "word": "Te",
+    "category": "CAT_018",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_128",
+    "word": "Está",
+    "category": "CAT_002",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_129",
+    "word": "Es",
+    "category": "CAT_002",
+    "arasaacId": "",
+    "strategy": "SOLO_TEXTO",
+    "approvedDecision": "SOLO_TEXTO"
+  },
+  {
+    "voc": "VOC_130",
+    "word": "Quieres",
+    "category": "CAT_002",
+    "arasaacId": "5441",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "ALTERNATIVO"
+  },
+  {
+    "voc": "VOC_131",
+    "word": "Entiendo",
+    "category": "CAT_018",
+    "arasaacId": "16659",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "PRINCIPAL"
+  },
+  {
+    "voc": "VOC_132",
+    "word": "Repite",
+    "category": "CAT_018",
+    "arasaacId": "37163",
+    "strategy": "PICTOGRAMA_VALIDADO",
+    "approvedDecision": "ALTERNATIVO"
+  }
+]

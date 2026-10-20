@@ -1,0 +1,2556 @@
+{
+  "result": "APPLIED",
+  "sourceDecisionsSha256": "75c12123adbee08486b140a297bca466f8c71c4f46aa3655c92b270929db1512",
+  "finalDecisionsSha256": "359c68cb33c188b45c41e85a5a97bb4f86b1ae362ef1c65a7a6e2b6eb3ca3355",
+  "originalBankSha256": "bfad0db80ceffcdfa0354381f0a097dd27316b5dcf7a4c85663108d4445d5be0",
+  "expectedCuratedBankSha256": "666d24b453f29a360d5bd42547a5c57ff2256b4430622714a05bfbdb21c3d718",
+  "currentBankSha256": "666d24b453f29a360d5bd42547a5c57ff2256b4430622714a05bfbdb21c3d718",
+  "records": 132,
+  "categories": 18,
+  "pictogramAssociations": 119,
+  "textOnly": 13,
+  "pendingDecisions": 0,
+  "contradictions": 0,
+  "googleSheetsModified": false,
+  "resolutions": {
+    "VOC_072": "SOLO_TEXTO provisional. Estoy conserva ubicación y estados personales; 36392 no cubre el significado general.",
+    "VOC_074": "SOLO_TEXTO provisional. Dame pide recibir; 17038 muestra dar/ofrecer y no demuestra inequívocamente una petición de recibir.",
+    "VOC_097": "SOLO_TEXTO provisional autorizado expresamente en la resolución final de Ruido. Sonido percibido sin atribuir malestar, rechazo o molestia; no aplicar 7157 ni otro ID."
+  },
+  "rows": [
+    {
+      "vocabId": "VOC_001",
+      "word": "Yo",
+      "categoryId": "CAT_001",
+      "oldId": "17985",
+      "approvedId": "6632",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/80bdf026554d749a554aff42.png"
+    },
+    {
+      "vocabId": "VOC_002",
+      "word": "Tú",
+      "categoryId": "CAT_001",
+      "oldId": 23539,
+      "approvedId": "6625",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/7c78b0d551f2c854a945c8eb.png"
+    },
+    {
+      "vocabId": "VOC_003",
+      "word": "Mamá",
+      "categoryId": "CAT_001",
+      "oldId": 23305,
+      "approvedId": "2458",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/b87401883d7e0ee236449ed3.png"
+    },
+    {
+      "vocabId": "VOC_004",
+      "word": "Papá",
+      "categoryId": "CAT_001",
+      "oldId": 23304,
+      "approvedId": "31146",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/6b3b0b2f68bf1a27b52f919d.png"
+    },
+    {
+      "vocabId": "VOC_005",
+      "word": "Profesor",
+      "categoryId": "CAT_001",
+      "oldId": "15524",
+      "approvedId": "6556",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_VALIDADO",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/8318d35b84c7daf9164d9b74.png"
+    },
+    {
+      "vocabId": "VOC_006",
+      "word": "Quiero",
+      "categoryId": "CAT_002",
+      "oldId": 46605,
+      "approvedId": "5441",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/2bb4dacd6caa75fb87e14dfe.png"
+    },
+    {
+      "vocabId": "VOC_007",
+      "word": "Necesito",
+      "categoryId": "CAT_002",
+      "oldId": "47242",
+      "approvedId": "37160",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/028efe2f0f78eda49fb5b835.png"
+    },
+    {
+      "vocabId": "VOC_008",
+      "word": "Comer",
+      "categoryId": "CAT_002",
+      "oldId": 17361,
+      "approvedId": "6456",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/dad5bb8e27b272add9abc60f.png"
+    },
+    {
+      "vocabId": "VOC_009",
+      "word": "Beber",
+      "categoryId": "CAT_002",
+      "oldId": 22607,
+      "approvedId": "6061",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/71ce2e2999a2a0f4bd3ce21f.png"
+    },
+    {
+      "vocabId": "VOC_010",
+      "word": "Ir",
+      "categoryId": "CAT_002",
+      "oldId": "45800",
+      "approvedId": "8142",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/ac8458b476dca93901fba85c.png"
+    },
+    {
+      "vocabId": "VOC_011",
+      "word": "Jugar",
+      "categoryId": "CAT_002",
+      "oldId": "15508",
+      "approvedId": "6537",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/c078d53fb50ee8fde0bfff9a.png"
+    },
+    {
+      "vocabId": "VOC_012",
+      "word": "Dormir",
+      "categoryId": "CAT_002",
+      "oldId": 15440,
+      "approvedId": "6479",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/99eb1ff886ee98732fa02755.png"
+    },
+    {
+      "vocabId": "VOC_013",
+      "word": "Descansar",
+      "categoryId": "CAT_002",
+      "oldId": 23607,
+      "approvedId": "16643",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/34dda6b7f03f2bef052a5bde.png"
+    },
+    {
+      "vocabId": "VOC_014",
+      "word": "Ayuda",
+      "categoryId": "CAT_004",
+      "oldId": 23963,
+      "approvedId": "12252",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/8c844ee6f746c1054476cf3c.png"
+    },
+    {
+      "vocabId": "VOC_015",
+      "word": "Agua",
+      "categoryId": "CAT_003",
+      "oldId": "15321",
+      "approvedId": "2248",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/4e625465fb4df517d0d18afd.png"
+    },
+    {
+      "vocabId": "VOC_016",
+      "word": "Jugo",
+      "categoryId": "CAT_003",
+      "oldId": "14678",
+      "approvedId": "11461",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/8dd656d390748cd9ac40adb9.png"
+    },
+    {
+      "vocabId": "VOC_017",
+      "word": "Leche",
+      "categoryId": "CAT_003",
+      "oldId": "15514",
+      "approvedId": "2445",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/7bba2d38dfa8e210541c47e4.png"
+    },
+    {
+      "vocabId": "VOC_018",
+      "word": "Pan",
+      "categoryId": "CAT_003",
+      "oldId": "14146",
+      "approvedId": "2494",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/13ee41b153d1135d42c99803.png"
+    },
+    {
+      "vocabId": "VOC_019",
+      "word": "Arroz",
+      "categoryId": "CAT_003",
+      "oldId": 17594,
+      "approvedId": "25556",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/10346b2f6ddcb3a818fcb14b.png"
+    },
+    {
+      "vocabId": "VOC_020",
+      "word": "Fruta",
+      "categoryId": "CAT_003",
+      "oldId": "16537",
+      "approvedId": "4653",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/31bee76a9bbbdfea479f07ce.png"
+    },
+    {
+      "vocabId": "VOC_021",
+      "word": "Baño",
+      "categoryId": "CAT_005",
+      "oldId": "90223",
+      "approvedId": "6929",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/200c81894275e60d11fa1272.png"
+    },
+    {
+      "vocabId": "VOC_022",
+      "word": "Casa",
+      "categoryId": "CAT_005",
+      "oldId": "15389",
+      "approvedId": "6964",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/9df488ed9b02d0cdec518256.png"
+    },
+    {
+      "vocabId": "VOC_023",
+      "word": "Colegio",
+      "categoryId": "CAT_005",
+      "oldId": "17359",
+      "approvedId": "3082",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/26bdbd8dbc301391c400b1a4.png"
+    },
+    {
+      "vocabId": "VOC_024",
+      "word": "Aula",
+      "categoryId": "CAT_005",
+      "oldId": 17069,
+      "approvedId": "9815",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/35acd59f0d9865d1afc97825.png"
+    },
+    {
+      "vocabId": "VOC_025",
+      "word": "Parque",
+      "categoryId": "CAT_005",
+      "oldId": 46328,
+      "approvedId": "2859",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/467ff60686bea098993cd35b.png"
+    },
+    {
+      "vocabId": "VOC_026",
+      "word": "Feliz",
+      "categoryId": "CAT_006",
+      "oldId": "14108",
+      "approvedId": "32123",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/c157600095f265a64ea6962b.png"
+    },
+    {
+      "vocabId": "VOC_027",
+      "word": "Triste",
+      "categoryId": "CAT_006",
+      "oldId": "23608",
+      "approvedId": "35545",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/bc160d0babcc872123f32dae.png"
+    },
+    {
+      "vocabId": "VOC_028",
+      "word": "Enojado",
+      "categoryId": "CAT_006",
+      "oldId": "23581",
+      "approvedId": "35539",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/c269f8f49a8c1d6c34032883.png"
+    },
+    {
+      "vocabId": "VOC_029",
+      "word": "Cansado",
+      "categoryId": "CAT_006",
+      "oldId": "23601",
+      "approvedId": "35537",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/e044113c1d16490bb7fe37c1.png"
+    },
+    {
+      "vocabId": "VOC_030",
+      "word": "Asustado",
+      "categoryId": "CAT_006",
+      "oldId": "15334",
+      "approvedId": "35535",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/ab3fd3bf9c89cceedc4b5d00.png"
+    },
+    {
+      "vocabId": "VOC_031",
+      "word": "Hola",
+      "categoryId": "CAT_007",
+      "oldId": 17165,
+      "approvedId": "6522",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/abfcb3ab863ee29cb2b7b567.png"
+    },
+    {
+      "vocabId": "VOC_032",
+      "word": "Gracias",
+      "categoryId": "CAT_007",
+      "oldId": 18169,
+      "approvedId": "8129",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/31ddfd38b5289ead11556a9d.png"
+    },
+    {
+      "vocabId": "VOC_033",
+      "word": "Por favor",
+      "categoryId": "CAT_007",
+      "oldId": 18234,
+      "approvedId": "8195",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/9372c5bed5cfa3a20da018f7.png"
+    },
+    {
+      "vocabId": "VOC_034",
+      "word": "Adiós",
+      "categoryId": "CAT_007",
+      "oldId": "17183",
+      "approvedId": "6028",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_VALIDADO",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/6e0f3a86dd22c7a7577eacc2.png"
+    },
+    {
+      "vocabId": "VOC_035",
+      "word": "Qué",
+      "categoryId": "CAT_008",
+      "oldId": 20102,
+      "approvedId": "22620",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/c43e7e21299260cb3a6a6f5d.png"
+    },
+    {
+      "vocabId": "VOC_036",
+      "word": "Dónde",
+      "categoryId": "CAT_008",
+      "oldId": 17991,
+      "approvedId": "7764",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/6a4aa3bdbe42ef78ce796567.png"
+    },
+    {
+      "vocabId": "VOC_037",
+      "word": "Quién",
+      "categoryId": "CAT_008",
+      "oldId": 14192,
+      "approvedId": "9853",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/1b7158099c081eb1ab392ded.png"
+    },
+    {
+      "vocabId": "VOC_038",
+      "word": "Cómo",
+      "categoryId": "CAT_008",
+      "oldId": "",
+      "approvedId": "22619",
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_PENDIENTE",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/d7df40d4ee5807fd0cea918e.png"
+    },
+    {
+      "vocabId": "VOC_039",
+      "word": "Grande",
+      "categoryId": "CAT_009",
+      "oldId": "16542",
+      "approvedId": "4658",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/f3180e765d90c590ea92664d.png"
+    },
+    {
+      "vocabId": "VOC_040",
+      "word": "Pequeño",
+      "categoryId": "CAT_009",
+      "oldId": "16600",
+      "approvedId": "4716",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/70a5a8eb093f5f5605b411f5.png"
+    },
+    {
+      "vocabId": "VOC_041",
+      "word": "Caliente",
+      "categoryId": "CAT_009",
+      "oldId": "21064",
+      "approvedId": "26716",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/6efde3ad695b850aed406ce0.png"
+    },
+    {
+      "vocabId": "VOC_042",
+      "word": "Frío",
+      "categoryId": "CAT_009",
+      "oldId": "21141",
+      "approvedId": "26865",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/84efd09b2036add74ecea1ac.png"
+    },
+    {
+      "vocabId": "VOC_043",
+      "word": "Pelota",
+      "categoryId": "CAT_010",
+      "oldId": 16256,
+      "approvedId": "3241",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/0775f31f1c112ac5cdba7fe3.png"
+    },
+    {
+      "vocabId": "VOC_044",
+      "word": "Juguete",
+      "categoryId": "CAT_010",
+      "oldId": "23923",
+      "approvedId": "32568",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/52d90ce9a3ab550059f58835.png"
+    },
+    {
+      "vocabId": "VOC_045",
+      "word": "Libro",
+      "categoryId": "CAT_010",
+      "oldId": "15519",
+      "approvedId": "2450",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/9dc4529f7062ed553f568200.png"
+    },
+    {
+      "vocabId": "VOC_046",
+      "word": "Cabeza",
+      "categoryId": "CAT_011",
+      "oldId": "15732",
+      "approvedId": "2673",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/bd78eae8c2a6d28e69743df5.png"
+    },
+    {
+      "vocabId": "VOC_047",
+      "word": "Barriga",
+      "categoryId": "CAT_011",
+      "oldId": "15823",
+      "approvedId": "2786",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/1a16f48e62591f7c29ca7ac2.png"
+    },
+    {
+      "vocabId": "VOC_048",
+      "word": "Mano",
+      "categoryId": "CAT_011",
+      "oldId": "15953",
+      "approvedId": "2928",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/ab8c07d9967240a97908bccc.png"
+    },
+    {
+      "vocabId": "VOC_049",
+      "word": "Dolor",
+      "categoryId": "CAT_011",
+      "oldId": "15438",
+      "approvedId": "30620",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/6c080372b9639f56260327e6.png"
+    },
+    {
+      "vocabId": "VOC_050",
+      "word": "Ahora",
+      "categoryId": "CAT_012",
+      "oldId": "15135",
+      "approvedId": "32747",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/82d4776f2fb29a4b836713b3.png"
+    },
+    {
+      "vocabId": "VOC_051",
+      "word": "Después",
+      "categoryId": "CAT_012",
+      "oldId": "15162",
+      "approvedId": "32749",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/60165c44f17347c7541272ee.png"
+    },
+    {
+      "vocabId": "VOC_052",
+      "word": "Primero",
+      "categoryId": "CAT_012",
+      "oldId": "16610",
+      "approvedId": "37753",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/77c4a4338514ef0bebe921b2.png"
+    },
+    {
+      "vocabId": "VOC_053",
+      "word": "No",
+      "categoryId": "CAT_013",
+      "oldId": "45427",
+      "approvedId": "5526",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/7a06026604b0ce3e37afb96d.png"
+    },
+    {
+      "vocabId": "VOC_054",
+      "word": "Parar",
+      "categoryId": "CAT_013",
+      "oldId": "17874",
+      "approvedId": "7196",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/0be56efda2880502c6f07240.png"
+    },
+    {
+      "vocabId": "VOC_055",
+      "word": "Terminar",
+      "categoryId": "CAT_013",
+      "oldId": "21930",
+      "approvedId": "28429",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/1c219f1a611628954decd0e8.png"
+    },
+    {
+      "vocabId": "VOC_056",
+      "word": "Esperar",
+      "categoryId": "CAT_013",
+      "oldId": "22054",
+      "approvedId": "36914",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/89b4ec8c9f3ab06c7898b908.png"
+    },
+    {
+      "vocabId": "VOC_057",
+      "word": "El",
+      "categoryId": "CAT_014",
+      "oldId": "",
+      "approvedId": null,
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "SOLO_TEXTO",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_058",
+      "word": "La",
+      "categoryId": "CAT_014",
+      "oldId": "",
+      "approvedId": null,
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "SOLO_TEXTO",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_059",
+      "word": "Mi",
+      "categoryId": "CAT_014",
+      "oldId": "",
+      "approvedId": null,
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "SOLO_TEXTO",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_060",
+      "word": "Y",
+      "categoryId": "CAT_014",
+      "oldId": "",
+      "approvedId": null,
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "SOLO_TEXTO",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_061",
+      "word": "O",
+      "categoryId": "CAT_014",
+      "oldId": "",
+      "approvedId": null,
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "SOLO_TEXTO",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_062",
+      "word": "Con",
+      "categoryId": "CAT_014",
+      "oldId": "",
+      "approvedId": null,
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "SOLO_TEXTO",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_063",
+      "word": "Sí",
+      "categoryId": "CAT_018",
+      "oldId": "17010",
+      "approvedId": "5584",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/5a68fc9a98bb90f4e88a2dcf.png"
+    },
+    {
+      "vocabId": "VOC_064",
+      "word": "Más",
+      "categoryId": "CAT_018",
+      "oldId": 21170,
+      "approvedId": "5508",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/a93d8dafc0fdcb966f4d315a.png"
+    },
+    {
+      "vocabId": "VOC_065",
+      "word": "Otra vez",
+      "categoryId": "CAT_018",
+      "oldId": 47245,
+      "approvedId": "37163",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/62270f834121127548b60637.png"
+    },
+    {
+      "vocabId": "VOC_066",
+      "word": "Aquí",
+      "categoryId": "CAT_018",
+      "oldId": 16825,
+      "approvedId": "5382",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/bbe0a63b2220f0df2d27ad64.png"
+    },
+    {
+      "vocabId": "VOC_067",
+      "word": "Allí",
+      "categoryId": "CAT_018",
+      "oldId": "",
+      "approvedId": "5375",
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_PENDIENTE",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/96906b3ce4766275d6dbfaff.png"
+    },
+    {
+      "vocabId": "VOC_068",
+      "word": "Esto",
+      "categoryId": "CAT_018",
+      "oldId": "",
+      "approvedId": "7095",
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_PENDIENTE",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/3be44681ffe8e47468a98444.png"
+    },
+    {
+      "vocabId": "VOC_069",
+      "word": "Me gusta",
+      "categoryId": "CAT_018",
+      "oldId": "89891",
+      "approvedId": "37721",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/3f29b263c0aa19e6210b415d.png"
+    },
+    {
+      "vocabId": "VOC_070",
+      "word": "No me gusta",
+      "categoryId": "CAT_018",
+      "oldId": 19993,
+      "approvedId": "37825",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/83179383c85a7b6ad9e1cfe3.png"
+    },
+    {
+      "vocabId": "VOC_071",
+      "word": "Tengo",
+      "categoryId": "CAT_002",
+      "oldId": "24021",
+      "approvedId": "32761",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/6fab6d974d4bb73ff5332388.png"
+    },
+    {
+      "vocabId": "VOC_072",
+      "word": "Estoy",
+      "categoryId": "CAT_002",
+      "oldId": "16902",
+      "approvedId": null,
+      "oldStatus": "VALIDADO",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_073",
+      "word": "Duele",
+      "categoryId": "CAT_011",
+      "oldId": "23040",
+      "approvedId": "30620",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/6c080372b9639f56260327e6.png"
+    },
+    {
+      "vocabId": "VOC_074",
+      "word": "Dame",
+      "categoryId": "CAT_002",
+      "oldId": "21931",
+      "approvedId": null,
+      "oldStatus": "VALIDADO",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_075",
+      "word": "Abrir",
+      "categoryId": "CAT_002",
+      "oldId": "20750",
+      "approvedId": "24825",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/f7b37bedd528fbdcd32656f8.png"
+    },
+    {
+      "vocabId": "VOC_076",
+      "word": "Cerrar",
+      "categoryId": "CAT_002",
+      "oldId": "20782",
+      "approvedId": "24976",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/5181315663a1f7102c3752af.png"
+    },
+    {
+      "vocabId": "VOC_077",
+      "word": "Mirar",
+      "categoryId": "CAT_002",
+      "oldId": "22052",
+      "approvedId": "6564",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_VALIDADO",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/0f582fc8116e37eb00d46bc7.png"
+    },
+    {
+      "vocabId": "VOC_078",
+      "word": "Escuchar",
+      "categoryId": "CAT_002",
+      "oldId": "",
+      "approvedId": "6572",
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_PENDIENTE",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/58aa37b2dfdefb67c07cd7bc.png"
+    },
+    {
+      "vocabId": "VOC_079",
+      "word": "Sentarse",
+      "categoryId": "CAT_002",
+      "oldId": "46155",
+      "approvedId": "6611",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/7375a1348f801b035285c84c.png"
+    },
+    {
+      "vocabId": "VOC_080",
+      "word": "Levantarse",
+      "categoryId": "CAT_002",
+      "oldId": "18192",
+      "approvedId": "5099",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/337d8d773059d35212eac9e3.png"
+    },
+    {
+      "vocabId": "VOC_081",
+      "word": "Lavarse",
+      "categoryId": "CAT_015",
+      "oldId": 18657,
+      "approvedId": "8977",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/a572421d98c63b3bc1d2817e.png"
+    },
+    {
+      "vocabId": "VOC_082",
+      "word": "Bañarse",
+      "categoryId": "CAT_015",
+      "oldId": 21109,
+      "approvedId": "6058",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/a8ea26ad96c4978c9cd02fa7.png"
+    },
+    {
+      "vocabId": "VOC_083",
+      "word": "Cepillarse los dientes",
+      "categoryId": "CAT_015",
+      "oldId": 23579,
+      "approvedId": "6971",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/4c3b3cd9174e240d5f26dd3c.png"
+    },
+    {
+      "vocabId": "VOC_084",
+      "word": "Vestirse",
+      "categoryId": "CAT_015",
+      "oldId": 23707,
+      "approvedId": "6627",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/e20df2994f631ed1ef87a4a6.png"
+    },
+    {
+      "vocabId": "VOC_085",
+      "word": "Caminar",
+      "categoryId": "CAT_002",
+      "oldId": "45100",
+      "approvedId": "6044",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/4933fb66927019cbdfbfaea0.png"
+    },
+    {
+      "vocabId": "VOC_086",
+      "word": "Salir",
+      "categoryId": "CAT_002",
+      "oldId": "15842",
+      "approvedId": "6606",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/dad664278112f5eecc2a906b.png"
+    },
+    {
+      "vocabId": "VOC_087",
+      "word": "Entrar",
+      "categoryId": "CAT_002",
+      "oldId": "21113",
+      "approvedId": "6491",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/acf5ad379025349edb094195.png"
+    },
+    {
+      "vocabId": "VOC_088",
+      "word": "Leer",
+      "categoryId": "CAT_016",
+      "oldId": 23479,
+      "approvedId": "7141",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/8a85faa50b860aaa7fafd04d.png"
+    },
+    {
+      "vocabId": "VOC_089",
+      "word": "Escribir",
+      "categoryId": "CAT_016",
+      "oldId": 18147,
+      "approvedId": "2380",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/eb9133aa61d2f8a547062d3a.png"
+    },
+    {
+      "vocabId": "VOC_090",
+      "word": "Pintar",
+      "categoryId": "CAT_016",
+      "oldId": 17002,
+      "approvedId": "5574",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/a9e8751114a9001823140c03.png"
+    },
+    {
+      "vocabId": "VOC_091",
+      "word": "Hambre",
+      "categoryId": "CAT_004",
+      "oldId": "46036",
+      "approvedId": "35559",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/0ae67349e5e6a519e13c3273.png"
+    },
+    {
+      "vocabId": "VOC_092",
+      "word": "Sed",
+      "categoryId": "CAT_004",
+      "oldId": "46042",
+      "approvedId": "7273",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/c534c662d4921b15b79c1846.png"
+    },
+    {
+      "vocabId": "VOC_093",
+      "word": "Tranquilo",
+      "categoryId": "CAT_006",
+      "oldId": "23380",
+      "approvedId": "31310",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/781cee1767cd9f07f99bbd3c.png"
+    },
+    {
+      "vocabId": "VOC_094",
+      "word": "Nervioso",
+      "categoryId": "CAT_006",
+      "oldId": "22945",
+      "approvedId": "30391",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/2855673e3b06ebdd93e869f5.png"
+    },
+    {
+      "vocabId": "VOC_095",
+      "word": "Aburrido",
+      "categoryId": "CAT_006",
+      "oldId": "23511",
+      "approvedId": "35531",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/8fc13df16b7e62fa4b9d38be.png"
+    },
+    {
+      "vocabId": "VOC_096",
+      "word": "Enfermo",
+      "categoryId": "CAT_011",
+      "oldId": "23787",
+      "approvedId": "7040",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/894dcb388d3b2c5db0d34fdf.png"
+    },
+    {
+      "vocabId": "VOC_097",
+      "word": "Ruido",
+      "categoryId": "CAT_017",
+      "oldId": "",
+      "approvedId": null,
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "PICTOGRAMA_PENDIENTE",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_098",
+      "word": "Silencio",
+      "categoryId": "CAT_017",
+      "oldId": 17092,
+      "approvedId": "6071",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/37db64d85b24201d9acea1eb.png"
+    },
+    {
+      "vocabId": "VOC_099",
+      "word": "Fuerte",
+      "categoryId": "CAT_017",
+      "oldId": "",
+      "approvedId": "38216",
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_PENDIENTE",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/4b49e9d8c548e24725f7f44b.png"
+    },
+    {
+      "vocabId": "VOC_100",
+      "word": "Suave",
+      "categoryId": "CAT_017",
+      "oldId": "",
+      "approvedId": "38215",
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_PENDIENTE",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/4935e703529c29ac3be08b0a.png"
+    },
+    {
+      "vocabId": "VOC_101",
+      "word": "Luz",
+      "categoryId": "CAT_017",
+      "oldId": "",
+      "approvedId": "8619",
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_PENDIENTE",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/3b9ba3d97e08b9110b8c1932.png"
+    },
+    {
+      "vocabId": "VOC_102",
+      "word": "Oscuro",
+      "categoryId": "CAT_017",
+      "oldId": "21210",
+      "approvedId": "8643",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_VALIDADO",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/e8bda03f1bc7afd77fe7048c.png"
+    },
+    {
+      "vocabId": "VOC_103",
+      "word": "Patio",
+      "categoryId": "CAT_005",
+      "oldId": "",
+      "approvedId": "33064",
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_PENDIENTE",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/54beb66ab7362984dcc7db1b.png"
+    },
+    {
+      "vocabId": "VOC_104",
+      "word": "Comedor",
+      "categoryId": "CAT_005",
+      "oldId": 17126,
+      "approvedId": "9824",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/42123da185306e1a7169bd63.png"
+    },
+    {
+      "vocabId": "VOC_105",
+      "word": "Dormitorio",
+      "categoryId": "CAT_005",
+      "oldId": 17144,
+      "approvedId": "15732",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/800f0c32db93f5bcbcee8343.png"
+    },
+    {
+      "vocabId": "VOC_106",
+      "word": "Lápiz",
+      "categoryId": "CAT_016",
+      "oldId": 15509,
+      "approvedId": "2440",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/3d2c26d199e9294c100f827d.png"
+    },
+    {
+      "vocabId": "VOC_107",
+      "word": "Cuaderno",
+      "categoryId": "CAT_016",
+      "oldId": 15430,
+      "approvedId": "2359",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/bc5ab095bf809c51388dcb4f.png"
+    },
+    {
+      "vocabId": "VOC_108",
+      "word": "Mochila",
+      "categoryId": "CAT_016",
+      "oldId": 16580,
+      "approvedId": "2475",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/14069eff2bdbce6f8e00add6.png"
+    },
+    {
+      "vocabId": "VOC_109",
+      "word": "Tarea",
+      "categoryId": "CAT_016",
+      "oldId": "",
+      "approvedId": "11228",
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_PENDIENTE",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/b7085a01bf7abcb4a7335685.png"
+    },
+    {
+      "vocabId": "VOC_110",
+      "word": "Galleta",
+      "categoryId": "CAT_003",
+      "oldId": "18332",
+      "approvedId": "8312",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/47e2ef663e012ef07e8ef2e3.png"
+    },
+    {
+      "vocabId": "VOC_111",
+      "word": "Manzana",
+      "categoryId": "CAT_003",
+      "oldId": "15194",
+      "approvedId": "2462",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/7b47a62275378fcf787e00eb.png"
+    },
+    {
+      "vocabId": "VOC_112",
+      "word": "Plátano",
+      "categoryId": "CAT_003",
+      "oldId": "15591",
+      "approvedId": "2530",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/0eee6311e3b11b88896451c3.png"
+    },
+    {
+      "vocabId": "VOC_113",
+      "word": "Sopa",
+      "categoryId": "CAT_003",
+      "oldId": "15633",
+      "approvedId": "2573",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_VALIDADO",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/95292258ed2bef3361a97429.png"
+    },
+    {
+      "vocabId": "VOC_114",
+      "word": "Ojos",
+      "categoryId": "CAT_011",
+      "oldId": 17473,
+      "approvedId": "2876",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/3797d4a266da917a7ab4c3db.png"
+    },
+    {
+      "vocabId": "VOC_115",
+      "word": "Boca",
+      "categoryId": "CAT_011",
+      "oldId": 15722,
+      "approvedId": "2663",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/25ce9701aa813e675f01df51.png"
+    },
+    {
+      "vocabId": "VOC_116",
+      "word": "Oídos",
+      "categoryId": "CAT_011",
+      "oldId": 15907,
+      "approvedId": "39498",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/9c81a6a7c2a3c2038c6a0875.png"
+    },
+    {
+      "vocabId": "VOC_117",
+      "word": "Brazo",
+      "categoryId": "CAT_011",
+      "oldId": 15728,
+      "approvedId": "2669",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/f5843a03474b93b141068447.png"
+    },
+    {
+      "vocabId": "VOC_118",
+      "word": "Pierna",
+      "categoryId": "CAT_011",
+      "oldId": 18585,
+      "approvedId": "8666",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/2a4056f0c7324d1b71e373a7.png"
+    },
+    {
+      "vocabId": "VOC_119",
+      "word": "Hermano",
+      "categoryId": "CAT_001",
+      "oldId": 15492,
+      "approvedId": "2423",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/2786319e6fe0b16002d86197.png"
+    },
+    {
+      "vocabId": "VOC_120",
+      "word": "Hermana",
+      "categoryId": "CAT_001",
+      "oldId": 15491,
+      "approvedId": "2422",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/91411a4e6a5b8fd5e6620c6e.png"
+    },
+    {
+      "vocabId": "VOC_121",
+      "word": "Amigo",
+      "categoryId": "CAT_001",
+      "oldId": 18412,
+      "approvedId": "8487",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/61d7ca15eb8fc7954bb1c76e.png"
+    },
+    {
+      "vocabId": "VOC_122",
+      "word": "Amiga",
+      "categoryId": "CAT_001",
+      "oldId": 18411,
+      "approvedId": "8486",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/15e08938b3ceffdb489280fd.png"
+    },
+    {
+      "vocabId": "VOC_123",
+      "word": "Perdón",
+      "categoryId": "CAT_007",
+      "oldId": "",
+      "approvedId": "11625",
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_PENDIENTE",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "estado",
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/37aa36f547e212b6f0fff2f7.png"
+    },
+    {
+      "vocabId": "VOC_124",
+      "word": "Buenos días",
+      "categoryId": "CAT_007",
+      "oldId": "90235",
+      "approvedId": "6944",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/d8cd710d06202357b6c360ec.png"
+    },
+    {
+      "vocabId": "VOC_125",
+      "word": "Buenas tardes",
+      "categoryId": "CAT_007",
+      "oldId": "17626",
+      "approvedId": "6943",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/d1490afffd45f64638ca097b.png"
+    },
+    {
+      "vocabId": "VOC_126",
+      "word": "Me",
+      "categoryId": "CAT_018",
+      "oldId": "",
+      "approvedId": null,
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "SOLO_TEXTO",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_127",
+      "word": "Te",
+      "categoryId": "CAT_018",
+      "oldId": "",
+      "approvedId": null,
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "SOLO_TEXTO",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_128",
+      "word": "Está",
+      "categoryId": "CAT_002",
+      "oldId": "",
+      "approvedId": null,
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "SOLO_TEXTO",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_129",
+      "word": "Es",
+      "categoryId": "CAT_002",
+      "oldId": "",
+      "approvedId": null,
+      "oldStatus": "PENDIENTE_ARASAAC",
+      "newStatus": "PENDIENTE_ARASAAC",
+      "oldStrategy": "SOLO_TEXTO",
+      "newStrategy": "SOLO_TEXTO",
+      "changedFields": [],
+      "evidence": null
+    },
+    {
+      "vocabId": "VOC_130",
+      "word": "Quieres",
+      "categoryId": "CAT_002",
+      "oldId": "46605",
+      "approvedId": "5441",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "PICTOGRAMA_VALIDADO",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/2bb4dacd6caa75fb87e14dfe.png"
+    },
+    {
+      "vocabId": "VOC_131",
+      "word": "Entiendo",
+      "categoryId": "CAT_018",
+      "oldId": "14832",
+      "approvedId": "16659",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/8a70688d18535207d2de220c.png"
+    },
+    {
+      "vocabId": "VOC_132",
+      "word": "Repite",
+      "categoryId": "CAT_018",
+      "oldId": "14867",
+      "approvedId": "37163",
+      "oldStatus": "VALIDADO",
+      "newStatus": "VALIDADO",
+      "oldStrategy": "",
+      "newStrategy": "PICTOGRAMA_VALIDADO",
+      "changedFields": [
+        "arasaac_id",
+        "estado_curacion",
+        "fuente_curacion",
+        "criterio_curacion",
+        "estrategia_visual",
+        "criterio_estrategia_visual"
+      ],
+      "evidence": "images/62270f834121127548b60637.png"
+    }
+  ]
+}

@@ -1,0 +1,1033 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "neuronova-apps/rutina-go",
+  "sourceCommit": "3cd7cf2e984af5c028bfb6cb355dd023f14e09f9",
+  "sourceBundleSha256": "f15c783d04ed0e1bfcd1f53072bc2977e7999e949a018ef315a7f894172684c5",
+  "destinationRepository": "neuronova-apps/comunica-go",
+  "destinationBase": "95f78ed44cb82a9813cf8f6018e43754e67cee79",
+  "branch": "feature/comunicago-standalone-foundation",
+  "templateCommit": "d010356bbedd3d73aad2f3236adcf4562e89da77",
+  "activation": "staging-only; not included in Gradle source sets",
+  "files": [
+    {
+      "source": "app/build.gradle.kts",
+      "destination": "migration/etapa2/reference-only/app/build.gradle.kts",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 2325,
+      "sha256": "04c12cd1e7f8830c4afe3c788cac9d225025cc83072d9e45d058418f6f1dd6c5",
+      "blob": "264235abb3a7a901fe290891c6356d64f10f30bc",
+      "auditWorkingSha256": "04c12cd1e7f8830c4afe3c788cac9d225025cc83072d9e45d058418f6f1dd6c5"
+    },
+    {
+      "source": "app/src/androidTest/assets/arasaac/2248_500.png",
+      "destination": "migration/etapa2/source/app/src/androidTest/assets/arasaac/2248_500.png",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 21804,
+      "sha256": "88df8a0a982fe481b80fd97dd3ad2e1f6c70ce1df19bf401d0327daac9731d81",
+      "blob": "46415e47d0035cbe5a1d50cd8c1d216d9b0702d4",
+      "auditWorkingSha256": "88df8a0a982fe481b80fd97dd3ad2e1f6c70ce1df19bf401d0327daac9731d81"
+    },
+    {
+      "source": "app/src/androidTest/assets/arasaac/CREDITOS.txt",
+      "destination": "migration/etapa2/source/app/src/androidTest/assets/arasaac/CREDITOS.txt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 225,
+      "sha256": "7feecd2ef4d70f230536a86970c700fcd7cd6c9e8a0000d94c1e82bcf478d78d",
+      "blob": "ddfc8fd01e1fa67c3487c474f35d51aeee2263c2",
+      "auditWorkingSha256": "511909b01dbcc3e5af5dcd16454889f82f7994bf931213da041271226ca9c171"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationAndroidSpeechEngineTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationAndroidSpeechEngineTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 4900,
+      "sha256": "3f313835a3f9011daba66deff7cdc9a5ecfbb38648e00a9022d0957ddadcfdf3",
+      "blob": "ca5f0e550bbb36e23628229f9f8224eceed36bb5",
+      "auditWorkingSha256": "3f313835a3f9011daba66deff7cdc9a5ecfbb38648e00a9022d0957ddadcfdf3"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationBottomNavigationAccessibilityTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationBottomNavigationAccessibilityTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 5827,
+      "sha256": "55c218ba5e950c4f3fd6a8c6da3cedd2bcc4afb2b85ae927560a8ff1eb788520",
+      "blob": "1842719378bf7c2367ad477aaa575e30222be1fc",
+      "auditWorkingSha256": "5e7cbcca107e0f8bcad64f0123d222d6eef52278a5c302fa771459e9959a0d21"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationBottomNavigationUiTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationBottomNavigationUiTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 10665,
+      "sha256": "34dd7fefe6cad0a6d62a89bc3631cb84aebcea4baa091fbaf6ccb2d0f9d78044",
+      "blob": "6e8cdbb4d7f9077ea0cf1a123c1a35e13e8589ab",
+      "auditWorkingSha256": "33229188a10172ce74901fc3c152b1374d12f255c593d861d96c6a40e9c9004a"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationCuratedPictogramsUiTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationCuratedPictogramsUiTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 8098,
+      "sha256": "f9dfd156986a13fed504bad0b5755c58e4c3c1906a0fefa57ce3249a49e3a1e7",
+      "blob": "931fb13b2094b486a134868088624828fbb6ffc8",
+      "auditWorkingSha256": "f9dfd156986a13fed504bad0b5755c58e4c3c1906a0fefa57ce3249a49e3a1e7"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationFoundationTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationFoundationTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 11942,
+      "sha256": "4f3c3cb1646f80619755c44d29b35bacd7c74201c510de0a9ed0d646037e3b46",
+      "blob": "018c9384e8e53c54c80d5eed03450c628c809519",
+      "auditWorkingSha256": "dcf2089b04c2765701a8f97f3dee1db5c9b93e97c2037434d5e059ea85675379"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationHomeExposureUiTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationHomeExposureUiTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 14870,
+      "sha256": "ab9c896efc3f1095748f82b8d50c690d889bfb5c6f84c7f5ffe16d56b057c254",
+      "blob": "ffcd113291eb1bbbf78802b24f924ac8285cb80d",
+      "auditWorkingSha256": "fe8ca00c4178fabeaf45248aed5dfd8e5ba9222938405c8cc4bb9176faa83e0f"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationMessageBuilderUiTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationMessageBuilderUiTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 6295,
+      "sha256": "7dcd3472d71d645059fbda00fa33e9b4ca1036d47c616dcdc8a8e79b05a3caba",
+      "blob": "fe6cd3ed4221cc5546aacfa616b19e10b7794490",
+      "auditWorkingSha256": "ddf4031b2fc72e3cc67796505392c1b8333cf25c836f113793d3827bb2040e1b"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationPersonalHomeAccessibilityTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationPersonalHomeAccessibilityTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 6744,
+      "sha256": "93696950d3fcbfd7884ceea3be5b0522187da66c25d730aa31871fdd203d5fac",
+      "blob": "b41baa9d36c9942ae18e45cbcde3f63364ffb6ae",
+      "auditWorkingSha256": "4869533c9556afaa5d2067697454bfd70dd05956fa21c71e1a5d753e8e84eed5"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationPersonalHomeUiTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationPersonalHomeUiTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 12608,
+      "sha256": "2f282f083eef644221b4b42064e684a907e8ea245e7dbb43a749e53e70880a76",
+      "blob": "6e7d33ab7e8f9246736fa75c7c24334937348cbd",
+      "auditWorkingSha256": "88507039a0cc6d036136393e92c69f4526004001e3af0787136374da704480df"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationPersonalVocabularyUiTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationPersonalVocabularyUiTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 7121,
+      "sha256": "d4217a417e4a856e48ae383b01defab5dcdabe162989eaded07e703c8983429d",
+      "blob": "a2c3745e61a5ab6569a0b09821b335dd4fad7700",
+      "auditWorkingSha256": "16a2e64d85b56fa6f1d51b27d57930383a90e400b09af983f6326c87c23df7c6"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationPictogramFallbackUiTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationPictogramFallbackUiTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 2938,
+      "sha256": "ccbe78ea9ffd272af62731c4c5a7b3ec8679944ce721fc0f05201d4b81b247db",
+      "blob": "6c22939102eb59a450dd917abed97960431ec1d7",
+      "auditWorkingSha256": "ccbe78ea9ffd272af62731c4c5a7b3ec8679944ce721fc0f05201d4b81b247db"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationPresentationUiTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationPresentationUiTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 9888,
+      "sha256": "34264f8d9b49ad98462a1e8115d94603ac047c127b7beb4abd47016c5b72c7fd",
+      "blob": "e156d0b600a8c549cc480dcdbb1a16c6af3cb7dd",
+      "auditWorkingSha256": "591c181b90013512b801cca06926778e0b51b337491995d82db8a8a70e3d1af4"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationProfileSetupAccessibilityTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationProfileSetupAccessibilityTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 4800,
+      "sha256": "96d7468de55e3b084e139199d28888ffb6ebb09e5b8d02ba16e6d9e423de9d8b",
+      "blob": "e9f07e69201f7dda387b961d628b16c909762e88",
+      "auditWorkingSha256": "96d7468de55e3b084e139199d28888ffb6ebb09e5b8d02ba16e6d9e423de9d8b"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationProfileSetupUiTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationProfileSetupUiTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 8140,
+      "sha256": "166855d1b919bbd5500a24d3a47e90c932f89098cc74e43b51bfb27cba977745",
+      "blob": "ea2bf31ea84d9a4898aaf702eee4df49894b6997",
+      "auditWorkingSha256": "ea38fb5d28361dc1745abfba9a7e2ab6c2829420b9b45b30d112da819678d53e"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationSpeechAccessibilityTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationSpeechAccessibilityTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 7350,
+      "sha256": "e91838051e975d89d9084b29b932cbfb79d294af4c1217525d27ce574edc1910",
+      "blob": "48f5a021302f829959d544952918ef24ecd907ba",
+      "auditWorkingSha256": "e91838051e975d89d9084b29b932cbfb79d294af4c1217525d27ce574edc1910"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationSpeechUiTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationSpeechUiTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 10766,
+      "sha256": "0d17d7697f7e7fd502195cbfe8d741c47cc07b27969594ad166ddfd56604a80c",
+      "blob": "e2c5a4140abcc550b12e5aeda8d902631940db8c",
+      "auditWorkingSha256": "0d17d7697f7e7fd502195cbfe8d741c47cc07b27969594ad166ddfd56604a80c"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationVocabularyAccessibilityTest.kt",
+      "destination": "migration/etapa2/source/app/src/androidTest/java/com/neuronovaapps/rutinago/CommunicationVocabularyAccessibilityTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 5299,
+      "sha256": "440f6b6760175d1af76e75ab0ba01090871035a868d14afab7fba679d671aa79",
+      "blob": "8374a98685f3f8cb4a0a97ab698a2530c6d7b1d4",
+      "auditWorkingSha256": "300ba502815d42b939f267806f419361a2f88655cac755b6f46a6c89f11b64ee"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/PictogramWorkTest.kt",
+      "destination": "migration/etapa2/reference-only/app/src/androidTest/java/com/neuronovaapps/rutinago/PictogramWorkTest.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 2350,
+      "sha256": "d026985fef333183b229e771c7adeb76b061284b3afb27207150e6b204c20e82",
+      "blob": "a5c0bf5e2e26bf6362fe59514eb6fc40ea7af56c",
+      "auditWorkingSha256": "d026985fef333183b229e771c7adeb76b061284b3afb27207150e6b204c20e82"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/ProfileScreensTest.kt",
+      "destination": "migration/etapa2/reference-only/app/src/androidTest/java/com/neuronovaapps/rutinago/ProfileScreensTest.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 1305,
+      "sha256": "d25559a3e916aab834a101575721df2fd3eee430a471471cf107acbbc5510e41",
+      "blob": "ea0d01e127c17fa67d2d70c7596cce31e82a0aed",
+      "auditWorkingSha256": "d25559a3e916aab834a101575721df2fd3eee430a471471cf107acbbc5510e41"
+    },
+    {
+      "source": "app/src/androidTest/java/com/neuronovaapps/rutinago/UserPreferencesRepositoryTest.kt",
+      "destination": "migration/etapa2/reference-only/app/src/androidTest/java/com/neuronovaapps/rutinago/UserPreferencesRepositoryTest.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 3250,
+      "sha256": "1b8e092b890f497c8f57c842e44fdfbb587bea5faa7974c72caf4d7fbb0c2592",
+      "blob": "4cbc1afdd6dd54d98e88dacd1f28d7a915bb9fd5",
+      "auditWorkingSha256": "1b8e092b890f497c8f57c842e44fdfbb587bea5faa7974c72caf4d7fbb0c2592"
+    },
+    {
+      "source": "app/src/main/AndroidManifest.xml",
+      "destination": "migration/etapa2/reference-only/app/src/main/AndroidManifest.xml",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 1258,
+      "sha256": "38ac7cc0390dd320719de9478b684cea8619114043b98d82425b624c312bd2a0",
+      "blob": "3a1e1f9f4082815ac9233ee52ecd27b845bfcfb7",
+      "auditWorkingSha256": "38ac7cc0390dd320719de9478b684cea8619114043b98d82425b624c312bd2a0"
+    },
+    {
+      "source": "app/src/main/assets/communication/communication_catalog_v1.json",
+      "destination": "migration/etapa2/source/app/src/main/assets/communication/communication_catalog_v1.json",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 130525,
+      "sha256": "666d24b453f29a360d5bd42547a5c57ff2256b4430622714a05bfbdb21c3d718",
+      "blob": "792d31bc0ae22ca93e93db75bf21dfb4ed2b4aa1",
+      "auditWorkingSha256": "666d24b453f29a360d5bd42547a5c57ff2256b4430622714a05bfbdb21c3d718"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramDownloadTask.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramDownloadTask.kt",
+      "componentClass": "C",
+      "role": "source",
+      "bytes": 542,
+      "sha256": "52b0eb2055d21a958006e880b1835d08f0a615bf66cf9f0bd42cd9482db43cbd",
+      "blob": "f5b71c3fca2b903be46446992f0080c1ab2221bb",
+      "auditWorkingSha256": "52b0eb2055d21a958006e880b1835d08f0a615bf66cf9f0bd42cd9482db43cbd"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramDownloadWorker.kt",
+      "destination": "migration/etapa2/reference-only/app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramDownloadWorker.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 1703,
+      "sha256": "487aebfbb7b488b1b59a3920a8d30357170927ac9cd09665e2f25156dbf3158e",
+      "blob": "c8eeaa046f93133a4b80355bb6cf5789b60700fd",
+      "auditWorkingSha256": "487aebfbb7b488b1b59a3920a8d30357170927ac9cd09665e2f25156dbf3158e"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramDownloader.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramDownloader.kt",
+      "componentClass": "C",
+      "role": "source",
+      "bytes": 3426,
+      "sha256": "d3f43ae98cc9f893bb2e65fab414f542188bf0b26ec602fba0c378fa3d46799c",
+      "blob": "53417b0b385b8714f8aec95847eb637a24ef9947",
+      "auditWorkingSha256": "d3f43ae98cc9f893bb2e65fab414f542188bf0b26ec602fba0c378fa3d46799c"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramFileStore.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramFileStore.kt",
+      "componentClass": "C",
+      "role": "source",
+      "bytes": 6193,
+      "sha256": "dc6184aab9ea57231c2aef2876c02e9027d7e154729fbf1852641a8f92741ff4",
+      "blob": "ca909515e3b3f47041873ebf67706220f620352f",
+      "auditWorkingSha256": "dc6184aab9ea57231c2aef2876c02e9027d7e154729fbf1852641a8f92741ff4"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramWorkScheduler.kt",
+      "destination": "migration/etapa2/reference-only/app/src/main/java/com/neuronovaapps/rutinago/data/arasaac/offline/PictogramWorkScheduler.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 2657,
+      "sha256": "4ded4cec2c516e979d7e0608292cc1509fb747c344f66d7e1f4585c0f33c10e6",
+      "blob": "d48269c7cd0545fac38ccb1c1089b62cc4db2ff4",
+      "auditWorkingSha256": "4ded4cec2c516e979d7e0608292cc1509fb747c344f66d7e1f4585c0f33c10e6"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/communication/AndroidCommunicationSpeechEngine.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/data/communication/AndroidCommunicationSpeechEngine.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 5312,
+      "sha256": "332a47d5168f755a347ca38fb221a433b20a589b56ac06d5b5049aeb8ff1d1d1",
+      "blob": "776ad47344c20347dcda117f1126cac9f52ee0f8",
+      "auditWorkingSha256": "332a47d5168f755a347ca38fb221a433b20a589b56ac06d5b5049aeb8ff1d1d1"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/communication/CommunicationPictogramRepository.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/data/communication/CommunicationPictogramRepository.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 5366,
+      "sha256": "7d54abdd67fafb92747b6e6dde460b3344a2a281c7abc6fc73436c0c754de4ba",
+      "blob": "93d169ffb83c6e8dd53c734cd227df52193ff5ba",
+      "auditWorkingSha256": "7d54abdd67fafb92747b6e6dde460b3344a2a281c7abc6fc73436c0c754de4ba"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/communication/CommunicationSetupPreferences.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/data/communication/CommunicationSetupPreferences.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 12549,
+      "sha256": "bb5034df2ff7c5193fb753bfd5102592fd1c3cd6ccc562d141af6999335c283d",
+      "blob": "5d6a13627d6f3416e36b77ca8022c6582fa9c393",
+      "auditWorkingSha256": "bb5034df2ff7c5193fb753bfd5102592fd1c3cd6ccc562d141af6999335c283d"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/communication/CommunicationSetupStorage.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/data/communication/CommunicationSetupStorage.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 956,
+      "sha256": "630baea4fb8af0f50fccbf7606bb80feb51ceeccb45f6947044bb2c9f0ea3b68",
+      "blob": "a59f52f2e436504c957881d49ca0a123b29dbc46",
+      "auditWorkingSha256": "630baea4fb8af0f50fccbf7606bb80feb51ceeccb45f6947044bb2c9f0ea3b68"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/communication/CommunicationStateCodec.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/data/communication/CommunicationStateCodec.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 2170,
+      "sha256": "07cbabdb6c4188d077e198473deffb914eaf893b07c32050820b8aaeac5e515e",
+      "blob": "40af92c51f7ec84838e5330cf9a6577267e0addb",
+      "auditWorkingSha256": "07cbabdb6c4188d077e198473deffb914eaf893b07c32050820b8aaeac5e515e"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/communication/LocalCommunicationCatalogRepository.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/data/communication/LocalCommunicationCatalogRepository.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 7266,
+      "sha256": "2ff2543bc041642bbd5a57953cfb81b13d589e6da679943fe77d82652e04b111",
+      "blob": "aaa2636459f8322cfcec2231a4f0b817a871ba88",
+      "auditWorkingSha256": "2ff2543bc041642bbd5a57953cfb81b13d589e6da679943fe77d82652e04b111"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/institutional/InstitutionalLinks.kt",
+      "destination": "migration/etapa2/reference-only/app/src/main/java/com/neuronovaapps/rutinago/data/institutional/InstitutionalLinks.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 529,
+      "sha256": "b97c90e855932bfd91a378af876634117dd479e28f08eb3171f3d78c3ed2df0f",
+      "blob": "7917d6a3d7dca6f1428488238eece74daf062fea",
+      "auditWorkingSha256": "b97c90e855932bfd91a378af876634117dd479e28f08eb3171f3d78c3ed2df0f"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/data/preferences/UserPreferencesRepository.kt",
+      "destination": "migration/etapa2/reference-only/app/src/main/java/com/neuronovaapps/rutinago/data/preferences/UserPreferencesRepository.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 11243,
+      "sha256": "37d18bd73c5f91a24fe5a42ff1fcee8310e63c41d5e3b138a161984466313935",
+      "blob": "3f0c62dbc403a1a6abe9a13931bc161f781f7082",
+      "auditWorkingSha256": "37d18bd73c5f91a24fe5a42ff1fcee8310e63c41d5e3b138a161984466313935"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/domain/arasaac/ArasaacModels.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/domain/arasaac/ArasaacModels.kt",
+      "componentClass": "C",
+      "role": "source",
+      "bytes": 1251,
+      "sha256": "de8924b43408f9aecfa0d168ee8cf267ef59cbf58e42a49c7656b416ea1282aa",
+      "blob": "389388665cac392c55059a7a56dab84c191102e2",
+      "auditWorkingSha256": "de8924b43408f9aecfa0d168ee8cf267ef59cbf58e42a49c7656b416ea1282aa"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationCatalog.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationCatalog.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 1324,
+      "sha256": "355c19ee9668ff7430dee6446d7059820cfa08147bd6db342181de11bd64ba84",
+      "blob": "cadf120204264e38604e374d96f685f2c62c8e69",
+      "auditWorkingSha256": "355c19ee9668ff7430dee6446d7059820cfa08147bd6db342181de11bd64ba84"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationDestination.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationDestination.kt",
+      "componentClass": "D",
+      "role": "source",
+      "bytes": 1454,
+      "sha256": "e8a7e669a4c48bee13b78049274215294601e230a9ab83cde13b5a525e7c1922",
+      "blob": "dcfbd3a39cf04a18731491614a5699a78e7750a7",
+      "auditWorkingSha256": "e8a7e669a4c48bee13b78049274215294601e230a9ab83cde13b5a525e7c1922"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationHomeVocabulary.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationHomeVocabulary.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 1297,
+      "sha256": "132bdbcfe012e90b2a0ff24ded6daaa54302870f590e1ecb02d14a89e3df2f34",
+      "blob": "1557801f944b1bbbdb4b6953809421da413c916d",
+      "auditWorkingSha256": "132bdbcfe012e90b2a0ff24ded6daaa54302870f590e1ecb02d14a89e3df2f34"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationMessageBuilder.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationMessageBuilder.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 4661,
+      "sha256": "d15fed29d9bc532f56204cffff868662b170895f3e0a293fb13cf5f04b035dd0",
+      "blob": "f514ab2cd1699b7f28e3e5d04bf92970b541f1f4",
+      "auditWorkingSha256": "d15fed29d9bc532f56204cffff868662b170895f3e0a293fb13cf5f04b035dd0"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationPersonalVocabulary.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationPersonalVocabulary.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 2702,
+      "sha256": "16616299b553ea830c36392b3afbaeb9bd9437b229b2a43283f3173d7de02555",
+      "blob": "fa928cc82bfe5097c0def7ce59b0ca4e294ee901",
+      "auditWorkingSha256": "16616299b553ea830c36392b3afbaeb9bd9437b229b2a43283f3173d7de02555"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationPictograms.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationPictograms.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 680,
+      "sha256": "ff95ff7031adfb514bb829e8f7f7362ac21fb656ff612b06629dfc1dd75ef019",
+      "blob": "40c5d0b6dc2d7e1724cfc3d7d743a30de812ee3f",
+      "auditWorkingSha256": "ff95ff7031adfb514bb829e8f7f7362ac21fb656ff612b06629dfc1dd75ef019"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationPresentation.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationPresentation.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 1697,
+      "sha256": "ad7185b8e3ee74d773313378a58d0833ad611c891bdc5c4fe73902e1b0fb666f",
+      "blob": "5b0aa79b74237967fa587dbbb82025e203bc3d82",
+      "auditWorkingSha256": "ad7185b8e3ee74d773313378a58d0833ad611c891bdc5c4fe73902e1b0fb666f"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationProfileSetup.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationProfileSetup.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 942,
+      "sha256": "9aec090e351b25fe1cfad9a41f9f3dd8b8e04b869728c6378194b42f2f6d4bd6",
+      "blob": "1390ff619464794a5dabec054854e39ffac4adac",
+      "auditWorkingSha256": "9aec090e351b25fe1cfad9a41f9f3dd8b8e04b869728c6378194b42f2f6d4bd6"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationSpeechController.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/domain/communication/CommunicationSpeechController.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 9594,
+      "sha256": "67b93142d0f61854ba1787238ec1d2e1864bd789e05bdf1870ebb01eaa9b20d2",
+      "blob": "6d0a8f498b508f977d0c562a2ee64758f48e164a",
+      "auditWorkingSha256": "67b93142d0f61854ba1787238ec1d2e1864bd789e05bdf1870ebb01eaa9b20d2"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/components/RutinaGoComponents.kt",
+      "destination": "migration/etapa2/reference-only/app/src/main/java/com/neuronovaapps/rutinago/ui/components/RutinaGoComponents.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 8159,
+      "sha256": "075a1c1eecfc9f523c7a6cb291393fa18fc4317e1ddd459542a0c5e74d5ac663",
+      "blob": "e95837b236ea8ab6ca8900b80177f4622595390a",
+      "auditWorkingSha256": "075a1c1eecfc9f523c7a6cb291393fa18fc4317e1ddd459542a0c5e74d5ac663"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/arasaac/ArasaacSearchDialog.kt",
+      "destination": "migration/etapa2/reference-only/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/arasaac/ArasaacSearchDialog.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 12156,
+      "sha256": "cee7cf5c7446f0857b6b43ff02b5350e73cf7a53e2132002fcdbb3041c9df08c",
+      "blob": "e2a191b422ed4245a41ffc3e4ea2fb73dff07829",
+      "auditWorkingSha256": "cee7cf5c7446f0857b6b43ff02b5350e73cf7a53e2132002fcdbb3041c9df08c"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationBottomBar.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationBottomBar.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 5495,
+      "sha256": "195174d1b09c50d66c8ec457d38fb805e95eae8ae25fbb1c8c961820d9b93248",
+      "blob": "119d72d12e17eb81846ac870342e9178ef3e9584",
+      "auditWorkingSha256": "30fe0a904079fd3844859349b279d9b6831e16265cd3f60154b488c60c2c2122"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationHomeScreen.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationHomeScreen.kt",
+      "componentClass": "D",
+      "role": "source",
+      "bytes": 15477,
+      "sha256": "3604758b909826b93f47fa043d5a59985cca753c60f849a6449f329a05527e4a",
+      "blob": "aa90ae8ac46ac46f71ef48f7dfe47cc8a954383b",
+      "auditWorkingSha256": "0668710bd31a0065f3685f7bc55c9b4ff889d32c484e033d6afba4efe2fd2eb4"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationHomeVocabularyScreen.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationHomeVocabularyScreen.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 8155,
+      "sha256": "0183e9af1ce9a8854ea74eb11af3ba4a1a546af5b1d17beaa6c3f6c4907afdc8",
+      "blob": "5ae053b7210a48bba195969fd34ea990c008fe77",
+      "auditWorkingSha256": "a4adb897a6d3b55ab2f329d5d4eb99cc177280a16bcd854c45d3c2c3e08bba04"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationNavigationSaver.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationNavigationSaver.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 1051,
+      "sha256": "cedf87f9cc24b56351d4969796571459bf259e2acc9da9a950c40b33d28cb0e3",
+      "blob": "d25d22698f48b5cd4e0a3758a59921a87b822ea3",
+      "auditWorkingSha256": "cedf87f9cc24b56351d4969796571459bf259e2acc9da9a950c40b33d28cb0e3"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationProfileEntryScreen.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationProfileEntryScreen.kt",
+      "componentClass": "D",
+      "role": "source",
+      "bytes": 16073,
+      "sha256": "b510c9fe260243d393b42eeddd0f240006f99019ae13a35732de74510054d6fa",
+      "blob": "ce2fca9bc426984c4d543e7ab5fcd42ae0a395c4",
+      "auditWorkingSha256": "74256dfa4eefd186156c65b14370fef4acb13d63b5a67360517fee0d276a9bf4"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationProfileSetupScreen.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationProfileSetupScreen.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 7509,
+      "sha256": "64ebd47afb1d3edde979d3dbd5b5271ae7318247762fb818712d0e5e7cfd574a",
+      "blob": "0d0d42a65d8d71b939d1e39fb301e568a6f0e7db",
+      "auditWorkingSha256": "64ebd47afb1d3edde979d3dbd5b5271ae7318247762fb818712d0e5e7cfd574a"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationSettingsScreen.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationSettingsScreen.kt",
+      "componentClass": "D",
+      "role": "source",
+      "bytes": 2531,
+      "sha256": "f842937bc45b86e4cdca8cb912c0dfbb56c7ad9dba3874cb4ab605c26bc35f36",
+      "blob": "e81d695e8dc5a143d4c3bc97e2a44340563ddac9",
+      "auditWorkingSha256": "b69a1f4c068f8c7140fa238e7175032b655ab9c98ad06afbd4882f7e4f86ae84"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationSpeechControls.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationSpeechControls.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 6175,
+      "sha256": "fe1472ffef2b3a5dc6076fd57b642d40b5032ce77d49d140ad115bd5996469af",
+      "blob": "59c07fdf0f0f770558d2881ebae115a61fb9e5ea",
+      "auditWorkingSha256": "fe1472ffef2b3a5dc6076fd57b642d40b5032ce77d49d140ad115bd5996469af"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationVocabularyScreen.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/CommunicationVocabularyScreen.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 15513,
+      "sha256": "99708638e7ac3820f14fe8c7f50aa93d65036dfaf50ff3a3c9c12e50c05111ef",
+      "blob": "1a81b6b2ffd37abdaf3a9f1343ed084807322b4a",
+      "auditWorkingSha256": "99708638e7ac3820f14fe8c7f50aa93d65036dfaf50ff3a3c9c12e50c05111ef"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/components/CommunicationComponents.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/components/CommunicationComponents.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 10599,
+      "sha256": "0e7f5ee1cefb073885a95672d2d2438a0401c34ec02519749e91773338fbbea2",
+      "blob": "25316e87eb69258659c0b87f9c0f87ef7f4e65be",
+      "auditWorkingSha256": "0e7f5ee1cefb073885a95672d2d2438a0401c34ec02519749e91773338fbbea2"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/components/CommunicationPictogram.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/components/CommunicationPictogram.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 3351,
+      "sha256": "6478416901280a8a9b905e2e1292951eca6df37c623324d538587cec03666078",
+      "blob": "b7a4e2be75af16dc43bf27cd1cdb3dde474f75ea",
+      "auditWorkingSha256": "6478416901280a8a9b905e2e1292951eca6df37c623324d538587cec03666078"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/components/CommunicationPresentationSelector.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/communication/components/CommunicationPresentationSelector.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 3777,
+      "sha256": "38f28639c4648465a07a587c998eb4eef226f2fbfb71b77e1ab58faccd8bfb05",
+      "blob": "039d14c370ae7d05fe7f75a9d751e46afcfe65eb",
+      "auditWorkingSha256": "38f28639c4648465a07a587c998eb4eef226f2fbfb71b77e1ab58faccd8bfb05"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/profiles/ProfileScreens.kt",
+      "destination": "migration/etapa2/reference-only/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/profiles/ProfileScreens.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 8717,
+      "sha256": "edc5f66ff4ddaaee0c81ed588e07e9458023f65d9fe3d43b5900674c9160dbd7",
+      "blob": "681b21e8ad202ce9ac97665a9374769c83cc8e4f",
+      "auditWorkingSha256": "edc5f66ff4ddaaee0c81ed588e07e9458023f65d9fe3d43b5900674c9160dbd7"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/screens/settings/SettingsScreen.kt",
+      "destination": "migration/etapa2/reference-only/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/settings/SettingsScreen.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 16831,
+      "sha256": "ad9e4b1911dd779a68354c129a7b8ae1b7397a37344ebd014d1864021d10383a",
+      "blob": "b5e1bdb86ea2fed526ceabb28de1d4bb4523a0ad",
+      "auditWorkingSha256": "ad9e4b1911dd779a68354c129a7b8ae1b7397a37344ebd014d1864021d10383a"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/theme/Color.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/theme/Color.kt",
+      "componentClass": "C",
+      "role": "source",
+      "bytes": 1413,
+      "sha256": "19a42ee42e7c0b493146a5857eb1e303b3ee051e690983210e7e06e6582d4a46",
+      "blob": "abb3714055fb1149d0effeb473d7d87975364246",
+      "auditWorkingSha256": "19a42ee42e7c0b493146a5857eb1e303b3ee051e690983210e7e06e6582d4a46"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/theme/Theme.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/theme/Theme.kt",
+      "componentClass": "C",
+      "role": "source",
+      "bytes": 4554,
+      "sha256": "521c6a609159fcb0a0b45c2bcb55319f369455d4f70fdd2a360ae3912f168dc3",
+      "blob": "a359506edce5e80669d698cd86673a4b08001493",
+      "auditWorkingSha256": "521c6a609159fcb0a0b45c2bcb55319f369455d4f70fdd2a360ae3912f168dc3"
+    },
+    {
+      "source": "app/src/main/java/com/neuronovaapps/rutinago/ui/theme/Type.kt",
+      "destination": "migration/etapa2/source/app/src/main/java/com/neuronovaapps/rutinago/ui/theme/Type.kt",
+      "componentClass": "C",
+      "role": "source",
+      "bytes": 1479,
+      "sha256": "09f938eb57c085968bd0ba792cabe4efed60a5debaec135deeb72e0ed1031ca3",
+      "blob": "db1de6aab82d68755ba507ac1f9a03422b5b2f28",
+      "auditWorkingSha256": "09f938eb57c085968bd0ba792cabe4efed60a5debaec135deeb72e0ed1031ca3"
+    },
+    {
+      "source": "app/src/main/keepRules/rules.keep",
+      "destination": "migration/etapa2/source/app/src/main/keepRules/rules.keep",
+      "componentClass": "C",
+      "role": "source",
+      "bytes": 418,
+      "sha256": "cd9f36ade2d8604e1b7cf24eff5b171f9c0816c0aa013ba7eb55be4fe2e1dac7",
+      "blob": "d7e081a5be2f222428d1c8b018566fe1136adb97",
+      "auditWorkingSha256": "cd9f36ade2d8604e1b7cf24eff5b171f9c0816c0aa013ba7eb55be4fe2e1dac7"
+    },
+    {
+      "source": "app/src/main/res/xml/backup_rules.xml",
+      "destination": "migration/etapa2/reference-only/app/src/main/res/xml/backup_rules.xml",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 420,
+      "sha256": "8eeac54444ca41dcc27b56c1a6e65cf6b897a2289afb64f89c9b354def4c86b7",
+      "blob": "2a61e5d4dd23794f185456804b0c73d3734d6a85",
+      "auditWorkingSha256": "8eeac54444ca41dcc27b56c1a6e65cf6b897a2289afb64f89c9b354def4c86b7"
+    },
+    {
+      "source": "app/src/main/res/xml/data_extraction_rules.xml",
+      "destination": "migration/etapa2/reference-only/app/src/main/res/xml/data_extraction_rules.xml",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 460,
+      "sha256": "0c01cdb3205eb04697ac8ed0654a0cffcf18b1af2dcec5b8290c1dc39e40dec0",
+      "blob": "2aeefa502340366845d4729c2c239f1d00bb0a2b",
+      "auditWorkingSha256": "0c01cdb3205eb04697ac8ed0654a0cffcf18b1af2dcec5b8290c1dc39e40dec0"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/CommunicationBottomNavigationTest.kt",
+      "destination": "migration/etapa2/source/app/src/test/java/com/neuronovaapps/rutinago/CommunicationBottomNavigationTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 6723,
+      "sha256": "a9935a9215f17b592f18e4314c3626c3d7bb92d78579635be4b76ec4a247fb5e",
+      "blob": "5e94512ea808c6c779337afdca229191ca691536",
+      "auditWorkingSha256": "ba72698d05d17beaa7f5b02b346619e3a875bddb1bfe19cf7a46f1a313d87324"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/CommunicationCatalogTest.kt",
+      "destination": "migration/etapa2/source/app/src/test/java/com/neuronovaapps/rutinago/CommunicationCatalogTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 9535,
+      "sha256": "ed75c3cc01dffe71d6fb69a6a3264b411589a360816e7f5d2c4827c792be4b98",
+      "blob": "1d9c9c5eb631b9a9a7ab11e17d77bd347d02af46",
+      "auditWorkingSha256": "ed75c3cc01dffe71d6fb69a6a3264b411589a360816e7f5d2c4827c792be4b98"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/CommunicationHomeVocabularyTest.kt",
+      "destination": "migration/etapa2/source/app/src/test/java/com/neuronovaapps/rutinago/CommunicationHomeVocabularyTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 12090,
+      "sha256": "7e710f02e54eb5c9a943976d49a1d74eb09eca234ffae01276f8124e7f578593",
+      "blob": "abea833887b2c2b22f42523db521372f48e798d4",
+      "auditWorkingSha256": "7cdb6f4dba8f38be642a139e209f5aca2c440cc6d357c99c91885eedb0869b11"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/CommunicationMessageBuilderTest.kt",
+      "destination": "migration/etapa2/source/app/src/test/java/com/neuronovaapps/rutinago/CommunicationMessageBuilderTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 10161,
+      "sha256": "c05d59313f105d5e08c2f480d901a96ddc8bd2aeca8d83addbb2628e7dcddba2",
+      "blob": "ac07beada836ad93a16b687a68cc09c159836f61",
+      "auditWorkingSha256": "c05d59313f105d5e08c2f480d901a96ddc8bd2aeca8d83addbb2628e7dcddba2"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/CommunicationPersonalVocabularyTest.kt",
+      "destination": "migration/etapa2/source/app/src/test/java/com/neuronovaapps/rutinago/CommunicationPersonalVocabularyTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 9023,
+      "sha256": "2e96ce3a93c4d4c4ad9f909f451527b226a1f96da22018e8d26deb3b4b742861",
+      "blob": "273b50ab8afd315c4b14170438056f70411a220b",
+      "auditWorkingSha256": "2e96ce3a93c4d4c4ad9f909f451527b226a1f96da22018e8d26deb3b4b742861"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/CommunicationPictogramsTest.kt",
+      "destination": "migration/etapa2/source/app/src/test/java/com/neuronovaapps/rutinago/CommunicationPictogramsTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 8585,
+      "sha256": "3fe018c45ec83f647518c93fcedc507169156e66eecd3931a635963dd597b692",
+      "blob": "2d34c6765b18b7f365d3a59da968a658aabe6bf3",
+      "auditWorkingSha256": "addd9c1a7734783114de168dfa2034746130db3cc93e9962b79594018ebf010a"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/CommunicationPresentationTest.kt",
+      "destination": "migration/etapa2/source/app/src/test/java/com/neuronovaapps/rutinago/CommunicationPresentationTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 5109,
+      "sha256": "e6ad8fba16c0c2e275068b866a8cf4fc3ed105b9d41bfc52f9a105c257827bc2",
+      "blob": "64c40aaf7d50dd63b28d19c91105c96342e72b48",
+      "auditWorkingSha256": "e6ad8fba16c0c2e275068b866a8cf4fc3ed105b9d41bfc52f9a105c257827bc2"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/CommunicationProfileSetupTest.kt",
+      "destination": "migration/etapa2/source/app/src/test/java/com/neuronovaapps/rutinago/CommunicationProfileSetupTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 17117,
+      "sha256": "6c637d58b827608806ac6b80b2bb3c8ed6cd642e6260204cbd0d4dfbb7d68854",
+      "blob": "ed55a5c06b540a43c8e1c1dc6eaf58814033ea3a",
+      "auditWorkingSha256": "6c637d58b827608806ac6b80b2bb3c8ed6cd642e6260204cbd0d4dfbb7d68854"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/CommunicationSpeechControllerTest.kt",
+      "destination": "migration/etapa2/source/app/src/test/java/com/neuronovaapps/rutinago/CommunicationSpeechControllerTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 11490,
+      "sha256": "ce718b4890f5df3aa31e74c5d237ab28dada9e6ab895f3b51369825de8ecc9e6",
+      "blob": "d592ad52565d25a150df247b9aabe540ec527423",
+      "auditWorkingSha256": "ce718b4890f5df3aa31e74c5d237ab28dada9e6ab895f3b51369825de8ecc9e6"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/CommunicationSpeechPreferencesTest.kt",
+      "destination": "migration/etapa2/source/app/src/test/java/com/neuronovaapps/rutinago/CommunicationSpeechPreferencesTest.kt",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 3766,
+      "sha256": "6afb0ebe324d41a8a3908a8c9bf070475d9fb7b81b1ca2f4601207cad984d3c3",
+      "blob": "83a53b3226e85ef09fb280dbc6ffab780351f6ee",
+      "auditWorkingSha256": "6afb0ebe324d41a8a3908a8c9bf070475d9fb7b81b1ca2f4601207cad984d3c3"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/PictogramOfflineTest.kt",
+      "destination": "migration/etapa2/source/app/src/test/java/com/neuronovaapps/rutinago/PictogramOfflineTest.kt",
+      "componentClass": "C",
+      "role": "source",
+      "bytes": 12709,
+      "sha256": "081d3989ff397f55a4fe7f980c9942f035ec7eb4a2b5f9ba86e263d4ef01574e",
+      "blob": "52a60d86e96315fc333713c33df84e1dcd36a653",
+      "auditWorkingSha256": "081d3989ff397f55a4fe7f980c9942f035ec7eb4a2b5f9ba86e263d4ef01574e"
+    },
+    {
+      "source": "app/src/test/java/com/neuronovaapps/rutinago/UserPreferencesTest.kt",
+      "destination": "migration/etapa2/reference-only/app/src/test/java/com/neuronovaapps/rutinago/UserPreferencesTest.kt",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 6338,
+      "sha256": "bdaa4f82285bc9c7bdb3d4ac8644e21e8b15a52c3263a76ada8a89c18a7a4160",
+      "blob": "494c7c068b606360d0302e5d3465eed24cb80882",
+      "auditWorkingSha256": "bdaa4f82285bc9c7bdb3d4ac8644e21e8b15a52c3263a76ada8a89c18a7a4160"
+    },
+    {
+      "source": "build.gradle.kts",
+      "destination": "migration/etapa2/reference-only/build.gradle.kts",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 259,
+      "sha256": "ce4a47634d8621ce3cae8a43364305753944aaf6c3fce67b8a61d8670d240249",
+      "blob": "5133f5fde8e4eaee9ac61372e768610ecfbecb1b",
+      "auditWorkingSha256": "ce4a47634d8621ce3cae8a43364305753944aaf6c3fce67b8a61d8670d240249"
+    },
+    {
+      "source": "docs/communication/arasaac_audit/APLICACION_CURACION_FASE_3_6_1.json",
+      "destination": "migration/etapa2/source/docs/communication/arasaac_audit/APLICACION_CURACION_FASE_3_6_1.json",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 72133,
+      "sha256": "b70a80ab74a20f8a6c58bd07e22d7a59ef3969cbdab772c84230a0c2e1ff34e6",
+      "blob": "9328dc3f53152b44fb5da4cdb90984503c737ea6",
+      "auditWorkingSha256": "b70a80ab74a20f8a6c58bd07e22d7a59ef3969cbdab772c84230a0c2e1ff34e6"
+    },
+    {
+      "source": "docs/communication/arasaac_audit/APLICACION_DECISIONES_FASE_3_6_1.md",
+      "destination": "migration/etapa2/source/docs/communication/arasaac_audit/APLICACION_DECISIONES_FASE_3_6_1.md",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 59759,
+      "sha256": "5e2adadc1fcca6704d0ed6f986222dd48141cd76ef311db7fdef10fdc93de8f5",
+      "blob": "a93b0b86328a7b6837702897ee511897a78ad87d",
+      "auditWorkingSha256": "5e2adadc1fcca6704d0ed6f986222dd48141cd76ef311db7fdef10fdc93de8f5"
+    },
+    {
+      "source": "docs/communication/arasaac_audit/DECISIONES_COMPLEMENTARIAS_FASE_3_6_1.json",
+      "destination": "migration/etapa2/source/docs/communication/arasaac_audit/DECISIONES_COMPLEMENTARIAS_FASE_3_6_1.json",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 175755,
+      "sha256": "a0654eaa0f98b8bd74711f5ac44ed72a8d8741b582a75f6e6306c20e10bc0dff",
+      "blob": "5064558278043cae6992ef4b9158e7e8fe12e8af",
+      "auditWorkingSha256": "a0654eaa0f98b8bd74711f5ac44ed72a8d8741b582a75f6e6306c20e10bc0dff"
+    },
+    {
+      "source": "docs/communication/arasaac_audit/DECISIONES_COMPLEMENTARIAS_FASE_3_6_1.md",
+      "destination": "migration/etapa2/source/docs/communication/arasaac_audit/DECISIONES_COMPLEMENTARIAS_FASE_3_6_1.md",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 20199,
+      "sha256": "40a68ecf7589dab12a543ce03833294718dee9af12f75c30bd3d25816013d9b9",
+      "blob": "a85a2b13df11aa6aa83bbd17e4b444d52cac63f1",
+      "auditWorkingSha256": "40a68ecf7589dab12a543ce03833294718dee9af12f75c30bd3d25816013d9b9"
+    },
+    {
+      "source": "docs/communication/arasaac_audit/DECISIONES_FINALES_FASE_3_6_1.json",
+      "destination": "migration/etapa2/source/docs/communication/arasaac_audit/DECISIONES_FINALES_FASE_3_6_1.json",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 33945,
+      "sha256": "359c68cb33c188b45c41e85a5a97bb4f86b1ae362ef1c65a7a6e2b6eb3ca3355",
+      "blob": "567530189d232cf4f3d56f358586d7c5a298fee4",
+      "auditWorkingSha256": "359c68cb33c188b45c41e85a5a97bb4f86b1ae362ef1c65a7a6e2b6eb3ca3355"
+    },
+    {
+      "source": "docs/communication/arasaac_audit/RESOLUCION_FINAL_Y_APLICACION_FASE_3_6_1.md",
+      "destination": "migration/etapa2/source/docs/communication/arasaac_audit/RESOLUCION_FINAL_Y_APLICACION_FASE_3_6_1.md",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 22744,
+      "sha256": "e72ff552b1ea37a2adac8c2a5f47d1ba2b170a475ce7f11adc80bf47e2976fb3",
+      "blob": "ae641ee9e0cb51e986b72d9ab8aa9f4bcc52480c",
+      "auditWorkingSha256": "e72ff552b1ea37a2adac8c2a5f47d1ba2b170a475ce7f11adc80bf47e2976fb3"
+    },
+    {
+      "source": "docs/communication/arasaac_audit/VALIDACION_INTEGRACION_FASE_3_6_1.json",
+      "destination": "migration/etapa2/source/docs/communication/arasaac_audit/VALIDACION_INTEGRACION_FASE_3_6_1.json",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 11571,
+      "sha256": "99d94407c9dd0330463665069d0f836af2a590538314849f488fdd9498a865b0",
+      "blob": "301b877336902b35f71bf8900a05db0acf9a5fac",
+      "auditWorkingSha256": "99d94407c9dd0330463665069d0f836af2a590538314849f488fdd9498a865b0"
+    },
+    {
+      "source": "docs/communication/arasaac_audit/VALIDACION_INTEGRACION_FASE_3_6_1.md",
+      "destination": "migration/etapa2/source/docs/communication/arasaac_audit/VALIDACION_INTEGRACION_FASE_3_6_1.md",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 10247,
+      "sha256": "b550be5dc1f064108db7ea0e71b391bdbaa01c5c45943eb8df3e2cad449e4b0a",
+      "blob": "32f8180697b8c6c71960a9a21201b5e49981ba49",
+      "auditWorkingSha256": "b550be5dc1f064108db7ea0e71b391bdbaa01c5c45943eb8df3e2cad449e4b0a"
+    },
+    {
+      "source": "docs/communication/arasaac_audit/communication_catalog_v1.original_pre_decisiones.json",
+      "destination": "migration/etapa2/source/docs/communication/arasaac_audit/communication_catalog_v1.original_pre_decisiones.json",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 112167,
+      "sha256": "bfad0db80ceffcdfa0354381f0a097dd27316b5dcf7a4c85663108d4445d5be0",
+      "blob": "d1aec93623522cb27f315733cc529f2727f30f20",
+      "auditWorkingSha256": "bfad0db80ceffcdfa0354381f0a097dd27316b5dcf7a4c85663108d4445d5be0"
+    },
+    {
+      "source": "docs/communication/arasaac_audit/comunicago-arasaac-decisiones-2026-10-19.json",
+      "destination": "migration/etapa2/source/docs/communication/arasaac_audit/comunicago-arasaac-decisiones-2026-10-19.json",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 33595,
+      "sha256": "75c12123adbee08486b140a297bca466f8c71c4f46aa3655c92b270929db1512",
+      "blob": "3f8df4e692df6142d89deba5331516faea93ca1e",
+      "auditWorkingSha256": "75c12123adbee08486b140a297bca466f8c71c4f46aa3655c92b270929db1512"
+    },
+    {
+      "source": "docs/communication/source_v1.json",
+      "destination": "migration/etapa2/source/docs/communication/source_v1.json",
+      "componentClass": "B",
+      "role": "source",
+      "bytes": 84983,
+      "sha256": "4f49c92c6d1c569c8d50e9e0108ce5de1c1e7560b5105a3a91750286e5ed9df4",
+      "blob": "655e5c993ae6e5da60313d0fbe23b6aca2b964eb",
+      "auditWorkingSha256": "4f49c92c6d1c569c8d50e9e0108ce5de1c1e7560b5105a3a91750286e5ed9df4"
+    },
+    {
+      "source": "gradle.properties",
+      "destination": "migration/etapa2/reference-only/gradle.properties",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 1120,
+      "sha256": "cf774135f23cd1e6c054168ce772e24140800347f95b29819744c96f97e4ef26",
+      "blob": "99fc155814191cc379ea11c9bf78f64f70935932",
+      "auditWorkingSha256": "cf774135f23cd1e6c054168ce772e24140800347f95b29819744c96f97e4ef26"
+    },
+    {
+      "source": "gradle/gradle-daemon-jvm.properties",
+      "destination": "migration/etapa2/reference-only/gradle/gradle-daemon-jvm.properties",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 1138,
+      "sha256": "6c13aa5ba36690ccfbbb25a8807d01d98c15833e446d7ae82ddc726472cb8ef7",
+      "blob": "fa4ed510e60d04aa68cf65ecb699f5c9d15b4b15",
+      "auditWorkingSha256": "6c13aa5ba36690ccfbbb25a8807d01d98c15833e446d7ae82ddc726472cb8ef7"
+    },
+    {
+      "source": "gradle/libs.versions.toml",
+      "destination": "migration/etapa2/reference-only/gradle/libs.versions.toml",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 3240,
+      "sha256": "a79514079a5696806aa49a282351eede9e72ae5573cbbdd537ebdaf95d723ef5",
+      "blob": "bed0143ca7c8875cd73933deea2ccb43a596800a",
+      "auditWorkingSha256": "a79514079a5696806aa49a282351eede9e72ae5573cbbdd537ebdaf95d723ef5"
+    },
+    {
+      "source": "gradle/wrapper/gradle-wrapper.jar",
+      "destination": "migration/etapa2/reference-only/gradle/wrapper/gradle-wrapper.jar",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 45457,
+      "sha256": "76805e32c009c0cf0dd5d206bddc9fb22ea42e84db904b764f3047de095493f3",
+      "blob": "8bdaf60c75ab801e22807dde59e12a8735a34077",
+      "auditWorkingSha256": "76805e32c009c0cf0dd5d206bddc9fb22ea42e84db904b764f3047de095493f3"
+    },
+    {
+      "source": "gradle/wrapper/gradle-wrapper.properties",
+      "destination": "migration/etapa2/reference-only/gradle/wrapper/gradle-wrapper.properties",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 375,
+      "sha256": "f5ffe635f70bc2aa8e437a8c37eddb357fb87b1540c090a6eea785bc1276b5c6",
+      "blob": "47d59155d2767dd49f871f6d9b2c1f61ed8819bc",
+      "auditWorkingSha256": "d5497712c20c6144ee681d221f289d2a55df1ed8cb0777f27c1eb2aa62d177d1"
+    },
+    {
+      "source": "gradlew",
+      "destination": "migration/etapa2/reference-only/gradlew",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 8728,
+      "sha256": "3238afb2aed5cb16eb7d6718077e7138059108f007b54179e9cc157c5a6e0e89",
+      "blob": "ef07e0162b183eb9d19a2c9ba7035c283af9f8dd",
+      "auditWorkingSha256": "3238afb2aed5cb16eb7d6718077e7138059108f007b54179e9cc157c5a6e0e89"
+    },
+    {
+      "source": "gradlew.bat",
+      "destination": "migration/etapa2/reference-only/gradlew.bat",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 2843,
+      "sha256": "94102713eb8fb22d032397924c0f38ab2da783ba60d07054339f1190a0c4e2cd",
+      "blob": "db3a6ac207e507b0bc1635a9f2c18d3b174e682e",
+      "auditWorkingSha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b"
+    },
+    {
+      "source": "settings.gradle.kts",
+      "destination": "migration/etapa2/reference-only/settings.gradle.kts",
+      "componentClass": "D",
+      "role": "reference-only",
+      "bytes": 619,
+      "sha256": "64b18b74436696ff546b7c153b40a13f0d2359c6fbe083a942a695f12cda637b",
+      "blob": "882b1bddd02192040623c32bc279aef3b46eded8",
+      "auditWorkingSha256": "64b18b74436696ff546b7c153b40a13f0d2359c6fbe083a942a695f12cda637b"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Preserve extracted baseline and evidence bytes, including original line endings.
+/migration/etapa2/source/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+/migration/etapa2/reference-only/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol

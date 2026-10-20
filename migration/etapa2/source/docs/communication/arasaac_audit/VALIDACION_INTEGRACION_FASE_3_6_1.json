@@ -1,0 +1,306 @@
+{
+  "result": "INTEGRATION_GATES_PASSED",
+  "records": 132,
+  "categories": 18,
+  "approvedAssociations": 119,
+  "uniqueApprovedIds": 116,
+  "textOnly": 13,
+  "textOnlyWords": [
+    {
+      "vocabId": "VOC_057",
+      "word": "El"
+    },
+    {
+      "vocabId": "VOC_058",
+      "word": "La"
+    },
+    {
+      "vocabId": "VOC_059",
+      "word": "Mi"
+    },
+    {
+      "vocabId": "VOC_060",
+      "word": "Y"
+    },
+    {
+      "vocabId": "VOC_061",
+      "word": "O"
+    },
+    {
+      "vocabId": "VOC_062",
+      "word": "Con"
+    },
+    {
+      "vocabId": "VOC_072",
+      "word": "Estoy"
+    },
+    {
+      "vocabId": "VOC_074",
+      "word": "Dame"
+    },
+    {
+      "vocabId": "VOC_097",
+      "word": "Ruido"
+    },
+    {
+      "vocabId": "VOC_126",
+      "word": "Me"
+    },
+    {
+      "vocabId": "VOC_127",
+      "word": "Te"
+    },
+    {
+      "vocabId": "VOC_128",
+      "word": "Está"
+    },
+    {
+      "vocabId": "VOC_129",
+      "word": "Es"
+    }
+  ],
+  "pendingDecisions": 0,
+  "contradictions": 0,
+  "originalDecisionsSha256": "75c12123adbee08486b140a297bca466f8c71c4f46aa3655c92b270929db1512",
+  "finalDecisionsSha256": "359c68cb33c188b45c41e85a5a97bb4f86b1ae362ef1c65a7a6e2b6eb3ca3355",
+  "originalBankSha256": "bfad0db80ceffcdfa0354381f0a097dd27316b5dcf7a4c85663108d4445d5be0",
+  "curatedBankSha256": "666d24b453f29a360d5bd42547a5c57ff2256b4430622714a05bfbdb21c3d718",
+  "unitTests": {
+    "tests": 205,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 6,
+    "Hint": 1
+  },
+  "instrumentedDistinctMethodsPassed": 35,
+  "unresolvedInstrumentedFailures": 0,
+  "instrumentedPassedMethods": [
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationBottomNavigationAccessibilityTest",
+      "test": "labelsTouchTargetsSelectionAndContentFitAcrossThemesSizesAndAllThreeTabs"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationBottomNavigationUiTest",
+      "test": "editorBackAndSavedAnswersReturnToSettingsAndKeepMessage"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationBottomNavigationUiTest",
+      "test": "sharedMessageRepetitionsCategoryAndAdministrationSurviveTabsAndRecreation"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationBottomNavigationUiTest",
+      "test": "switchingProfilesNeverMixesMessageSelectionOrPresentation"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationBottomNavigationUiTest",
+      "test": "threeTabsBackPolicyAndRutinaGoRemainIndependent"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationCuratedPictogramsUiTest",
+      "test": "approvedImageAndTextStayAccessibleAcrossModesThemesScalesAndTransferFailures"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationCuratedPictogramsUiTest",
+      "test": "authenticArasaacDownloadMatchesAuditedWaterAndWorkerReusesSharedCache"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationHomeExposureUiTest",
+      "test": "explorerSharesRepeatedMessageAndReturnsHomeWithoutAssigningWords"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationHomeExposureUiTest",
+      "test": "legacyProfileCanAddUseRemoveReAddAndRestoreThroughTheRealApp"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationHomeExposureUiTest",
+      "test": "organizationIsVisibleAtEntryInFullView"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationHomeExposureUiTest",
+      "test": "organizationIsVisibleAtEntryWithoutSearchingOrScrolling"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationHomeExposureUiTest",
+      "test": "organizationIsVisibleWithVeryLargeTextAndHighContrast"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationHomeExposureUiTest",
+      "test": "vocabularyCategoryAdministrationKeepsAvailabilityAndMessageSeparate"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationPersonalHomeAccessibilityTest",
+      "test": "useAndAssignmentRemainDistinctReadableAndReachableAcrossTheAppearanceMatrix"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationPersonalHomeUiTest",
+      "test": "bothViewsAndProfilesKeepTheirOwnHomeSelectionAndOriginalNavigation"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationPersonalHomeUiTest",
+      "test": "emptySelectionAndSecondaryNavigationSurviveRecreationAndAllowAddingWords"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationPersonalHomeUiTest",
+      "test": "hideAndRecoverRetainsTheAssignmentAndNeverChangesTheMessage"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationPersonalHomeUiTest",
+      "test": "useAddRemoveAndOrganizeAreSeparateAndKeepTheSameMessage"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationPersonalVocabularyUiTest",
+      "test": "initialReviewHideCancelRecoverResetAndNavigationPreserveMessageAndProfileIsolation"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationPictogramFallbackUiTest",
+      "test": "all132CardsRemainUsableOfflineAndOnly119ApprovedWordsRequestImages"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationPresentationUiTest",
+      "test": "referenceProfileChangesViewsWithoutLosingMessageCategoryUndoOrPreference"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationSpeechUiTest",
+      "test": "ageOrOralAnswersAndPresentationNeverDisableVoiceOrCreateAnotherEngine"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationSpeechUiTest",
+      "test": "consecutiveRequestsAndProfileChangeIgnoreOldCallbacks"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationSpeechUiTest",
+      "test": "speakRepeatAndStopAreIndependentFromMessageEditing"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationSpeechUiTest",
+      "test": "speedAndLastConfirmedSurviveRestorationWithoutAutomaticPlayback"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationSpeechUiTest",
+      "test": "unavailableSpanishDisablesVoiceAndPreservesAllCommunicationTabs"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.CommunicationVocabularyAccessibilityTest",
+      "test": "administrationSupportsAppearancesTextScalesHiddenStateAndLargeTextScrolling"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.ModuleShellNavigationTest",
+      "test": "communicationIsIndependentAndBothBackActionsReturnToSelector"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.ModuleShellNavigationTest",
+      "test": "internalBackReturnsToRutinaGoBeforeLeavingTheModule"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.ModuleShellNavigationTest",
+      "test": "rutinaGoEntryOffersVisibleReturnAndSystemBackFromEveryMainTab"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.ModuleShellNavigationTest",
+      "test": "switchingModulesPreservesRutinaGoDestinationAndSurvivesRecreation"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.PictogramWorkTest",
+      "test": "requestNeedsNetworkAndHasStableUniqueId"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.PictogramWorkTest",
+      "test": "workerMapsSuccessRetryAndPermanentFailure"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.PictogramWorkTest",
+      "test": "workerRejectsMissingIdWithoutDownloading"
+    },
+    {
+      "class": "com.neuronovaapps.rutinago.PictogramWorkTest",
+      "test": "workerSkipsAnIdWhichHasNoPersistedReference"
+    }
+  ],
+  "historicalFailedAttempts": [
+    {
+      "log": "instrumented-pictograms.log",
+      "class": "com.neuronovaapps.rutinago.CommunicationCuratedPictogramsUiTest",
+      "test": "initializationError",
+      "code": -2
+    },
+    {
+      "log": "instrumented-regressions.log",
+      "class": "com.neuronovaapps.rutinago.CommunicationPersonalHomeUiTest",
+      "test": "bothViewsAndProfilesKeepTheirOwnHomeSelectionAndOriginalNavigation",
+      "code": -2
+    },
+    {
+      "log": "instrumented-regressions.log",
+      "class": "com.neuronovaapps.rutinago.CommunicationPersonalVocabularyUiTest",
+      "test": "initializationError",
+      "code": -2
+    },
+    {
+      "log": "instrumented-regressions.log",
+      "class": "com.neuronovaapps.rutinago.CommunicationVocabularyAccessibilityTest",
+      "test": "administrationSupportsAppearancesTextScalesHiddenStateAndLargeTextScrolling",
+      "code": -2
+    },
+    {
+      "log": "instrumented-regressions.log",
+      "class": "com.neuronovaapps.rutinago.CommunicationPersonalHomeAccessibilityTest",
+      "test": "useAndAssignmentRemainDistinctReadableAndReachableAcrossTheAppearanceMatrix",
+      "code": -2
+    },
+    {
+      "log": "instrumented-regressions.log",
+      "class": "com.neuronovaapps.rutinago.CommunicationBottomNavigationAccessibilityTest",
+      "test": "labelsTouchTargetsSelectionAndContentFitAcrossThemesSizesAndAllThreeTabs",
+      "code": -2
+    },
+    {
+      "log": "instrumented-regressions.log",
+      "class": "com.neuronovaapps.rutinago.CommunicationPresentationUiTest",
+      "test": "initializationError",
+      "code": -2
+    },
+    {
+      "log": "instrumented-profiles-attempt1-navigation-harness.log",
+      "class": "com.neuronovaapps.rutinago.CommunicationPersonalVocabularyUiTest",
+      "test": "initialReviewHideCancelRecoverResetAndNavigationPreserveMessageAndProfileIsolation",
+      "code": -2
+    },
+    {
+      "log": "instrumented-profiles-attempt1-navigation-harness.log",
+      "class": "com.neuronovaapps.rutinago.CommunicationPresentationUiTest",
+      "test": "referenceProfileChangesViewsWithoutLosingMessageCategoryUndoOrPreference",
+      "code": -2
+    },
+    {
+      "log": "instrumented-accessibility-attempt1-harness.log",
+      "class": "com.neuronovaapps.rutinago.CommunicationVocabularyAccessibilityTest",
+      "test": "administrationSupportsAppearancesTextScalesHiddenStateAndLargeTextScrolling",
+      "code": -2
+    },
+    {
+      "log": "instrumented-accessibility-attempt1-harness.log",
+      "class": "com.neuronovaapps.rutinago.CommunicationPersonalHomeAccessibilityTest",
+      "test": "useAndAssignmentRemainDistinctReadableAndReachableAcrossTheAppearanceMatrix",
+      "code": -2
+    }
+  ],
+  "authenticArasaacImageVerified": "2248 / 500x500 / SHA-256 matches captured audit",
+  "sharedCacheVerified": true,
+  "offlineFallbackVerified": true,
+  "presentationScenarios": 24,
+  "googleSheetsModified": false,
+  "profilesMigrated": false,
+  "laterPhasesStarted": false,
+  "apkSha256": "9f0ec10ac53516057719afa3c10acb37214220d29ca920aa49416822f8d6c4f2",
+  "apkPath": "G:\\NeuroNovaApps\\AndroidStudioProjects\\RutinaGo\\app\\build\\outputs\\apk\\debug\\app-debug.apk",
+  "identifiableApkPath": "G:\\NeuroNovaApps\\AndroidStudioProjects\\RutinaGo\\app\\build\\outputs\\apk\\debug\\RutinaGo-ComunicaGo-ARASAAC-fase-3-6-1.apk",
+  "signatureSha256": "ff36e3c58c80a5d345625ee32a1c02910e27aed95e3503256733475c61131846",
+  "limits": [
+    "No physical-phone install or audible TTS/TalkBack sign-off; manual APK validation remains.",
+    "119 associations were checked against saved audit evidence, not all visually inspected on device.",
+    "Large virtual-layout accessibility matrices run on a physical viewport large enough to contain them; actual 320x480dp tested separately."
+  ]
+}
