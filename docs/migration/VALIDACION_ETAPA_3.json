@@ -1,0 +1,464 @@
+{
+  "date": "2026-10-20",
+  "timezone": "America/Lima",
+  "branch": "feature/comunicago-standalone-runtime",
+  "baselineCommit": "20184b8368c47c99fc4b5c856bfd0b1941bb2cea",
+  "backup": {
+    "path": "G:/NeuroNovaApps/Backups/ComunicaGo-Etapa3-20261020-133307ae3ebf48ffb3683eadc2d2bb68.bundle",
+    "sha256": "482e2578fa717ff5d7c849ca47454233f68a01fccc274ae949c2f6ddb632a0c6",
+    "verified": true,
+    "completeHistory": true
+  },
+  "preservation": {
+    "preservedStage2Files": 102,
+    "catalogSha256": "666d24b453f29a360d5bd42547a5c57ff2256b4430622714a05bfbdb21c3d718",
+    "vocabulary": 132,
+    "categories": 18,
+    "pictogramAssociations": 119,
+    "textOnly": 13,
+    "verifiedCuratorialPairs": 132,
+    "hostDependencies": 0
+  },
+  "gradle": {
+    "mode": "offline",
+    "result": "BUILD SUCCESSFUL",
+    "log": "build/etapa3-gradle.log",
+    "testDebugUnitTest": "PASSED",
+    "assembleDebug": "PASSED",
+    "lintDebug": "PASSED",
+    "assembleDebugAndroidTest": "PASSED"
+  },
+  "unitTests": {
+    "executed": 170,
+    "passed": 170,
+    "failures": 0,
+    "errors": 0,
+    "suites": 13,
+    "report": "app/build/reports/tests/testDebugUnitTest/index.html"
+  },
+  "instrumentedTests": {
+    "compiled": true,
+    "executed": 0,
+    "passed": 0,
+    "status": "PENDING_DEVICE",
+    "adb": "List of devices attached: empty",
+    "finalPhoneValidation": false
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 10,
+    "report": "app/build/reports/lint-results-debug.html",
+    "issues": [
+      {
+        "id": "RedundantLabel",
+        "severity": "Warning",
+        "message": "Redundant label can be removed"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of io.coil-kt.coil3:coil-compose than 3.3.0 is available: 3.6.3"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.purple_200` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.purple_500` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.purple_700` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.teal_200` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.teal_700` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.black` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.white` appears to be unused"
+      },
+      {
+        "id": "UseTomlInstead",
+        "severity": "Warning",
+        "message": "Use version catalog instead"
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "app/build/outputs/apk/debug/app-debug.apk",
+      "bytes": 15307148,
+      "sha256": "497a7bcf4a7acf39173dbade37e9165b7a1892ad56046ff3a6b29f0fa09b802c"
+    },
+    {
+      "path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+      "bytes": 1282015,
+      "sha256": "02d50b84ec54d37b9e7479c635f169d9d589c511f5693ad7ba955d63120d078f"
+    }
+  ],
+  "changedFiles": [
+    {
+      "path": "app/src/androidTest/assets/arasaac/2248_500.png",
+      "sha256": "88df8a0a982fe481b80fd97dd3ad2e1f6c70ce1df19bf401d0327daac9731d81"
+    },
+    {
+      "path": "app/src/androidTest/assets/arasaac/CREDITOS.txt",
+      "sha256": "7feecd2ef4d70f230536a86970c700fcd7cd6c9e8a0000d94c1e82bcf478d78d"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationAndroidSpeechEngineTest.kt",
+      "sha256": "2b4eae77de764afcc6d578809976bbdae85cb2573960d18147c43b60627fe5ff"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationBottomNavigationAccessibilityTest.kt",
+      "sha256": "603390c3f79b1e4ca236b88da6e2c971ea97290fc3e795f1bfd053f9d0937f5d"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationBottomNavigationUiTest.kt",
+      "sha256": "8ff73d7cd553693c9148d96b579777fb60159aa9a0ec17026fb85d148f6cba93"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationCuratedPictogramsUiTest.kt",
+      "sha256": "aad9eea391979159e877c94d5a8729a059b73958ae14caad66f1ec5a534bbb1e"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationFoundationTest.kt",
+      "sha256": "504eb82f595a1cce71bfd6ea089ba2bf93374694f8e85ca825cb1b0127ebc2d6"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationHomeExposureUiTest.kt",
+      "sha256": "4efaeed014c419626604c989e1e0563ba1447063fa6a5329d16cffb0f1d95823"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationMessageBuilderUiTest.kt",
+      "sha256": "a6446f2c2cc72b1ef8048b601d03f633d25397a230ff80c680155087928e6095"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationPersonalHomeAccessibilityTest.kt",
+      "sha256": "7e5ab83ec750dc8938242875739c4d557240a1dd6da0ef5cf5f3195cd6415208"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationPersonalHomeUiTest.kt",
+      "sha256": "1d40ad1a2aa85973f0e004b2a160c1013859f1fbbc98d87f174c02b7834d93d4"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationPersonalVocabularyUiTest.kt",
+      "sha256": "90436dc57590c7af104d0fdfe042c1e4b9960b0698a6b15aadf8321f2031407e"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationPictogramFallbackUiTest.kt",
+      "sha256": "aca6a8b6d6464fb6d101fa25294823bb89ea2f0cd284f956d9ad7af28f3e890d"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationPresentationUiTest.kt",
+      "sha256": "5067d604777ff330ecce52f83ad6ceb8f6ed067dd481887a34d10c92c47d4b98"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationProfileSetupAccessibilityTest.kt",
+      "sha256": "cc0d99c89dedfd5b36a4cffbcdd40d48db86e77776c19955a64620b084f19313"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationProfileSetupUiTest.kt",
+      "sha256": "ea43dae50d1a8d5ae90ef1dd0c11c635251c163ab89c349a319258127e1db09c"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationSpeechAccessibilityTest.kt",
+      "sha256": "08a3ec8a0d858beee2bcaf77c39b3336f27ea0692e2d18b7f9b079e3b552fefa"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationSpeechUiTest.kt",
+      "sha256": "ffc4c6c327b61f5dbd5df1c792b92b3f4132678b1df52cd9d29b5ac7c4d4b344"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/CommunicationVocabularyAccessibilityTest.kt",
+      "sha256": "98f10eeab956188e5270550ba0aa6b5e3e69c69f319671dd21d90ba704766567"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/PictogramWorkTest.kt",
+      "sha256": "f905372bee50dcab050921dca76842a9fd3d5b1bdfda2846f08ea77adc3b8d5c"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/StandaloneRuntimeTestBase.kt",
+      "sha256": "6cbd2d80876c733226161de356b7f5bfcc6123e5a0d183ebff468d98d102cdba"
+    },
+    {
+      "path": "app/src/androidTest/java/com/neuronovaapps/comunicago/StandaloneTestSupport.kt",
+      "sha256": "ec2bc399ad51b5d758f60ef2423260d5bea271f66a8bb116249eb5af61365c81"
+    },
+    {
+      "path": "app/src/main/assets/communication/communication_catalog_v1.json",
+      "sha256": "666d24b453f29a360d5bd42547a5c57ff2256b4430622714a05bfbdb21c3d718"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ComunicaGoApp.kt",
+      "sha256": "b23dc84b93cf9de22236d0e5cbac5dabda8a7aed3724b2f151490f67ce8ec378"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/arasaac/offline/PictogramDownloadTask.kt",
+      "sha256": "9d98d57d32560060a44ee98f9fde3e55e138b49f5f1d7e7aba5688461253d96b"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/arasaac/offline/PictogramDownloadWorker.kt",
+      "sha256": "79bfeca6e6d4d0eb65dcc541a7575a9bc2371a5a3819a65e26c585066310bc64"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/arasaac/offline/PictogramDownloader.kt",
+      "sha256": "213ddfd071995320238b0bf0dd12bc36e64bdca7b37e81e4e75dac86727f5fdd"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/arasaac/offline/PictogramFileStore.kt",
+      "sha256": "1ae2a3a7dbd75b0f57a6da7f87dd5ad77bb23ca8e8ef035d6835d5a2698d659d"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/arasaac/offline/WorkManagerPictogramQueue.kt",
+      "sha256": "1b33a29ccd5ce8aad607769f9254eb2595aaab1a9db0c3c526143cc0388fe14e"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/communication/AndroidCommunicationSpeechEngine.kt",
+      "sha256": "acef99ef7ae40df3a3ceeb5a718860084bff46b8328cc78a915f123b8b960d48"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/communication/CommunicationPictogramRepository.kt",
+      "sha256": "653f412c7a2afe3606fd7b3f31990883af4d2a55dfaec24d2888b7c7da098445"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/communication/CommunicationSetupPreferences.kt",
+      "sha256": "19f279679431b653539b0b5dcf697ce15b932c060fc09060f76e442a8b593dd9"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/communication/CommunicationSetupStorage.kt",
+      "sha256": "80df66d883db31a999dfcf733416ce65b3f9ef733fac973fe05c86d54bc2ae71"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/communication/CommunicationStateCodec.kt",
+      "sha256": "95308ac066355a835ab9d2fc4ee32ef9330cd129f53665265aaf58b37e9928fa"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/communication/LocalCommunicationCatalogRepository.kt",
+      "sha256": "aa700d175d629689d67be6123780fd2f23ae206ce93b95d329a035e29bb38a69"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/data/preferences/UserPreferencesRepository.kt",
+      "sha256": "40e6057fd4654ea71f24491b29f768b5e40d0f5247e999f1410e26524887e061"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/domain/arasaac/ArasaacModels.kt",
+      "sha256": "f57bfdadc5bbc243eeef35ed6b0f9f34aea7e8203707eaf102134ccda5a78465"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/domain/communication/CommunicationCatalog.kt",
+      "sha256": "156ff03f3d1e82eea2980ec02ecf1f0e9a0a2bfb6c92aa5b077c7d38f8f3705e"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/domain/communication/CommunicationDestination.kt",
+      "sha256": "1af98a6eb1cfcee780093f86e535d479cfec4899d2821ec1e074f5f3712cbb44"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/domain/communication/CommunicationHomeVocabulary.kt",
+      "sha256": "be97003f8f0319691b100eb35d8c8d5be36ec9b132215833fd2862f6bec7a2b8"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/domain/communication/CommunicationMessageBuilder.kt",
+      "sha256": "794e3f595745b2cec1333a5379989b858198c5bc874d8ac5751cf4963d551383"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/domain/communication/CommunicationPersonalVocabulary.kt",
+      "sha256": "dae88200c20d8904bd0e43998ed9696ce423821de399cec92a43c9b49a148067"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/domain/communication/CommunicationPictograms.kt",
+      "sha256": "7ecac57a9a675c3562a2d119e859f50368a5a80dc30f051d3b9771b54f039487"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/domain/communication/CommunicationPresentation.kt",
+      "sha256": "244c9c1ca83b28db3ca829cff44e12c967a8675cacbe19757cb74b9e813f0b22"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/domain/communication/CommunicationProfileSetup.kt",
+      "sha256": "1999a19507d6fc665a8459861970495688917657618b304bda0573ff92f8dc1b"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/domain/communication/CommunicationSpeechController.kt",
+      "sha256": "7c671e7142faef8ec3307f1b4fe74d859a7d2d68936bb364c79adc07b023d6c9"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/components/ComunicaGoComponents.kt",
+      "sha256": "000fc4c25e8680b7dac936a4a3355557394c343b7240690dffc784aa9f12fcfc"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/arasaac/ArasaacAttribution.kt",
+      "sha256": "c42511b400707176404140cfd7dc7d6cbb11b79b482d3177353707ab86d93e41"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/CommunicationBottomBar.kt",
+      "sha256": "d8490f58523323c202ca54162b6bdad8e63c8ceaa1789fc9d6a13544d9a136c3"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/CommunicationHomeScreen.kt",
+      "sha256": "4fdf9f9a9e4d0fa121149aabb7c800617f4c35b5abea7746e6cbf2b6b2300625"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/CommunicationHomeVocabularyScreen.kt",
+      "sha256": "d67f5f6442de684b5769c2e5c5fcd318357c9e20d6f3d6707abf833e1d6bc6cb"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/CommunicationNavigationSaver.kt",
+      "sha256": "b30ddf8cb8c59cdcd50d96a47a0aa695183368928a264b1d7c0fbccf875e79fb"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/CommunicationProfileEntryScreen.kt",
+      "sha256": "d30118990b3e606484234285d230aec37a2b3f0c7e215b3400147a7a96ceebfa"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/CommunicationProfileSetupScreen.kt",
+      "sha256": "0dcd4ea645af49540e910ba54d6842001ac0e2747f1ec791c2a2a82f765c218d"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/CommunicationSettingsScreen.kt",
+      "sha256": "e49f352127b53ee6862c055015aba016df9134735950dd44e1f23177a139fc3c"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/CommunicationSpeechControls.kt",
+      "sha256": "c9f1da1af2a109d4da6d2a6c5d032ea2665a9f2cbbe30b2a2e40e47c80a310e6"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/CommunicationVocabularyScreen.kt",
+      "sha256": "331a38d83ef91ec1fd84df54ffc56a5116672aca3df7b0ff45e6ed1a62a08996"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/components/CommunicationComponents.kt",
+      "sha256": "708b621dac2ba3efe810c3c253f7e335db31735cbaa67f0f3c56a76ae9807e12"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/components/CommunicationPictogram.kt",
+      "sha256": "0bba67ccaafafa3a96c4d9a8d6b5198c286febfa96d7255b5b1259754d4b181f"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/communication/components/CommunicationPresentationSelector.kt",
+      "sha256": "5956bf7a45f29271e0b1e3d5051080336fc6104198d8baafe381fa23794ecf33"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/screens/profiles/ProfileScreens.kt",
+      "sha256": "eb6c010745159c3d436e79396cbaacd2d22e8dba9685b02c1cb40d9fa713c286"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/CommunicationBottomNavigationTest.kt",
+      "sha256": "896f0611a3000761c9bea3fb04ac870c06ecf5a6571d1bffd4682ef2ff978db9"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/CommunicationCatalogTest.kt",
+      "sha256": "d304327bd8cf6080596bcce775e73e79dacfe03565fccca98d2ea56d3c1998bd"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/CommunicationHomeVocabularyTest.kt",
+      "sha256": "345d7a2a030c4470c0fccff060cdee818a859ce9290979108183621485a03bcb"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/CommunicationMessageBuilderTest.kt",
+      "sha256": "5a8b102598274fdcf5bde4a07b2b940804a31fa0573847d0df6a31dd554a58f1"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/CommunicationPersonalVocabularyTest.kt",
+      "sha256": "c5166d93a34b099399691561a66ff0ce0f6ed632837592b57a748aa93f788dcb"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/CommunicationPictogramsTest.kt",
+      "sha256": "5d50bc71be0404af0a3f5ea9a0607f620486ef1a23625ec1d421b102429ddb36"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/CommunicationPresentationTest.kt",
+      "sha256": "51c28dc575b907c5f9b80b779d1f4e8817a0e97574fac71caaff54a6b6d6d0d9"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/CommunicationProfileSetupTest.kt",
+      "sha256": "6e4061750b6347aab090a515530fd0c929b583a95d8496003a8f3f4369ed50d0"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/CommunicationSpeechControllerTest.kt",
+      "sha256": "c49b449225fc39289c1777c0600f541c468e997af69aa2ed7d457746f0356e35"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/CommunicationSpeechPreferencesTest.kt",
+      "sha256": "3925c942edb01ed6c0cc2cca34f8a7e4c87b5cb002b941dad39a2daa494d6454"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/PictogramOfflineTest.kt",
+      "sha256": "b17ebc4d13a76466f0534cc9ed136eeacfafdaf310a55dd6884204ef8d40afc4"
+    },
+    {
+      "path": "app/src/test/java/com/neuronovaapps/comunicago/UserPreferencesTest.kt",
+      "sha256": "c7303f9745cc35ef62cbe4809a1adfd244dbbdc5f50cd1cf579d3080631edcc4"
+    },
+    {
+      "path": "docs/migration/ETAPA_3_RUNTIME.md",
+      "sha256": "fe7e98033d355727b5f897a300d5be412587fb125be75ea2855a063992d71b06"
+    },
+    {
+      "path": "tools/verify_stage3.ps1",
+      "sha256": "1b3fe7da35610446044c5d9c81bedccb7ef9f054bd1c6d5a5d5221ac029e84a2"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "sha256": "71eb329625b068bf77d1b7511b7194ae63a724a12361eccd069f361d46c2d1f2"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "5db647ec1175d8e2018d5dc8380acdb9a03205ad4df90146a3c5fd60105124c9"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/MainActivity.kt",
+      "sha256": "40359682b93eb2a6c3103fb608cf3c84168bb8d4d77b6b6f0fed49bc82913bf4"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/theme/Color.kt",
+      "sha256": "1a6f40a35ed70a8b32932b64a6d26fce1757ccedf400ce95c43f5570edd27036"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/theme/Theme.kt",
+      "sha256": "d45fa9b81316e4721fe5858c3bd06883f261cf05e86daeb87c339d25b7664e9a"
+    },
+    {
+      "path": "app/src/main/java/com/neuronovaapps/comunicago/ui/theme/Type.kt",
+      "sha256": "2c5862289bf4d8621ae1e706a6b1119d693abc211c0117ac4ae5e4a5e51afbfe"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "sha256": "f29497babed561161a8fbf7424783fa8367bbef1e74e15f8d4f2307dfd0ad5d8"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "sha256": "b28d23b702dab70ede410be142e63bd76aa532cdf02d03e0be930b67fa0eeb3e"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "sha256": "bbfcd86931609b8e0a012b56ac38adc2062a23eca2f270521a777226cb0a65ca"
+    }
+  ],
+  "originProjects": "No operations performed on RutinaGo or ComunicaGo-Git",
+  "github": "No connectivity investigation, fetch, push, merge or PR in stage 3",
+  "pending": [
+    "Instrumented execution on device",
+    "Audible Spanish TTS and lifecycle",
+    "TalkBack and adaptive layouts",
+    "Real-network downloads and offline cache",
+    "Full profiles flow on device",
+    "Stage 4 requires new authorization"
+  ]
+}
