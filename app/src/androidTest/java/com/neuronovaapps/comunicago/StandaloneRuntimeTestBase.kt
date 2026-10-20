@@ -34,7 +34,13 @@ abstract class StandaloneRuntimeTestBase {
         repository.setTextScaleMode(original.textScaleMode)
         repository.setHighContrast(original.highContrast)
     }
-    protected fun open() = rule.awaitCommunicationCatalog()
+    protected fun open() {
+        rule.waitForIdle()
+        if (rule.onAllNodesWithTag("welcome-start").fetchSemanticsNodes().isNotEmpty()) {
+            rule.onNodeWithTag("welcome-start").performClick()
+        }
+        rule.awaitCommunicationCatalog()
+    }
     protected fun word(id: String) {
         rule.scrollCommunicationTo("core-" + id)
         rule.onNodeWithTag("communication-core-" + id).performClick()

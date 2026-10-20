@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-20",
+  "timezone": "America/Lima",
+  "branch": "feature/comunicago-standalone-runtime",
+  "baseline": "47980795e6095badaf5fce3c14c0e1d55aafa6a6",
+  "backup": {
+    "path": "G:/NeuroNovaApps/Backups/ComunicaGo-PreBienvenida-Etapa4-e5cd5c77696a4719a9cee2f1fc1b8bc8.bundle",
+    "sha256": "6f77718970bbc5647370b992035074d804f47d65937ba186250f84dee9e56736",
+    "verified": true,
+    "completeHistory": true
+  },
+  "reference": {
+    "path": "G:/NeuroNovaApps/AndroidStudioProjects/RutinaGo/app/src/main/java/com/neuronovaapps/rutinago/ui/screens/welcome/WelcomeScreen.kt",
+    "access": "read-only",
+    "sha256": "fa1ad15768a15dfdd81e5f77cbb04c64bce0d40cb059763ecab06403e6bc710c"
+  },
+  "preservation": {
+    "preservedStage2Files": 102,
+    "catalogSha256": "666d24b453f29a360d5bd42547a5c57ff2256b4430622714a05bfbdb21c3d718",
+    "vocabulary": 132,
+    "categories": 18,
+    "pictogramAssociations": 119,
+    "textOnly": 13,
+    "verifiedCuratorialPairs": 132,
+    "hostDependencies": 0
+  },
+  "functionalChanges": "Welcome gate and welcome UI only; existing runtime remains unchanged",
+  "unitTests": {
+    "executed": 170,
+    "passed": 170,
+    "failures": 0,
+    "errors": 0,
+    "report": "app/build/reports/tests/testDebugUnitTest/index.html"
+  },
+  "welcomeInstrumentedTests": {
+    "methods": 4,
+    "accessibilityScenarios": 45,
+    "compiled": true,
+    "executed": 0,
+    "passed": 0,
+    "status": "PENDING_DEVICE",
+    "adbDevices": 0,
+    "phoneValidation": false
+  },
+  "gradle": {
+    "testDebugUnitTest": "PASSED",
+    "assembleDebug": "PASSED",
+    "lintDebug": "PASSED",
+    "assembleDebugAndroidTest": "PASSED",
+    "mode": "offline",
+    "log": "build/etapa4-gradle.log"
+  },
+  "lint": {
+    "warnings": 10,
+    "errors": 0,
+    "report": "app/build/reports/lint-results-debug.html",
+    "issues": [
+      {
+        "id": "RedundantLabel",
+        "severity": "Warning",
+        "message": "Redundant label can be removed"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of io.coil-kt.coil3:coil-compose than 3.3.0 is available: 3.6.3"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.purple_200` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.purple_500` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.purple_700` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.teal_200` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.teal_700` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.black` appears to be unused"
+      },
+      {
+        "id": "UnusedResources",
+        "severity": "Warning",
+        "message": "The resource `R.color.white` appears to be unused"
+      },
+      {
+        "id": "UseTomlInstead",
+        "severity": "Warning",
+        "message": "Use version catalog instead"
+      }
+    ]
+  },
+  "apk": {
+    "path": "app/build/outputs/apk/etapa4/ComunicaGo-Bienvenida-Etapa4.apk",
+    "bytes": 15307207,
+    "sha256": "970706a979fe262d915c5147841a9a3412e315c5bd0da6708c07c7ac90c01f90",
+    "copyMatchesDebug": true
+  },
+  "protectedSourceChanges": 0,
+  "github": "No push, merge or PR",
+  "origin": "RutinaGo read-only; ComunicaGo-Git untouched"
+}

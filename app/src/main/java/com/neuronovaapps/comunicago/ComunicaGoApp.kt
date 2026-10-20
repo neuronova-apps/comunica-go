@@ -20,12 +20,14 @@ import com.neuronovaapps.comunicago.ui.screens.communication.CommunicationProfil
 import com.neuronovaapps.comunicago.ui.screens.communication.components.CommunicationChoiceOption
 import com.neuronovaapps.comunicago.ui.screens.profiles.FirstProfileScreen
 import com.neuronovaapps.comunicago.ui.screens.profiles.ProfilesScreen
+import com.neuronovaapps.comunicago.ui.screens.welcome.WelcomeScreen
 import com.neuronovaapps.comunicago.ui.theme.ComunicaGoTheme
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
 
 @Composable
 fun ComunicaGoApp() {
+    var started by rememberSaveable { mutableStateOf(false) }
     val context = LocalContext.current.applicationContext
     val repository = remember(context) { UserPreferencesRepository(context) }
     var readError by remember { mutableStateOf(false) }
@@ -43,7 +45,9 @@ fun ComunicaGoApp() {
         highContrast = current?.highContrast ?: false,
     ) {
         Surface(Modifier.fillMaxSize()) {
-            if (current == null) {
+            if (!started) {
+                WelcomeScreen(onStart = { started = true })
+            } else if (current == null) {
                 ScreenColumn(Modifier.safeDrawingPadding()) {
                     Text(if (readError) "No se pudieron cargar los perfiles." else "Cargando ComunicaGo…")
                     if (readError) Button(onClick = { retry++ }) { Text("Reintentar") }
